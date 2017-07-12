@@ -331,4 +331,10 @@ footer a:hover {
         border-bottom: 1px solid #444;
     }
 
+    /* Footer */
+
+    footer .contact {
+        text-align: center;
+    }
+
 }
