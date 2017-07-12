@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/brandon_re.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/brandon_re.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/brandon_re.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/brandon_re.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('../fonts/brandon_bld.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/brandon_bld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/brandon_bld.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/brandon_bld.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #333;
+}
+
+/* Header */
+
+header {
+    color: #fff;
+    margin-top: 40px;
+}
+
+header .logo {
+    float: left;
+    display: block;
+    width: 376px;
+}
+
+header .logo img,
+header .logo h1 {
+    float: left;
+}
+
+header .logo h1 {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+header .profile {
+    float: right;
+    display: block;
+    max-width: 370px;
+}
+
+header .profile .pic {
+    float: left;
+    display: inline-block;
+}
+
+header .profile .detail {
+    float: right;
+    display: inline-block;
+    width: 275px;
+    margin-left: 13px;
+}
+
+header .profile h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header .profile .description {
+    margin-top: 5px;
+}
+
+header .profile .icons {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+header .profile .icons a,
+header .profile .icons a:active,
+header .profile .icons a:focus,
+header .profile .icons a:visited {
+    color: #fff;
+    margin-right: 8px;
+}
+
+header .profile .icons a:hover {
+    color: #ef3636;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+/* Navigation */
+
+header nav {
+    display: block;
+    border-top: 1px solid #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+header nav a,
+header nav li a:active,
+header nav li a:focus,
+header nav li a:visited {
+    color: #fff;
+    padding: 10px 20px !important;
+}
+
+header nav li.active a {
+    color: #333;
+    background-color: #fff;
+}
+
+header nav li a:hover {
+    color: #fff;
+    background-color: #ef3636 !important;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+/* Main */
+
+main {
+    margin-top: 30px;
+}
+
+main .panel {
+    margin-top: 15px;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+}
+
+main .panel .wrapper {
+    position: relative;
+    width: 100%;
+}
+
+main .panel .four-by-three.aspect-ratio {
+    padding-bottom: 75%
+}
+
+main .panel .content {
+    position: absolute;
+    top: 0;  bottom: 0;  left: 0;  right: 0;
+    overflow: hidden;
+}
+
+main .panel h2 {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+main .panel .description {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+main .panel .nav {
+    margin-top: 50px;
+}
+
+main .panel .nav li a,
+main .panel .nav li a:active,
+main .panel .nav li a:focus,
+main .panel .nav li a:visited {
+    padding: 0 !important;
+    color: #fff;
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 25px;
+}
+
+main .panel .nav li a:hover {
+    background-color: transparent;
+    color: #ef3636;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+main .panel .tags {
+    margin-top: 30px;
+}
+
+main .panel .tags span {
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #333;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+}
+
+footer .contact {
+    display: block;
+    border-top: 1px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+footer a,
+footer a:active,
+footer a:focus,
+footer a:visited {
+    font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ef3636;
+    text-decoration: none;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}

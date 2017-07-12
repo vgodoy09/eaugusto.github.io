@@ -6,11 +6,235 @@
     <title>Thiago Rossener's Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    Hello.
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" width="376" height="80">
+            <h1>Portfolio</h1>
+        </div>
+        <div class="profile">
+            <div class="pic">
+                <img src="http://res.cloudinary.com/dm7h7e8xj/image/upload/c_crop,r_max/v1499866262/profile-picture_klazzq.png" width="80" height="80">
+            </div>
+            <div class="detail">
+                <h3>Thiago Rossener</h3>
+                <div class="description">
+                    Web developer, passionate for challenges, books, people & self improvement.
+                </div>
+                <div class="icons">
+                    <a href="https://github.com/thiagorossener" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.facebook.com/thiagorossener" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/thiagorossener" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="https://medium.com/@thiagorossener" target="_blank"><i class="fa fa-medium"></i></a>
+                    <a href="https://www.instagram.com/thiagorossener/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/thiagorossener/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#1a" data-toggle="tab">Projects <span class="sr-only">(current)</span></a></li>
+                <li><a href="#2a" data-toggle="tab">Open Source</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <div class="container tab-content clearfix">
+        <section class="tab-pane active" id="1a">
+            <img src="img/2017.png" width="50" height="20">
+
+            <!-- Aloísio Imóveis -->
+            <div class="panel panel-default">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="wrapper">
+                            <div class="four-by-three aspect-ratio"></div>
+                            <div class="content">
+                                <img src="img/projects/aloisioimoveis/featured.png" class="img-responsive" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <h2>Aloísio Imóveis</h2>
+                        <div class="description">
+                            <p>Real estate website and system built in Django and Vue.js</p>
+
+                            <div class="tags">
+                                <span>django</span>
+                                <span>vuejs</span>
+                                <span>python3</span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <!--<li><a href="#" target="_blank"><i class="fa fa-book"></i> Album</a></li>-->
+                                <li><a href="http://www.aloisioimoveis.com.br/" target="_blank"><i class="fa fa-globe"></i> Website</a></li>
+                                <li><a href="https://github.com/thiagorossener/aloisioimoveis" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/2016.png" width="50" height="20">
+
+            <!-- Sheeper -->
+            <div class="panel panel-default">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="wrapper">
+                            <div class="four-by-three aspect-ratio"></div>
+                            <div class="content">
+                                <img src="img/projects/sheeper/featured.png" class="img-responsive" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <h2>Sheeper</h2>
+                        <div class="description">
+                            <p>App for helping people to find supermarket offers nearby</p>
+
+                            <div class="tags">
+                                <span>ios</span>
+                                <span>android</span>
+                                <span>angularjs</span>
+                                <span>geolocation</span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <!--<li><a href="#" target="_blank"><i class="fa fa-book"></i> Album</a></li>-->
+                                <li><a href="http://www.sheeper.com/" target="_blank"><i class="fa fa-globe"></i> Website</a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-video-camera"></i> Video 1</a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-video-camera"></i> Video 2</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/2012.png" width="50" height="20">
+
+            <!-- Colina da Paz -->
+            <div class="panel panel-default">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="wrapper">
+                            <div class="four-by-three aspect-ratio"></div>
+                            <div class="content">
+                                <img src="img/projects/colinadapaz/featured.png" class="img-responsive" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <h2>Colina da Paz</h2>
+                        <div class="description">
+                            <p>Institutional website for Colina da Paz cemetery</p>
+
+                            <div class="tags">
+                                <span>wordpress</span>
+                                <span>php</span>
+                                <span>jquery</span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <!--<li><a href="#" target="_blank"><i class="fa fa-book"></i> Album</a></li>-->
+                                <li><a href="http://www.colinadapaz.com.br/" target="_blank"><i class="fa fa-globe"></i> Website</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tab-pane" id="2a">
+            <img src="img/2017.png" width="50" height="20">
+
+            <div class="panel panel-default">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="wrapper">
+                            <div class="four-by-three aspect-ratio"></div>
+                            <div class="content">
+                                <img src="img/projects/vuejsbr/featured.png" class="img-responsive" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <h2>Vue.js Framework Website</h2>
+                        <div class="description">
+                            <p>Vue.js framework website translated to Portuguese (Brazil)</p>
+
+                            <div class="tags">
+                                <span>vuejs</span>
+                                <span>translation</span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://github.com/vuejs-br/br.vuejs.org" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/2015.png" width="50" height="20">
+
+            <div class="panel panel-default">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="wrapper">
+                            <div class="four-by-three aspect-ratio"></div>
+                            <div class="content">
+                                <img src="img/projects/trcurrencytextfield/featured.png" class="img-responsive" width="100%" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <h2>TRCurrencyTextField</h2>
+                        <div class="description">
+                            <p>iOS text field component to input formatted currency value</p>
+
+                            <div class="tags">
+                                <span>ios</span>
+                                <span>objective-c</span>
+                                <span>cocoapods</span>
+                            </div>
+                        </div>
+                        <nav>
+                            <ul class="nav navbar-nav">
+                                <li><a href="https://github.com/thiagorossener/TRCurrencyTextField" target="_blank"><i class="fa fa-github"></i> Github</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="contact">
+            <a href="http://www.rossener.com/en/contact/">Contact Now</a>
+        </div>
+    </div>
+</footer>
+
 </body>
 
 </html>
