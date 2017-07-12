@@ -253,7 +253,6 @@ footer a:hover {
     transition: all .2s ease-in;
 }
 
-/* iPhone 5 */
 @media only screen and (max-width: 1000px) {
 
     /* Header */
