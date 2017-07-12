@@ -144,6 +144,12 @@ main .panel {
     color: #fff;
 }
 
+main .panel img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
 main .panel .wrapper {
     position: relative;
     width: 100%;
@@ -207,6 +213,9 @@ main .panel .tags span {
     color: #333;
     font-size: 12px;
     margin-right: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
 /* Footer */
