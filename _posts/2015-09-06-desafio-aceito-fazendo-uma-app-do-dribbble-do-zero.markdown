@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Desafio aceito. Fazendo uma app do Dribbble do zero
+redirect_from:
+ - /pt/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/
+ - /en/challenge-accepted-making-a-dribbble-app-from-scratch/
 ---
 
 Eaí galera,

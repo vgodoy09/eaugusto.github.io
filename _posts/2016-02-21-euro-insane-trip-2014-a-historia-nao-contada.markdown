@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 'Euro INSANE Trip 2014: A história não contada'
+redirect_from:
+ - /pt/euro-insane-trip-2014-a-historia-nao-contada/
+ - /en/euro-insane-trip-2014-the-story-never-told/
 ---
 
 2014 o que?

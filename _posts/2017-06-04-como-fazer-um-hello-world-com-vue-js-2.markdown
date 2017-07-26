@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Como fazer um Hello World com Vue.js 2
+redirect_from:
+ - /pt/como-fazer-um-hello-world-com-vue-js-2/
+ - /en/how-to-do-a-hello-world-with-vue-js-2/
 ---
 
 ![Hello World com Vue.js](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102373/hello-world-vue_vdnxnm.png)

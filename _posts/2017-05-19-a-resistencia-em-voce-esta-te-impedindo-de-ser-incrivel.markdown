@@ -2,6 +2,8 @@
 layout: post
 title: A Resistência em você está te impedindo de ser Incrível (e como lutar contra
   isso)
+redirect_from:
+ - /pt/a-resistencia-em-voce-esta-te-impedindo-de-ser-incrivel/
 ---
 
 Essa semana li um artigo sensacional sobre mudança de *mindset*, e decidi compartilhar com vocês.

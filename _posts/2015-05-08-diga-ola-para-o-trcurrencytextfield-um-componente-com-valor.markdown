@@ -1,6 +1,9 @@
 ---
 layout: post
 title: 'Diga olá para o TRCurrencyTextField: Um componente com valor.'
+redirect_from:
+ - /pt/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/
+ - /en/trcurrencytextfield-a-component-with-value/
 ---
 Está vivo.
 

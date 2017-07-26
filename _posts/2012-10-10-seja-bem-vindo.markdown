@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Seja bem-vindo
+redirect_from:
+ - /pt/seja-bem-vindo/
+ - /en/be-welcome/
 ---
 
 Eaí?

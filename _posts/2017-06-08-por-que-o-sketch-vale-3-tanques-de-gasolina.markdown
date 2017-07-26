@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Por que o Sketch vale 3 tanques de gasolina?
+redirect_from:
+ - /pt/por-que-o-sketch-vale-3-tanques-de-gasolina/
 ---
 
 ![Imagem do Sketch com galões de combustível](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102987/sketch-fuel_eiwjbz.png)
