@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Diga olá para o TRCurrencyTextField: Um componente com valor. </title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href=/assets/main.css>
+
+  <link rel="icon" href=/favicon.ico type="image/x-icon">
+  <link rel="shortcut icon" href=/favicon.ico type="image/x-icon">
+</head>
+
+<body>
+  <div class="container">
+    <header class="masthead">
+  <h1 class="masthead-title">
+    <a href="/">Rossener<span>&#39;s blog</span></a>
+  </h1>
+  <nav class="masthead-nav">
+    
+      <a href="/404/"></a>
+    
+      <a href="/sobre/">Sobre</a>
+    
+      <a href="/"></a>
+    
+      <a href="/assets/main.css"></a>
+    
+      <a href="/feed.xml"></a>
+    
+  </nav>
+</header>
+
+    <article class="content post">
+  <h1 class="post-title">Diga olá para o TRCurrencyTextField: Um componente com valor.</h1>
+  <div class="post-date">
+    <time>08 May 2015</time>
+    <span class="reading-time"> - 2 minutes to read</span>
+  </div>
+
+  <p>Está vivo.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/its_alive_zpsqiuydofr.jpg" alt="Imagem de um médico maluco gritando Está Vivo!" /></p>
+
+<p>Depois de alguns dias codando e testando essa belezinha, eu finalmente posso dizer: valeu a pena. Se você está procurando por um componente como um campo de texto onde você pode apertar um dígito e magicamente formatá-lo para QUALQUER moeda do mundo, você pode deixar cair seu queixo agora. Você-o-encontrou.</p>
+
+<p>Graças ao <a href="https://github.com/peterboni/FormattedCurrencyInput" target="_blank">Peter Boni</a>, cujo trabalho me inspirou a fazer isso, eu posso apresentar a vocês, o <strong>TRCurrencyTextField</strong>.</p>
+
+<p>TRCurrencyTextField é um componente de código aberto facilmente encontrado no <a href="https://github.com/thiagoross/TRCurrencyTextField" target="_blank">GitHub</a>, e facilmente utilizável com <a href="https://cocoapods.org/pods/TRCurrencyTextField" target="_blank">CocoaPods</a>.</p>
+
+<p>O que isso faz? Eu posso explicar… ou melhor, eu posso mostrar pra você em 12 passos. Aqui. E agora. Bora começar.</p>
+
+<h2 id="1-valor-vazio-formatado-para-zero">1. Valor vazio formatado para zero</h2>
+
+<p>Os exemplos aqui estão todos em BRL, ou seja, em reais. Porém, se você segurar as pontas aí por mais uns minutos eu te digo como vamos mudar isso.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img01_zpsinzq5ss5.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p>Então, nós começamos aqui, no zero. Como você pode ver, esse é o valor quando não temos nenhum valor. O queee? Exatamente. O componente não deixa você apagar o texto.</p>
+
+<blockquote>
+  <p>Rossener, mas eu quero apagar o texto ou meu iPhone vai explodir em mil pedaços.</p>
+</blockquote>
+
+<p>Espero que você tenha uma vassoura meu amigo.</p>
+
+<h2 id="2-dígitos-vêm-da-direita">2. Dígitos vêm da direita</h2>
+
+<p>Você aperta a tecla 1 no teclado numérico, o texto muda pra R$ 0,01</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img02_zpsrn6cxq1j.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="3-e-continuam-vindo-da-direita">3. E continuam vindo da direita</h2>
+
+<p>Então você aperta a tecla 2 no teclado numérico e o texto vira R$ 0,12</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img03_zpsedto9ab7.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="4-você-não-precisa-apertar-a-vírgula">4. Você não precisa apertar a “vírgula”</h2>
+
+<p>Você aperta a tecla 3 no teclado numérico e o texto muda pra R$ 1,23</p>
+
+<p>Em reais, vírgula é o separador de decimal, e nós não precisamos apertar ela. Acredite em mim, ela já aparece lá.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img04_zpsxpr0tzyx.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="5-você-não-precisa-apertar-o-ponto">5. Você não precisa apertar o “ponto”</h2>
+
+<p>Como ponto é o separador de grupo em reais, quando você aperta 1-2-3-4-5-6, nós temos R$ 1.234,56</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img05_zps42syiq7u.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="6-deletar-desloca-dígitos">6. Deletar-desloca-dígitos</h2>
+
+<p>Você deleta. Essa coisa desloca.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img06_zpsgxq0ldgl.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="7-edite-de-qualquer-lugar">7. Edite de qualquer lugar</h2>
+
+<blockquote>
+  <p>“Rossener, eu não quero reiniciar a minha vida pra corrigir um único erro.”</p>
+</blockquote>
+
+<p>Você tem certeza? Bem, você não precisa.</p>
+
+<p>Você coloca o cursor depois do 1 e aperta Deletar, nós temos R$ 23,45</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img07_zpss3rlth5k.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="8-cole-de-qualquer-lugar">8. Cole de qualquer lugar</h2>
+
+<p>Você é um cara preguiçoso e quer colar um valor da sua app de calculadora? Você pode.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img08_zpsg9ro8kx4.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p>Cole 1000 de qualquer lugar, ele vira R$ 1.000,00</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img09_zps1kdphsqv.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="9-mudea-moeda-mude-o-formato">9. Mude a moeda. Mude o formato.</h2>
+
+<blockquote>
+  <p>“Finalmente, não aguento mais ver tudo em reais.”</p>
+</blockquote>
+
+<p>Vamos mudar isso.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img10_zpswkfhmoan.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img11_zpsnppxg3sb.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/img12-1_zpsztjq8ujg.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="10-como-também-o-país">10. Como também, o País</h2>
+
+<blockquote>
+  <p>“Eu não conheço o código da minha moeda.”</p>
+</blockquote>
+
+<p>Você deveria. Mas, nós podemos cuidar disso.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img12_zpsd0imf4w2.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img13_zpsggnl1vxb.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img14_zpsqt6xafhj.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="11-como-também-o-locale">11. Como também, o Locale</h2>
+
+<p>Algumas vezes você tem um país ou uma moeda que possui mais de um único Locale, e dependendo do Locale, os símbolos são diferentes… bom, problema resolvido.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img15_zpsssnre625.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img16_zpssndryuos.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img17_zpsdn9j2hqm.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img18_zps3xldov0j.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<h2 id="12-finalmente-o-valor">12. Finalmente, o Valor</h2>
+
+<blockquote>
+  <p>“Rossener, você está mandando muito bem, tá tudo ótimo, esse componente vai salvar minha vida e meu casamento. MAS, e o valor?”</p>
+</blockquote>
+
+<p>Meu caro amigo, eu deixei o melhor para o final. Uma vez que você atribuiu alguma coisa ao componente, você pode fazer qualquer coisa que quiser. É como o milagre dos 5 pães e 2 peixes. Com poucas coisas, você pode conseguir muitas coisas.</p>
+
+<p>Deixa eu explicar.</p>
+
+<p>Uma vez que você mudou a moeda para USD, você pode pegar do componente, não um, mas TODOS os países que usam essa moeda, como também pode pegar o texto mostrado pelo componente na tela e aquela coisa que você mais quer: <strong>o valor numérico</strong>.</p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img19_zpspklsiodw.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p><img src="http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img20_zpsr3g6hyiy.png" alt="Imagem de um iPhone exibindo o exemplo" /></p>
+
+<p>Além de tudo isso, você pode também, se você quer o <em>espaço em branco</em> próximo do símbolo da moeda e o <em>número máximo de dígitos</em> que você quer deixar seu usuário digitar.</p>
+
+<p>TRCurrencyTextField é um componente aberto. Você pode enviar <em>pull requests</em> pra ele. Você pode <em>forkar</em> ele. Você pode amar ele. Vamos fazer ele melhor juntos.</p>
+
+<p>Dúvidas? Comentários? Hi-fives? Por favor, deixe eles aqui. Estou ansioso pra saber sua opinião.</p>
+
+<p>PS: Você saber detalhes sobre o uso, instalação e outras coisas no <a href="https://github.com/thiagoross/TRCurrencyTextField" target="_blank">GitHub</a>.</p>
+
+</artcle>
+
+  </div>
+</body>
+</html>

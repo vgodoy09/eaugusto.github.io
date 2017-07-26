@@ -1,13 +1,1061 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-26T13:59:31-03:00</updated><id>http://localhost:4000/</id><title type="html">Rossener</title><subtitle>Blog pessoal de Thiago Rossener, desenvolvedor web apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/07/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-07-26T13:33:34-03:00</published><updated>2017-07-26T13:33:34-03:00</updated><id>http://localhost:4000/jekyll/update/2017/07/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/07/26/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-07-26T18:15:50-03:00</updated><id>http://localhost:4000/</id><title type="html">Rossener</title><subtitle>Blog pessoal de Thiago Rossener, desenvolvedor web apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.</subtitle><entry><title type="html">Por que o Sketch vale 3 tanques de gasolina?</title><link href="http://localhost:4000/por-que-o-sketch-vale-3-tanques-de-gasolina/" rel="alternate" type="text/html" title="Por que o Sketch vale 3 tanques de gasolina?" /><published>2017-06-08T00:00:00-03:00</published><updated>2017-06-08T00:00:00-03:00</updated><id>http://localhost:4000/por-que-o-sketch-vale-3-tanques-de-gasolina</id><content type="html" xml:base="http://localhost:4000/por-que-o-sketch-vale-3-tanques-de-gasolina/">&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102987/sketch-fuel_eiwjbz.png&quot; alt=&quot;Imagem do Sketch com galões de combustível&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Há 1 mês atrás comecei a desenvolver o novo site da imobiliária &lt;a href=&quot;http://aloisioimoveis.com.br/&quot; target=&quot;_blank&quot;&gt;Aloísio Imóveis&lt;/a&gt; (ainda não está no ar).&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Basicamente, estou fazendo tudo do zero. No entanto, antes de terminar todo o sistema do site para entregar, decidi primeiro entregar um novo layout funcional, responsivo e moderno.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Durante os últimos 5 anos, tudo o que eu fazia em relação a layouts era no &lt;strong&gt;Photoshop&lt;/strong&gt;. Não sou nenhum profissional na ferramenta, mas consigo criar uns memes e melhorar umas fotos.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Porém, hoje estou focado em produtividade. Isso tem consumido a minha vida nesse último mês, e estou buscando formas de fazer o mesmo trabalho com qualidade e em menos tempo.&lt;/p&gt;
+
+&lt;p&gt;Bem, como você deve imaginar, é aí que entra o &lt;a href=&quot;https://www.sketchapp.com/&quot; target=&quot;_blank&quot;&gt;Sketch&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Essa ferramenta foi apresentada para mim por um amigo. Confesso que no começo não dei muita bola, principalmente porque ela custa &lt;strong&gt;99 dólares&lt;/strong&gt;, e esse não é um dinheiro que a gente tem toda hora pra pagar à vista por um software que você acha que não precisa.&lt;/p&gt;
+
+&lt;p&gt;O Sketch é um software só para MacOS, o que já sugere que ele tem excelência na usabilidade, como todo produto da Apple. Mesmo assim, pagar 99 &lt;em&gt;trumps&lt;/em&gt; por um software quando existem tantos outros gratuitos no mercado? &lt;em&gt;Eu devo estar ficando louco&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Antes de tudo, não, esse não é um post patrocinado. Eu estou aqui fazendo propaganda de graça e &lt;em&gt;salvando a sua vida&lt;/em&gt;.&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe class=&quot;giphy-embed&quot; src=&quot;https://giphy.com/embed/glmRyiSI3v5E4&quot; width=&quot;480&quot; height=&quot;354&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Lá fui eu usar o trial do &lt;strong&gt;Sketch por um mês&lt;/strong&gt;, o tempo todo com o pensamento “me convença”. Fiz um &lt;a href=&quot;https://medium.com/sketch-app-sources/sketch-app-tutorial-series-part-1-of-4-1e4ee4265073&quot; target=&quot;_blank&quot;&gt;tutorial de 5 partes&lt;/a&gt; pra entender o poder que esse software oferece, e mais abaixo mostrarei meus resultados.&lt;/p&gt;
+
+&lt;h2 id=&quot;meu-carro-faz-116kml&quot;&gt;Meu carro faz 11,6 km/l&lt;/h2&gt;
+
+&lt;p&gt;Eu possuo um Palio Attractive 1.6 ano 2013. É um carro relativamente novo, comprei ele 0km, mas hoje em dia ele dá umas engasgadas pra ligar.&lt;/p&gt;
+
+&lt;p&gt;Nesse último mês tenho abastecido ele só com gasolina, e ele obteve uma autonomia de &lt;strong&gt;11,6 km/l&lt;/strong&gt;. Mas nos últimos meses abasteci ele somente com álcool.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Beleza Rossener, onde você quer chegar com isso?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Fazendo uma matemática simples:&lt;/p&gt;
+
+&lt;p&gt;A gasolina está hoje a &lt;strong&gt;R$ 3,19&lt;/strong&gt; aqui em Taubaté (minha cidade natal). Já o álcool está por volta dos &lt;strong&gt;R$ 2,19&lt;/strong&gt;, normalmente tem ficado em 1 real de diferença.&lt;/p&gt;
+
+&lt;p&gt;O tanque do meu carro tem &lt;strong&gt;48 litros&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Isso significa que se eu encher o tanque com &lt;strong&gt;gasolina&lt;/strong&gt; o total fica &lt;strong&gt;R$ 153,12&lt;/strong&gt;, e se eu encher com &lt;strong&gt;álcool&lt;/strong&gt; fica &lt;strong&gt;R$ 105,12&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Digamos que a autonomia de que falei é uma média, então digamos que eu coloque meio tanque de gasolina e meio tanque de álcool, logo:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;1 tanque = R$ 129,12&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Guarde esse número.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;o-sketch-salvouo-meu-dia&quot;&gt;O Sketch salvou o meu dia&lt;/h2&gt;
+
+&lt;p&gt;Essa semana eu estava melhorando o conteúdo do meu blog, principalmente na sessão “O Autor”. Como eu pretendo trabalhar como freelancer nesses próximos meses, precisava demonstrar de forma clara qual é a minha capacidade e minhas habilidades atuais.&lt;/p&gt;
+
+&lt;p&gt;Tentei escrever de várias formas as tecnologias que eu conheço e o meu tempo de experiência com cada uma delas. &lt;strong&gt;Sem sucesso&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Foi aí que surgiu a ideia de montar um mapa, em que batendo o olho qualquer um saberia dizer o que eu sei e o que eu não sei fazer. O mapa foi esse aqui:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501103240/frontend1_tvsefn.png&quot; alt=&quot;Meus conhecimentos em Front-end&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501103276/backend_cdzzmc.png&quot; alt=&quot;Meus conhecimentos em Back-end&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501103319/mobile_t8zskz.png&quot; alt=&quot;Meus conhecimentos em Mobile&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501103361/databases_o4cx3s.png&quot; alt=&quot;Meus conhecimentos em Bancos de Dados&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501103411/tools_zh6zkl.png&quot; alt=&quot;Meus conhecimentos em Ferraments&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Por uma questão de hábito, sem que eu percebesse, comecei a fazer o mapa no Photoshop.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Edição de imagem? Claro! Tenho o Photoshop aqui.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Eu não sei se você já montou um layout alguma vez na sua vida, mas não é algo que você faz, digamos, de primeira. O resultado final parece ser simples, mas ele só é obtido depois de testes e mais testes e mais testes, até chegar num ponto que você fica satisfeito.&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe class=&quot;giphy-embed&quot; src=&quot;https://giphy.com/embed/11ISwbgCxEzMyY&quot; width=&quot;480&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Foram &lt;strong&gt;3 horas&lt;/strong&gt; colocando e tirando elementos, arrastando, redimensionando, encaixando, refazendo. E não estava pronto, eu não estava satisfeito.&lt;/p&gt;
+
+&lt;p&gt;E então me lembrei. &lt;em&gt;Puts, Eu tenho o Sketch!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Coitado, esquecido, jogado num canto depois de eu ter feito o tutorial e montado as páginas da Aloísio Imóveis, eu simplesmente esqueci o quanto ele me ajudou.&lt;/p&gt;
+
+&lt;p&gt;Abri a app e me deparei com a mensagem dizendo que a minha versão trial havia expirado.&lt;/p&gt;
+
+&lt;p&gt;Estava com pressa. Peguei meu cartão de crédito, preenchi os dados e antes de clicar no botão submeter, hesitei.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Cara, eu to gastando 3 tanques de gasolina nesse software.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cliquei em comprar. Usei o serial number fornecido, &lt;strong&gt;20 minutos&lt;/strong&gt; depois, a imagem estava pronta.&lt;/p&gt;
+
+&lt;h2 id=&quot;autonomia-é-tudo&quot;&gt;Autonomia é tudo&lt;/h2&gt;
+
+&lt;p&gt;Lembra da conta?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;1 tanque = R$ 129,12&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;3 tanques = R$ 387,36&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1 Sketch = US$ 99.00 = R$ 340,00 + IOF (R$ 21,69) = R$ 361,69&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;OU&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;1 tanque = 557Km&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;3 tanques = 1670Km&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1 Sketch = 1560Km&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Na Dutra posso andar a &lt;strong&gt;110 Km/h&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;1 Sketch = 1560 / 110 = 14 horas de viagem&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Preste atenção nesse número, então comprar o Sketch é equivalente a &lt;em&gt;14 HORAS&lt;/em&gt; dirigindo na estrada.&lt;/p&gt;
+
+&lt;p&gt;Vamos ver, o tempo que eu gastei com 1 layout:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;No Photoshop = 180 minutos&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;No Sketch = 20 minutos&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Para efeito de conta, digamos que para &lt;strong&gt;1 layout&lt;/strong&gt; eu cobre &lt;strong&gt;R$ 150,00&lt;/strong&gt;, em 14 horas:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;No Photoshop = 4,7 layouts = R$ 705,00&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No Sketch = 42 layouts = R$ 6.300,00&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Não se convenceu ainda?&lt;/p&gt;
+
+&lt;p&gt;O que eu estou tentando dizer é que com &lt;strong&gt;3 layouts&lt;/strong&gt;, o Sketch está &lt;strong&gt;pago&lt;/strong&gt; e você ganhou, no mesmo tempo, &lt;strong&gt;9x MAIS&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h2&gt;
+
+&lt;p&gt;Voltando ao exemplo do carro. Digamos que o Sketch e o Photoshop sejam marcas de carro. Com os 3 tanques:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;O Sketch percorreria 1560Km.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;O Photoshop percorreria 174Km.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Em &lt;strong&gt;14 horas&lt;/strong&gt;, isso é o equivalente a:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Sketch faria uma velocidade média de 111Km/h.&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Photoshop faria uma velocidade média de 12Km/h.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Aí eu te pergunto:&lt;/p&gt;
+
+&lt;p&gt;Se você tivesse que ir de São Paulo até o Rio de Janeiro, iria sentado dirigindo um Palio 1.6 ou iria &lt;em&gt;correndo&lt;/em&gt;?&lt;/p&gt;</content><author><name></name></author><summary type="html">Há 1 mês atrás comecei a desenvolver o novo site da imobiliária Aloísio Imóveis (ainda não está no ar). Basicamente, estou fazendo tudo do zero. No entanto, antes de terminar todo o sistema do site para entregar, decidi primeiro entregar um novo layout funcional, responsivo e moderno. Durante os últimos 5 anos, tudo o que eu fazia em relação a layouts era no Photoshop. Não sou nenhum profissional na ferramenta, mas consigo criar uns memes e melhorar umas fotos. Porém, hoje estou focado em produtividade. Isso tem consumido a minha vida nesse último mês, e estou buscando formas de fazer o mesmo trabalho com qualidade e em menos tempo. Bem, como você deve imaginar, é aí que entra o Sketch. Essa ferramenta foi apresentada para mim por um amigo. Confesso que no começo não dei muita bola, principalmente porque ela custa 99 dólares, e esse não é um dinheiro que a gente tem toda hora pra pagar à vista por um software que você acha que não precisa. O Sketch é um software só para MacOS, o que já sugere que ele tem excelência na usabilidade, como todo produto da Apple. Mesmo assim, pagar 99 trumps por um software quando existem tantos outros gratuitos no mercado? Eu devo estar ficando louco. Antes de tudo, não, esse não é um post patrocinado. Eu estou aqui fazendo propaganda de graça e salvando a sua vida. Lá fui eu usar o trial do Sketch por um mês, o tempo todo com o pensamento “me convença”. Fiz um tutorial de 5 partes pra entender o poder que esse software oferece, e mais abaixo mostrarei meus resultados. Meu carro faz 11,6 km/l Eu possuo um Palio Attractive 1.6 ano 2013. É um carro relativamente novo, comprei ele 0km, mas hoje em dia ele dá umas engasgadas pra ligar. Nesse último mês tenho abastecido ele só com gasolina, e ele obteve uma autonomia de 11,6 km/l. Mas nos últimos meses abasteci ele somente com álcool. Beleza Rossener, onde você quer chegar com isso? Fazendo uma matemática simples: A gasolina está hoje a R$ 3,19 aqui em Taubaté (minha cidade natal). Já o álcool está por volta dos R$ 2,19, normalmente tem ficado em 1 real de diferença. O tanque do meu carro tem 48 litros. Isso significa que se eu encher o tanque com gasolina o total fica R$ 153,12, e se eu encher com álcool fica R$ 105,12. Digamos que a autonomia de que falei é uma média, então digamos que eu coloque meio tanque de gasolina e meio tanque de álcool, logo: 1 tanque = R$ 129,12 Guarde esse número. O Sketch salvou o meu dia Essa semana eu estava melhorando o conteúdo do meu blog, principalmente na sessão “O Autor”. Como eu pretendo trabalhar como freelancer nesses próximos meses, precisava demonstrar de forma clara qual é a minha capacidade e minhas habilidades atuais. Tentei escrever de várias formas as tecnologias que eu conheço e o meu tempo de experiência com cada uma delas. Sem sucesso. Foi aí que surgiu a ideia de montar um mapa, em que batendo o olho qualquer um saberia dizer o que eu sei e o que eu não sei fazer. O mapa foi esse aqui: Por uma questão de hábito, sem que eu percebesse, comecei a fazer o mapa no Photoshop. Edição de imagem? Claro! Tenho o Photoshop aqui. Eu não sei se você já montou um layout alguma vez na sua vida, mas não é algo que você faz, digamos, de primeira. O resultado final parece ser simples, mas ele só é obtido depois de testes e mais testes e mais testes, até chegar num ponto que você fica satisfeito. Foram 3 horas colocando e tirando elementos, arrastando, redimensionando, encaixando, refazendo. E não estava pronto, eu não estava satisfeito. E então me lembrei. Puts, Eu tenho o Sketch! Coitado, esquecido, jogado num canto depois de eu ter feito o tutorial e montado as páginas da Aloísio Imóveis, eu simplesmente esqueci o quanto ele me ajudou. Abri a app e me deparei com a mensagem dizendo que a minha versão trial havia expirado. Estava com pressa. Peguei meu cartão de crédito, preenchi os dados e antes de clicar no botão submeter, hesitei. Cara, eu to gastando 3 tanques de gasolina nesse software. Cliquei em comprar. Usei o serial number fornecido, 20 minutos depois, a imagem estava pronta. Autonomia é tudo Lembra da conta? 1 tanque = R$ 129,12 3 tanques = R$ 387,36 1 Sketch = US$ 99.00 = R$ 340,00 + IOF (R$ 21,69) = R$ 361,69 OU 1 tanque = 557Km 3 tanques = 1670Km 1 Sketch = 1560Km Na Dutra posso andar a 110 Km/h. 1 Sketch = 1560 / 110 = 14 horas de viagem Preste atenção nesse número, então comprar o Sketch é equivalente a 14 HORAS dirigindo na estrada. Vamos ver, o tempo que eu gastei com 1 layout: No Photoshop = 180 minutos No Sketch = 20 minutos Para efeito de conta, digamos que para 1 layout eu cobre R$ 150,00, em 14 horas: No Photoshop = 4,7 layouts = R$ 705,00 No Sketch = 42 layouts = R$ 6.300,00 Não se convenceu ainda? O que eu estou tentando dizer é que com 3 layouts, o Sketch está pago e você ganhou, no mesmo tempo, 9x MAIS. Conclusão Voltando ao exemplo do carro. Digamos que o Sketch e o Photoshop sejam marcas de carro. Com os 3 tanques: O Sketch percorreria 1560Km. O Photoshop percorreria 174Km. Em 14 horas, isso é o equivalente a: Sketch faria uma velocidade média de 111Km/h. Photoshop faria uma velocidade média de 12Km/h. Aí eu te pergunto: Se você tivesse que ir de São Paulo até o Rio de Janeiro, iria sentado dirigindo um Palio 1.6 ou iria correndo?</summary></entry><entry><title type="html">Como fazer um Hello World com Vue.js 2</title><link href="http://localhost:4000/como-fazer-um-hello-world-com-vue-js-2/" rel="alternate" type="text/html" title="Como fazer um Hello World com Vue.js 2" /><published>2017-06-04T00:00:00-03:00</published><updated>2017-06-04T00:00:00-03:00</updated><id>http://localhost:4000/como-fazer-um-hello-world-com-vue-js-2</id><content type="html" xml:base="http://localhost:4000/como-fazer-um-hello-world-com-vue-js-2/">&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102373/hello-world-vue_vdnxnm.png&quot; alt=&quot;Hello World com Vue.js&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Esse mês venho fazendo um curso de &lt;a href=&quot;https://vuejs.org/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Vue.js 2&lt;/a&gt; pelo Udemy e me apaixonando cada vez mais por esse framework que reúne o melhor do Angular 1 e do React.&lt;/p&gt;
+
+&lt;p&gt;O mais legal é que você não precisa ser nenhum expert em JS, nem ter estudado Angular ou React antes de começar a trabalhar com o Vue, ele é super intuitivo.&lt;/p&gt;
+
+&lt;p&gt;Nesse curto tutorial vou te ensinar como dar o primeiro passo para aprender a programar com &lt;strong&gt;Vue.js 2&lt;/strong&gt;. Vamos lá!&lt;/p&gt;
+
+&lt;h2 id=&quot;o-que-é-o-vue&quot;&gt;O que é o Vue?&lt;/h2&gt;
+
+&lt;p&gt;Antes de começar, queria explicar rapidinho, afinal, o que é o Vue? Lê-se “viu”.&lt;/p&gt;
+
+&lt;p&gt;O &lt;strong&gt;Vue.js&lt;/strong&gt; é um framework progressivo para a construção de interfaces.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Legal Rossener, mas o que é um framework progressivo?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Simples, segundo a definição do próprio &lt;a href=&quot;https://twitter.com/youyuxi&quot; target=&quot;_blank&quot;&gt;Evan You&lt;/a&gt;, criador do Vue.js, um framework progressivo é um framework que você pode inserir no seu projeto conforme vai sentindo a necessidade dele.&lt;/p&gt;
+
+&lt;p&gt;Ou seja, ao contrário dos frameworks que temos disponíveis hoje, que são recheados de funcionalidades e com uma grande curva de aprendizado, o Vue.js foi feito para ser fácil você adotá-lo em seu projeto, por mais complexo que ele seja.&lt;/p&gt;
+
+&lt;p&gt;Agora que você já sabe o que é o Vue.js, vou direto pra prática, como fazer um Hello World usando Vue.js 2?&lt;/p&gt;
+
+&lt;h2 id=&quot;como-faz&quot;&gt;Como faz?&lt;/h2&gt;
+
+&lt;p&gt;Primeiro, vamos criar um arquivo HTML qualquer, vou chamá-lo de &lt;strong&gt;hello-world-vue.html&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Aí importamos o Vue.js na nossa página, para podermos utilizá-lo.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/vue&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Então inserimos uma &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&lt;/code&gt;, que será onde a nossa aplicação Vue será montada. Ou seja, o pedaço do HTML que queremos que o Vue.js observe e utilize para renderizar nossos elementos.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/vue&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Agora já podemos começar a escrever o código com o Vue. A primeira coisa a fazer é instanciar uma nova aplicação Vue, dizendo para qual elemento do nosso HTML queremos que ele olhe.&lt;/p&gt;
+
+&lt;p&gt;Fazemos isso usando &lt;code class=&quot;highlighter-rouge&quot;&gt;new Vue()&lt;/code&gt;, passando como parâmetro a chave &lt;code class=&quot;highlighter-rouge&quot;&gt;el&lt;/code&gt; com o valor &lt;code class=&quot;highlighter-rouge&quot;&gt;#app&lt;/code&gt;. No caso, o valor é usado como qualquer outro seletor CSS, de preferência sendo o id de um elemento, por ser algo único.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Nota:&lt;/strong&gt; colocamos o script &lt;strong&gt;após&lt;/strong&gt; o elemento que será utilizado para renderização para que se torne conhecido pelo Vue quando este usar o seletor. Se colocássemos o script no cabeçalho da página, o elemento #app não seria reconhecido.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/vue&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#app&quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Vamos fazer a nossa página exibir a mensagem que desejamos. Para isso, colocaremos nossa mensagem no campo &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; da aplicação Vue.&lt;/p&gt;
+
+&lt;p&gt;O campo &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; recebe um objeto javascript com os dados que serão manipulados no contexto da nossa aplicação, ou seja, os dados de tudo que estiver dentro da nossa &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Vou criar a variável &lt;code class=&quot;highlighter-rouge&quot;&gt;message&lt;/code&gt; e atribuir o valor &lt;strong&gt;“Hello World!”&lt;/strong&gt; para que possamos exibir essa mensagem no HTML posteriormente.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/vue&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#app&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Finalmente, dizemos ao HTML que queremos exibir o conteúdo de &lt;strong&gt;“message”&lt;/strong&gt; na página. Fazemos isso colocando a variável “message” entre duplas chaves &lt;strong&gt;&lt;/strong&gt;, que são os caracteres usados pelo Vue para interpolar um valor dentro do HTML.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Hello World - Vue.js 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://unpkg.com/vue&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;app&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Vue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;el&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;#app&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+            &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;na&quot;&gt;message&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hello World!&quot;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Salva, abre a página, e pronto!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102890/hello-world-browser_hjbuhl.png&quot; alt=&quot;Screenshot do resultado do Hello World em Vue.js&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;atualização&quot;&gt;ATUALIZAÇÃO&lt;/h3&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://web.facebook.com/ibrahimbrumate?fref=ufi&quot; target=&quot;_blank&quot;&gt;Ibrahim Brumate&lt;/a&gt; me passou um link muito legal da versão PT-BR da documentação do Vue que eu não sabia que existia! Então se quiser saber mais sobre o Vue em português é só &lt;a href=&quot;http://br.vuejs.org/v2/guide/&quot; target=&quot;_blank&quot;&gt;clicar aqui&lt;/a&gt; e ser feliz :)&lt;/p&gt;</content><author><name></name></author><summary type="html">Esse mês venho fazendo um curso de Vue.js 2 pelo Udemy e me apaixonando cada vez mais por esse framework que reúne o melhor do Angular 1 e do React. O mais legal é que você não precisa ser nenhum expert em JS, nem ter estudado Angular ou React antes de começar a trabalhar com o Vue, ele é super intuitivo. Nesse curto tutorial vou te ensinar como dar o primeiro passo para aprender a programar com Vue.js 2. Vamos lá! O que é o Vue? Antes de começar, queria explicar rapidinho, afinal, o que é o Vue? Lê-se “viu”. O Vue.js é um framework progressivo para a construção de interfaces. Legal Rossener, mas o que é um framework progressivo? Simples, segundo a definição do próprio Evan You, criador do Vue.js, um framework progressivo é um framework que você pode inserir no seu projeto conforme vai sentindo a necessidade dele. Ou seja, ao contrário dos frameworks que temos disponíveis hoje, que são recheados de funcionalidades e com uma grande curva de aprendizado, o Vue.js foi feito para ser fácil você adotá-lo em seu projeto, por mais complexo que ele seja. Agora que você já sabe o que é o Vue.js, vou direto pra prática, como fazer um Hello World usando Vue.js 2? Como faz? Primeiro, vamos criar um arquivo HTML qualquer, vou chamá-lo de hello-world-vue.html &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Aí importamos o Vue.js na nossa página, para podermos utilizá-lo. &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/vue&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Então inserimos uma &amp;lt;div&amp;gt;, que será onde a nossa aplicação Vue será montada. Ou seja, o pedaço do HTML que queremos que o Vue.js observe e utilize para renderizar nossos elementos. &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/vue&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Agora já podemos começar a escrever o código com o Vue. A primeira coisa a fazer é instanciar uma nova aplicação Vue, dizendo para qual elemento do nosso HTML queremos que ele olhe. Fazemos isso usando new Vue(), passando como parâmetro a chave el com o valor #app. No caso, o valor é usado como qualquer outro seletor CSS, de preferência sendo o id de um elemento, por ser algo único. Nota: colocamos o script após o elemento que será utilizado para renderização para que se torne conhecido pelo Vue quando este usar o seletor. Se colocássemos o script no cabeçalho da página, o elemento #app não seria reconhecido. &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/vue&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&quot;text/javascript&quot;&amp;gt; new Vue({ el: &quot;#app&quot; }); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Vamos fazer a nossa página exibir a mensagem que desejamos. Para isso, colocaremos nossa mensagem no campo data da aplicação Vue. O campo data recebe um objeto javascript com os dados que serão manipulados no contexto da nossa aplicação, ou seja, os dados de tudo que estiver dentro da nossa &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt;. Vou criar a variável message e atribuir o valor “Hello World!” para que possamos exibir essa mensagem no HTML posteriormente. &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/vue&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&quot;text/javascript&quot;&amp;gt; new Vue({ el: &quot;#app&quot;, data: { message: &quot;Hello World!&quot; } }); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Finalmente, dizemos ao HTML que queremos exibir o conteúdo de “message” na página. Fazemos isso colocando a variável “message” entre duplas chaves , que são os caracteres usados pelo Vue para interpolar um valor dentro do HTML. &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&quot;en&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt; &amp;lt;title&amp;gt;Hello World - Vue.js 2&amp;lt;/title&amp;gt; &amp;lt;script src=&quot;https://unpkg.com/vue&quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;app&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;script type=&quot;text/javascript&quot;&amp;gt; new Vue({ el: &quot;#app&quot;, data: { message: &quot;Hello World!&quot; } }); &amp;lt;/script&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; Salva, abre a página, e pronto! ATUALIZAÇÃO O Ibrahim Brumate me passou um link muito legal da versão PT-BR da documentação do Vue que eu não sabia que existia! Então se quiser saber mais sobre o Vue em português é só clicar aqui e ser feliz :)</summary></entry><entry><title type="html">A Resistência em você está te impedindo de ser Incrível (e como lutar contra isso)</title><link href="http://localhost:4000/a-resistencia-em-voce-esta-te-impedindo-de-ser-incrivel/" rel="alternate" type="text/html" title="A Resistência em você está te impedindo de ser Incrível (e como lutar contra isso)" /><published>2017-05-19T00:00:00-03:00</published><updated>2017-05-19T00:00:00-03:00</updated><id>http://localhost:4000/a-resistencia-em-voce-esta-te-impedindo-de-ser-incrivel</id><content type="html" xml:base="http://localhost:4000/a-resistencia-em-voce-esta-te-impedindo-de-ser-incrivel/">&lt;p&gt;Essa semana li um artigo sensacional sobre mudança de &lt;em&gt;mindset&lt;/em&gt;, e decidi compartilhar com vocês.&lt;/p&gt;
+
+&lt;p&gt;Tudo o que está escrito abaixo foi livremente traduzido por mim do &lt;a href=&quot;https://medium.com/personal-growth/your-resistance-brain-stops-you-from-being-awesome-and-how-to-fight-back-3a5ec87b9a5d&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;texto de Thomas Oppong&lt;/a&gt; no &lt;strong&gt;Medium&lt;/strong&gt;. Aproveitem! ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102402/resistencia-1024x771_kulclt.jpg&quot; alt=&quot;Foto de uma menina olhando para o nada&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Muitas pessoas tem duas vidas. A vida que elas vivem e a outra vida que elas desejam viver. Entre essas duas existe a Resistência.&lt;/p&gt;
+
+&lt;p&gt;Você provavelmente tem a visão da pessoa que quer se tornar, o trabalho que poderia realizar, ou o futuro perfeito que você quer para sua família, mas por alguma razão, você não chega nem mesmo a dar uma chance para isso.&lt;/p&gt;
+
+&lt;p&gt;A Resistência é uma força ativa e implacável cujo único propósito é impedir que você se torne o seu melhor e que alcance seus maiores objetivos.&lt;/p&gt;
+
+&lt;p&gt;É seu trabalho descobrir como silenciar e ignorar isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Seu cérebro de resistência está fazendo seu trabalho quando:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Você continua adiando o trabalho da sua vida&lt;/li&gt;
+  &lt;li&gt;Você está sendo muito auto-crítico sobre seu trabalho ou suas ideias&lt;/li&gt;
+  &lt;li&gt;Você sente que seu trabalho nunca é bom o bastante para entregar, lançar ou publicar&lt;/li&gt;
+  &lt;li&gt;Você sempre acha alguma desculpa para não fazer algo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;É surpreendentemente fácil ganhar a vida e fazer uma carreira sendo mediano ou medíocre. A resistência iria preferir que você fizesse isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven Pressfield&lt;/strong&gt; foi o primeiro a escrever sobre a resistência poucos anos atrás. A resistência é aquela vozinha atrás da sua cabeça dizendo para você se afastar, ser cuidadoso, ir devagar.&lt;/p&gt;
+
+&lt;p&gt;Aquela que diz a você que nunca vai funcionar, que se preocupa se as pessoas irão rir de você quando decidir fazer e compartilhar o trabalho da sua vida. O cérebro de resistência vai fazer quase de tudo para manter você longe de ser notado.&lt;/p&gt;
+
+&lt;p&gt;Neste livro, &lt;a href=&quot;https://www.getabstract.com/pt/resumo/carreira-e-desenvolvimento-pessoal/linchpin-voce-e-indispensavel/18054&quot; target=&quot;_blank&quot;&gt;Linchpin - Você é Indispensável?&lt;/a&gt;, &lt;strong&gt;Seth Godin&lt;/strong&gt; diz que o cérebro reptiliano é a fonte da resistência. Ele escreve:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“O cérebro reptiliano está com fome, com medo, com raiva e com tesão.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O cérebro reptiliano só quer comer e estar seguro.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O cérebro reptiliano vai lutar (até a morte) se for preciso, mas não vai desistir. Gosta de uma vingança e não tem problema algum em ficar com raiva.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O cérebro reptiliano liga para o que todo mundo está pensando, porque o status no grupo é essencial para sua sobrevivência.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O cérebro reptiliano não é meramente um conceito. É real, e está vivendo no topo da sua espinha dorsal, lutando por sua sobrevivência. Mas, claro, sobrevivência e sucesso não são as mesmas coisas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;O cérebro reptiliano é a razão por você estar com tanto medo, a razão por você não fazer tudo aquilo que pode, a razão por você não entregar tudo o que consegue.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;a-resistência-vai-dizer-qualquer-coisa-para-te-impedir-de-agir-vai-fabricar-falsificar-seduzir-intimidar-e-convencer-você-a-desistir-e-continuar-confortável&quot;&gt;A Resistência vai dizer qualquer coisa para te impedir de agir. Vai fabricar, falsificar; seduzir, intimidar, e convencer você a desistir e continuar confortável.&lt;/h4&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A resistência é poderosa, tão poderosa que todas as ferramentas de atalho, para ganhar tempo e foco, são impotentes no seu caminho.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Steven Pressfield&lt;/strong&gt; diz “a resistência por definição é auto-sabotagem”. No livro &lt;a href=&quot;http://www.saraiva.com.br/a-guerra-da-arte-supere-os-bloqueios-e-venca-suas-batalhas-interiores-de-criatividade-174278.html&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;A Guerra da Arte - Supere os Bloqueios e Vença Suas Batalhas Interiores de Criatividade&lt;/a&gt;, Steven percebe que quanto mais resistência você experimentar, mais importante sua arte/projeto/empresa não manifestada é para você - e mais gratidão você vai sentir quando você finalmente fizer isso. Ele explica:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A resistência irá te dizer qualquer coisa para te manter longe de fazer seu trabalho. Ela vai mentir, fabricar, falsificar; seduzir, intimidar, adular. A resistência é proteica. Vai assumir qualquer forma, se é isso que é necessário para enganá-lo. Vai racionalizar com você como um advogado ou como um ladrão de rua apontando uma 9mm pro seu rosto. A resistência não tem consciência. Ela vai prometer qualquer coisa para fechar um negócio, em seguida, te trair assim que virar as costas. Se você acredita na palavra da Resistência, você merece tudo aquilo que tem. A resistência está sempre mentindo e é cheia de besteiras.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“A resistência é experimentada como medo; o nível de medo é igual a força da Resistência. Assim sendo, o quão apavorados nós nos sentimos em relação a um empreendimento específico, podemos ter certeza que esse empreendimento é importante para nós e para o crescimento da nossa alma. Esse é o motivo pelo qual nós sentimos tanto a Resistência. Se não significa nada para nós, não há Resistência alguma.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Há demandas demais pela sua força de vontade e habilidades. E você provavelmente está reagindo a essas demandas 90% do tempo.&lt;/p&gt;
+
+&lt;p&gt;Se sua vida é o que acontece com você ao invés de o que você escolhe realizar, fazer ou criar, assuma o controle hoje e faça o necessário para viver sua vida nos seus próprios termos.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-biologia-por-trás-da-resistência&quot;&gt;A biologia por trás da resistência&lt;/h3&gt;
+
+&lt;p&gt;Sua amígdala é o motivo por toda a resistência que você sente. A amígdala é uma porção pré-histórica do seu cérebro, localizada próxima ao tronco cerebral.&lt;/p&gt;
+
+&lt;p&gt;É a parte do sistema linfático que é responsável por processar suas emoções. É responsável pelo medo, pela raiva, pela vingança, pelo sexo e pela sobrevivência.&lt;/p&gt;
+
+&lt;p&gt;Quando a amígdala é despertada, quando ela se sente ameaçada, quando há um senso de que as pessoas devem realmente rir de você, ela assume o controle. Ela se levanta em fúria e medo e desliga você.&lt;/p&gt;
+
+&lt;h3 id=&quot;comece-a-lutar-contra-isso-hoje&quot;&gt;Comece a lutar contra isso hoje&lt;/h3&gt;
+
+&lt;p&gt;Você pode aprender a afrouxar essas desculpas e continuar se movimentando através delas não importa quanta resistência seu cérebro apresentar a você.&lt;/p&gt;
+
+&lt;p&gt;Como? Pra começar, por abandonar sua necessidade de ser perfeito(a) em tudo que você faz. Encontre algo tão importante que valha a pena enfurecer seus medos pré-históricos. E comece a agir agora, não ligando para o que o cérebro reptiliano lhe diz. Você é bom o suficiente para começar qualquer coisa que espera de si mesmo.&lt;/p&gt;
+
+&lt;p&gt;Quebre o seu projeto, a sua ideia, tarefa, atividade ou objetivo no maior número possível de sub-passos que você consiga imaginar.&lt;/p&gt;
+
+&lt;p&gt;Escreva todos os passos.&lt;/p&gt;
+
+&lt;p&gt;Priorize eles.&lt;/p&gt;
+
+&lt;p&gt;Volte para o primeiro item da sua lista e encontre o menor passo possível que você pode fazer para avançar.&lt;/p&gt;
+
+&lt;p&gt;Busque os passos de um bebê. Foque em pequenas vitórias. A ideia é mesmo fazer a menor ação para um objetivo maior.&lt;/p&gt;
+
+&lt;p&gt;Exemplo, se você está escrevendo um livro, escreva 200 palavras por dia.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Não busque pela perfeição. Não julgue seu trabalho. Apenas escreva.&lt;/strong&gt;
+Ernest Hemingway uma vez disse “Escreva bêbado; edite sóbrio”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Use a mesma mentalidade para qualquer coisa que você comece.&lt;/strong&gt;
+Se comprometa com o processo. Mesmo se for só 20 minutos por dia.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Toda vez que você tropeçar, apenas se levante e comece a correr de novo. É assim que o progresso acontece.&lt;/p&gt;
+
+&lt;p&gt;Um trabalho em progresso força você a continuar trabalhando pelo seu objetivo.&lt;/p&gt;
+
+&lt;p&gt;Pessoas que são bem-sucedidas em começar e manter a maioria das suas mudanças de comportamento normalmente fazem isso de forma gradual, com mudanças passo-a-passo.&lt;/p&gt;</content><author><name></name></author><summary type="html">Essa semana li um artigo sensacional sobre mudança de mindset, e decidi compartilhar com vocês. Tudo o que está escrito abaixo foi livremente traduzido por mim do texto de Thomas Oppong no Medium. Aproveitem! ;) Muitas pessoas tem duas vidas. A vida que elas vivem e a outra vida que elas desejam viver. Entre essas duas existe a Resistência. Você provavelmente tem a visão da pessoa que quer se tornar, o trabalho que poderia realizar, ou o futuro perfeito que você quer para sua família, mas por alguma razão, você não chega nem mesmo a dar uma chance para isso. A Resistência é uma força ativa e implacável cujo único propósito é impedir que você se torne o seu melhor e que alcance seus maiores objetivos. É seu trabalho descobrir como silenciar e ignorar isso. Seu cérebro de resistência está fazendo seu trabalho quando: Você continua adiando o trabalho da sua vida Você está sendo muito auto-crítico sobre seu trabalho ou suas ideias Você sente que seu trabalho nunca é bom o bastante para entregar, lançar ou publicar Você sempre acha alguma desculpa para não fazer algo É surpreendentemente fácil ganhar a vida e fazer uma carreira sendo mediano ou medíocre. A resistência iria preferir que você fizesse isso. Steven Pressfield foi o primeiro a escrever sobre a resistência poucos anos atrás. A resistência é aquela vozinha atrás da sua cabeça dizendo para você se afastar, ser cuidadoso, ir devagar. Aquela que diz a você que nunca vai funcionar, que se preocupa se as pessoas irão rir de você quando decidir fazer e compartilhar o trabalho da sua vida. O cérebro de resistência vai fazer quase de tudo para manter você longe de ser notado. Neste livro, Linchpin - Você é Indispensável?, Seth Godin diz que o cérebro reptiliano é a fonte da resistência. Ele escreve: “O cérebro reptiliano está com fome, com medo, com raiva e com tesão. O cérebro reptiliano só quer comer e estar seguro. O cérebro reptiliano vai lutar (até a morte) se for preciso, mas não vai desistir. Gosta de uma vingança e não tem problema algum em ficar com raiva. O cérebro reptiliano liga para o que todo mundo está pensando, porque o status no grupo é essencial para sua sobrevivência. O cérebro reptiliano não é meramente um conceito. É real, e está vivendo no topo da sua espinha dorsal, lutando por sua sobrevivência. Mas, claro, sobrevivência e sucesso não são as mesmas coisas. O cérebro reptiliano é a razão por você estar com tanto medo, a razão por você não fazer tudo aquilo que pode, a razão por você não entregar tudo o que consegue.” A Resistência vai dizer qualquer coisa para te impedir de agir. Vai fabricar, falsificar; seduzir, intimidar, e convencer você a desistir e continuar confortável. A resistência é poderosa, tão poderosa que todas as ferramentas de atalho, para ganhar tempo e foco, são impotentes no seu caminho. Steven Pressfield diz “a resistência por definição é auto-sabotagem”. No livro A Guerra da Arte - Supere os Bloqueios e Vença Suas Batalhas Interiores de Criatividade, Steven percebe que quanto mais resistência você experimentar, mais importante sua arte/projeto/empresa não manifestada é para você - e mais gratidão você vai sentir quando você finalmente fizer isso. Ele explica: “A resistência irá te dizer qualquer coisa para te manter longe de fazer seu trabalho. Ela vai mentir, fabricar, falsificar; seduzir, intimidar, adular. A resistência é proteica. Vai assumir qualquer forma, se é isso que é necessário para enganá-lo. Vai racionalizar com você como um advogado ou como um ladrão de rua apontando uma 9mm pro seu rosto. A resistência não tem consciência. Ela vai prometer qualquer coisa para fechar um negócio, em seguida, te trair assim que virar as costas. Se você acredita na palavra da Resistência, você merece tudo aquilo que tem. A resistência está sempre mentindo e é cheia de besteiras.” “A resistência é experimentada como medo; o nível de medo é igual a força da Resistência. Assim sendo, o quão apavorados nós nos sentimos em relação a um empreendimento específico, podemos ter certeza que esse empreendimento é importante para nós e para o crescimento da nossa alma. Esse é o motivo pelo qual nós sentimos tanto a Resistência. Se não significa nada para nós, não há Resistência alguma.” Há demandas demais pela sua força de vontade e habilidades. E você provavelmente está reagindo a essas demandas 90% do tempo. Se sua vida é o que acontece com você ao invés de o que você escolhe realizar, fazer ou criar, assuma o controle hoje e faça o necessário para viver sua vida nos seus próprios termos. A biologia por trás da resistência Sua amígdala é o motivo por toda a resistência que você sente. A amígdala é uma porção pré-histórica do seu cérebro, localizada próxima ao tronco cerebral. É a parte do sistema linfático que é responsável por processar suas emoções. É responsável pelo medo, pela raiva, pela vingança, pelo sexo e pela sobrevivência. Quando a amígdala é despertada, quando ela se sente ameaçada, quando há um senso de que as pessoas devem realmente rir de você, ela assume o controle. Ela se levanta em fúria e medo e desliga você. Comece a lutar contra isso hoje Você pode aprender a afrouxar essas desculpas e continuar se movimentando através delas não importa quanta resistência seu cérebro apresentar a você. Como? Pra começar, por abandonar sua necessidade de ser perfeito(a) em tudo que você faz. Encontre algo tão importante que valha a pena enfurecer seus medos pré-históricos. E comece a agir agora, não ligando para o que o cérebro reptiliano lhe diz. Você é bom o suficiente para começar qualquer coisa que espera de si mesmo. Quebre o seu projeto, a sua ideia, tarefa, atividade ou objetivo no maior número possível de sub-passos que você consiga imaginar. Escreva todos os passos. Priorize eles. Volte para o primeiro item da sua lista e encontre o menor passo possível que você pode fazer para avançar. Busque os passos de um bebê. Foque em pequenas vitórias. A ideia é mesmo fazer a menor ação para um objetivo maior. Exemplo, se você está escrevendo um livro, escreva 200 palavras por dia. Não busque pela perfeição. Não julgue seu trabalho. Apenas escreva. Ernest Hemingway uma vez disse “Escreva bêbado; edite sóbrio” Use a mesma mentalidade para qualquer coisa que você comece. Se comprometa com o processo. Mesmo se for só 20 minutos por dia. Toda vez que você tropeçar, apenas se levante e comece a correr de novo. É assim que o progresso acontece. Um trabalho em progresso força você a continuar trabalhando pelo seu objetivo. Pessoas que são bem-sucedidas em começar e manter a maioria das suas mudanças de comportamento normalmente fazem isso de forma gradual, com mudanças passo-a-passo.</summary></entry><entry><title type="html">Minhas primeiras 5 impressões sobre Django</title><link href="http://localhost:4000/minhas-primeiras-5-impressoes-sobre-django/" rel="alternate" type="text/html" title="Minhas primeiras 5 impressões sobre Django" /><published>2017-05-11T00:00:00-03:00</published><updated>2017-05-11T00:00:00-03:00</updated><id>http://localhost:4000/minhas-primeiras-5-impressoes-sobre-django</id><content type="html" xml:base="http://localhost:4000/minhas-primeiras-5-impressoes-sobre-django/">&lt;p&gt;Fala galera!&lt;/p&gt;
+
+&lt;p&gt;Tem um tempo que não escrevo aqui. Estou nesse momento passando por um período de transição na minha carreira, onde basicamente eu apostei 2 anos e muito $$$ na minha startup e bem… não deu certo. :(&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://www.rossener.com/wp-content/uploads/2017/05/you-failed.jpg&quot; alt=&quot;Foto do Leo me dando os parabéns&quot; width=&quot;540&quot; /&gt;
+&lt;em&gt;Valeu Leo 👍&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A vida segue, e oportunidade é o que não falta por aí. No meio desse período nebuloso e “sem rumo” decidi parar pra pensar um pouco na vida e na minha carreira, agora que a minha aposta de 5 anos fez como o Matthew McConaughey em &lt;em&gt;Interstellar&lt;/em&gt;, e foi pro espaço.&lt;/p&gt;
+
+&lt;center&gt;&lt;iframe class=&quot;giphy-embed&quot; src=&quot;https://giphy.com/embed/u4ywyvuQZbzag&quot; width=&quot;600&quot; height=&quot;277&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/center&gt;
+
+&lt;p&gt;Pensando e pensando e pensando decidi duas coisas que quero pra minha vida: 1. quero trabalhar com o que eu gosto de fazer, que é desenvolver pra Web e 2. quero viajar. Por que não juntar os dois?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Eaí Rossener, quando você vai começar a falar sobre o título do post?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Calma que eu chego lá. Comecei a pesquisar sobre o que estava rolando no mercado hoje e prontamente duas coisas surgem em todo lugar como um consenso: &lt;a href=&quot;http://rubyonrails.org/&quot; target=&quot;_blank&quot;&gt;Ruby on Rails&lt;/a&gt; e &lt;a href=&quot;https://www.djangoproject.com/&quot; target=&quot;_blank&quot;&gt;Django&lt;/a&gt; (também tem as SPAs, mas vou pular elas).&lt;/p&gt;
+
+&lt;p&gt;Lendo muitas comparações, conversando com alguns amigos e dando uma olhada nos dois frameworks, dei o primeiro passo ousado rumo ao desconhecido, e fui de encontro a ele.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101216/django-1024x576_xi2qq9.jpg&quot; alt=&quot;Imagem do Django&quot; /&gt;
+&lt;em&gt;Django. (música de faroeste de fundo)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Logo encontrei o curso &lt;strong&gt;gratuito&lt;/strong&gt; do &lt;a href=&quot;https://www.udemy.com/python-3-na-web-com-django-basico-intermediario/learn/v4/overview&quot; target=&quot;_blank&quot;&gt;Gileno Filho&lt;/a&gt;, que é muito bom, e comecei a brincar com essa belezinha. Por isso, meu caro leitor, com o intuito de despertar &lt;em&gt;curiosidade&lt;/em&gt; pra que você busque por mais informações, irei te dizer as minhas primeiras impressões sobre esse framework em Python.&lt;/p&gt;
+
+&lt;p&gt;Vamos lá:&lt;/p&gt;
+
+&lt;h3 id=&quot;1---setupna-manteiga&quot;&gt;1 - Setup na manteiga&lt;/h3&gt;
+
+&lt;p&gt;Em 10 minutos, começando do ZERO, você já tem todo o seu ambiente configurado lindamente pra criar sua aplicação com o Django.&lt;/p&gt;
+
+&lt;p&gt;Quer saber como? Segue esse tutorial das meninas do Django Girls &lt;a href=&quot;https://tutorial.djangogirls.org/pt/django_installation/&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;2---organizado-e-legível&quot;&gt;2 - Organizado e legível&lt;/h3&gt;
+
+&lt;p&gt;Achei incrivelmente organizado o projeto. Os módulos são separados por aplicações, e cada aplicação tem uma estrutura mais ou menos assim:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;É &lt;strong&gt;form&lt;/strong&gt;? Fica em &lt;em&gt;forms.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;É &lt;strong&gt;modelo&lt;/strong&gt;? Fica em &lt;em&gt;models.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;É &lt;strong&gt;tela&lt;/strong&gt;? Fica em &lt;em&gt;views.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;É &lt;strong&gt;url&lt;/strong&gt;? Fica em &lt;em&gt;urls.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;É &lt;strong&gt;html&lt;/strong&gt;? Fica numa pasta separada só pra templates daquela aplicação.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Simples, hã?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101482/Screen-Shot-2017-05-11-at-7.57.23-PM-1024x725_mkxqjb.png&quot; alt=&quot;Screenshot do urls.py&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;3---leve-um-framework-ganhe-oscruds&quot;&gt;3 - Leve um framework, ganhe os CRUDs&lt;/h3&gt;
+
+&lt;p&gt;Quem gosta de ficar fazendo aquelas telas de CRUD (&lt;em&gt;Create-Read-Update-Delete&lt;/em&gt;) que são todas iguais e só consome o seu tempo?&lt;/p&gt;
+
+&lt;p&gt;É, meu amigo, a coisa toda já vem pronta! O Django já traz nele uma aplicação só pra você manipular seus modelos. O negócio é &lt;em&gt;LO-KO&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101516/django-admin_qjkqsa.png&quot; alt=&quot;Screenshot da tela de admin do Django&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;4---filtrosque-fazem-de-tudo&quot;&gt;4 - Filtros que fazem de tudo&lt;/h3&gt;
+
+&lt;p&gt;Do pouco que eu explorei achei coisas muito interessantes que não lembro de ter visto enquanto trabalhava por 2 anos e meio com Java e JSP. No máximo, vi algo parecido em PHP e Angular, mas enfim, achei bem legal.&lt;/p&gt;
+
+&lt;p&gt;São os filtros. Eles poupam um trabalho gigantesco se você conhecê-los e souber usá-los bem.&lt;/p&gt;
+
+&lt;p&gt;Pra citar alguns exemplos temos:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101548/filtros-django_qxbf51.png&quot; alt=&quot;Imagem de filtros de parágrafo do Django&quot; /&gt;
+&lt;em&gt;Esse cara pega um texto que você inseriu num formulário e monta o texto com as tags html &amp;lt;p&amp;gt; e &amp;lt;br&amp;gt; pra deixar os parágrafos formatados automaticamente.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101632/filtro2_pjurss.png&quot; alt=&quot;Imagem do filtro pluralize do Django&quot; /&gt;
+&lt;em&gt;Esse filtro permite que você altere o final de uma palavra que está no plural de acordo com sua variável numérica. Digamos que você tenha um contador de visualizações. Com esse filtro, facilmente você alterna entre “1 visualização” e “2 visualizações” sem encher o código de ifs :)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101706/filtro3_tyvzgd.png&quot; alt=&quot;Imagem do filtro timesince do Django&quot; /&gt;
+&lt;em&gt;Como último exemplo tem o &lt;strong&gt;timesince&lt;/strong&gt;, esse eu achei fantástico. Esse filtro é capaz de dizer a diferença de tempo entre a data atual e a data que você passa, facilitando a você escrever textos assim ”à 2 minutos atrás” como de comentários ou respostas em fóruns.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;5---a-comunidade&quot;&gt;5 - A comunidade&lt;/h3&gt;
+
+&lt;p&gt;Não há palavras que expressem o &lt;strong&gt;tamanho&lt;/strong&gt; disso. PONTO.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501101809/comunidade_esnapp.jpg&quot; alt=&quot;Comunidade Python&quot; /&gt;
+&lt;em&gt;Foto ilustrativa&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A comunidade Django, na verdade, a comunidade Python no geral, é gigantesca. Tem gente disposta a te ajudar de todas as cidades, estados, países, continentes e universos, todas as raças, credos, orientação sexual e orientação política, de todo tipo de fã clube, status de relacionamento e lado da Força, tem gente de tudo-que-é-jeito. É incrível.&lt;/p&gt;
+
+&lt;p&gt;Pra entender, só mesmo entrando nesse mundo. Eu comecei há pouco tempo, mas pretendo em breve, entender um pouco mais e participar mais dos eventos e da comunidade.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusão&quot;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;Tenho estudado o Django há 2 semanas, e tenho ficado cada vez mais impressionado com o universo de possibilidades que acompanham esse framework. Com certeza não cheguei nem perto de explorar tudo o que o Django pode fazer, mas espero que tenha despertado a sua curiosidade.&lt;/p&gt;
+
+&lt;p&gt;Essa semana comecei a fazer o curso do &lt;strong&gt;Henrique Bastos&lt;/strong&gt;, o &lt;a href=&quot;http://welcometothedjango.com.br&quot; target=&quot;_blank&quot;&gt;Welcome to the Django&lt;/a&gt;, com a intenção de mergulhar de uma vez nesse mundo e, principalmente, adquirir autonomia. Provavelmente, em breve, estarei postando mais coisas sobre essa nova aventura por aqui.&lt;/p&gt;
+
+&lt;p&gt;Até lá!&lt;/p&gt;</content><author><name></name></author><summary type="html">Fala galera! Tem um tempo que não escrevo aqui. Estou nesse momento passando por um período de transição na minha carreira, onde basicamente eu apostei 2 anos e muito $$$ na minha startup e bem… não deu certo. :( Valeu Leo 👍 A vida segue, e oportunidade é o que não falta por aí. No meio desse período nebuloso e “sem rumo” decidi parar pra pensar um pouco na vida e na minha carreira, agora que a minha aposta de 5 anos fez como o Matthew McConaughey em Interstellar, e foi pro espaço. Pensando e pensando e pensando decidi duas coisas que quero pra minha vida: 1. quero trabalhar com o que eu gosto de fazer, que é desenvolver pra Web e 2. quero viajar. Por que não juntar os dois? Eaí Rossener, quando você vai começar a falar sobre o título do post? Calma que eu chego lá. Comecei a pesquisar sobre o que estava rolando no mercado hoje e prontamente duas coisas surgem em todo lugar como um consenso: Ruby on Rails e Django (também tem as SPAs, mas vou pular elas). Lendo muitas comparações, conversando com alguns amigos e dando uma olhada nos dois frameworks, dei o primeiro passo ousado rumo ao desconhecido, e fui de encontro a ele. Django. (música de faroeste de fundo) Logo encontrei o curso gratuito do Gileno Filho, que é muito bom, e comecei a brincar com essa belezinha. Por isso, meu caro leitor, com o intuito de despertar curiosidade pra que você busque por mais informações, irei te dizer as minhas primeiras impressões sobre esse framework em Python. Vamos lá: 1 - Setup na manteiga Em 10 minutos, começando do ZERO, você já tem todo o seu ambiente configurado lindamente pra criar sua aplicação com o Django. Quer saber como? Segue esse tutorial das meninas do Django Girls aqui. 2 - Organizado e legível Achei incrivelmente organizado o projeto. Os módulos são separados por aplicações, e cada aplicação tem uma estrutura mais ou menos assim: É form? Fica em forms.py É modelo? Fica em models.py É tela? Fica em views.py É url? Fica em urls.py É html? Fica numa pasta separada só pra templates daquela aplicação. Simples, hã? 3 - Leve um framework, ganhe os CRUDs Quem gosta de ficar fazendo aquelas telas de CRUD (Create-Read-Update-Delete) que são todas iguais e só consome o seu tempo? É, meu amigo, a coisa toda já vem pronta! O Django já traz nele uma aplicação só pra você manipular seus modelos. O negócio é LO-KO. 4 - Filtros que fazem de tudo Do pouco que eu explorei achei coisas muito interessantes que não lembro de ter visto enquanto trabalhava por 2 anos e meio com Java e JSP. No máximo, vi algo parecido em PHP e Angular, mas enfim, achei bem legal. São os filtros. Eles poupam um trabalho gigantesco se você conhecê-los e souber usá-los bem. Pra citar alguns exemplos temos: Esse cara pega um texto que você inseriu num formulário e monta o texto com as tags html &amp;lt;p&amp;gt; e &amp;lt;br&amp;gt; pra deixar os parágrafos formatados automaticamente. Esse filtro permite que você altere o final de uma palavra que está no plural de acordo com sua variável numérica. Digamos que você tenha um contador de visualizações. Com esse filtro, facilmente você alterna entre “1 visualização” e “2 visualizações” sem encher o código de ifs :) Como último exemplo tem o timesince, esse eu achei fantástico. Esse filtro é capaz de dizer a diferença de tempo entre a data atual e a data que você passa, facilitando a você escrever textos assim ”à 2 minutos atrás” como de comentários ou respostas em fóruns. 5 - A comunidade Não há palavras que expressem o tamanho disso. PONTO. Foto ilustrativa A comunidade Django, na verdade, a comunidade Python no geral, é gigantesca. Tem gente disposta a te ajudar de todas as cidades, estados, países, continentes e universos, todas as raças, credos, orientação sexual e orientação política, de todo tipo de fã clube, status de relacionamento e lado da Força, tem gente de tudo-que-é-jeito. É incrível. Pra entender, só mesmo entrando nesse mundo. Eu comecei há pouco tempo, mas pretendo em breve, entender um pouco mais e participar mais dos eventos e da comunidade. Conclusão Tenho estudado o Django há 2 semanas, e tenho ficado cada vez mais impressionado com o universo de possibilidades que acompanham esse framework. Com certeza não cheguei nem perto de explorar tudo o que o Django pode fazer, mas espero que tenha despertado a sua curiosidade. Essa semana comecei a fazer o curso do Henrique Bastos, o Welcome to the Django, com a intenção de mergulhar de uma vez nesse mundo e, principalmente, adquirir autonomia. Provavelmente, em breve, estarei postando mais coisas sobre essa nova aventura por aqui. Até lá!</summary></entry><entry><title type="html">Euro INSANE Trip 2014: A história não contada</title><link href="http://localhost:4000/euro-insane-trip-2014-a-historia-nao-contada/" rel="alternate" type="text/html" title="Euro INSANE Trip 2014: A história não contada" /><published>2016-02-21T00:00:00-03:00</published><updated>2016-02-21T00:00:00-03:00</updated><id>http://localhost:4000/euro-insane-trip-2014-a-historia-nao-contada</id><content type="html" xml:base="http://localhost:4000/euro-insane-trip-2014-a-historia-nao-contada/">&lt;p&gt;2014 o que?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/374142fa-6784-4f7f-ae7e-aabc4eba1846_zpstbkit3c6.jpg&quot; alt=&quot;Meme Wat&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso. Há dois anos atrás tive a viagem da minha vida e só existe uma coisa a se fazer quando você vive uma história que vai perdurar pelo que resta dos seus dias na Terra e é… &lt;strong&gt;contá-la&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Quase dois anos se passaram desde que, o que eu chamei de Euro INSANE Trip, aconteceu. Aliás, 2014 foi um daqueles anos que transformaram a minha vida de uma maneira que nenhum outro ano fez até hoje.&lt;/p&gt;
+
+&lt;p&gt;Foi sem dúvida, o melhor ano da minha vida. Foi um daqueles anos que, acredito eu, você só pode comparar com o ano em que se casar ou quando pegar no colo seu primeiro filho.&lt;/p&gt;
+
+&lt;p&gt;Foi um ano de virada de jogo, em que absolutamente tudo na sua vida vira de cabeça pra baixo, intercalando momentos de extrema felicidade, e momentos de extrema tristeza. São poucos os que podem dizer o que aconteceu em 2014 comigo, mas os que podem fazer isso, foi porque fizeram de perto, parte dele.&lt;/p&gt;
+
+&lt;p&gt;Se tivesse que resumir 2014 em uma palavra, ela seria: &lt;strong&gt;intenso&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/my-gosh_zpsrhxk6brb.gif&quot; alt=&quot;Meme Tony Stark&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora você deve estar se perguntando porque depois de 2 anos eu contaria essa história?&lt;/p&gt;
+
+&lt;p&gt;Bem, daqui há algumas semanas faço 27 anos. E estou passando por aquela fase da vida em que você se pergunta:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“O que p… estou fazendo da minha vida?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sim, não está fácil. Mas acredito que estou chegando lá, e em breve, uma nova fase vai começar.&lt;/p&gt;
+
+&lt;p&gt;Esse post nada mais é do que um registro, do quão intenso foi esse ano pra mim, do que eu fui capaz de realizar sozinho. É nada mais do que uma lembrança pra ser lida várias e várias vezes durante os próximos anos, com o único intuito de me lembrar de quem eu sou e onde posso chegar.&lt;/p&gt;
+
+&lt;p&gt;Então vamos começar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/let-it-begin-gif_zpsn7ba4xgm.gif&quot; alt=&quot;Meme Esquilo na Bolinha&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tudo começou em junho com os preparativos do que estava para vir em setembro. Comprei o dinheiro. Comprei as passagens pra cada cidade da rota, levando em conta as empresas aéreas de baixo custo e algumas passagens de trem que encontrei na promoção.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/viagem1_zpsr3yofioh.jpg&quot; alt=&quot;Imagem de pessoas se planejando&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/viagem3_zpsy96yy6qt.jpg&quot; alt=&quot;Imagem de cédular de euros&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reservei um dia pra cada transição de cidade, imaginando que ficaria cansado e seria bem corrido arrumar todas as malas, pegar um avião, mudar de país, encontrar o novo hostel e desfazer todas as malas. Ufa. Na mosca! Deu tudo certo :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/viagem2_zpstulxpdw1.jpg&quot; alt=&quot;Imagem de passagens aéreas&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Com tudo pronto, que a Euro INSANE Trip comece.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/viagem4_zps9dhmbyd2.jpg&quot; alt=&quot;Imagem de São Paulo para Madrid&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;barcelona&quot;&gt;Barcelona&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona1_zpscooztbju.jpg&quot; alt=&quot;Foto minha com umas meninas num bar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Conheci o povo espanhol de perto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona2_zpszskyvlap.jpg&quot; alt=&quot;Foto de um prato de Paella&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Provei da comida deles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona3_zpsqzn5suzs.jpg&quot; alt=&quot;Foto de milhares de doces&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E da sobremesa também.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona4_zps4o0zhnpy.jpg&quot; alt=&quot;Foto minha num canhão gigante&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Destruí alguns navios.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona5_zpsnxwbtrbe.jpg&quot; alt=&quot;Foto de uma placa para o Camp Nou&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Foi uma longa viagem até o coração da viagem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona6_zpsgtwa6ryz.jpg&quot; alt=&quot;Foto minha dentro do Camp Nou&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coração batendo forte.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/barcelona7_zpscp2kivqn.jpg&quot; alt=&quot;Foto minha no banco de reservas do Camp Nou&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Entrei em campo, ou quase.&lt;/p&gt;
+
+&lt;h2 id=&quot;londres&quot;&gt;Londres&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres1_zps3bxe3vsz.jpg&quot; alt=&quot;Foto do hostel em Londres&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O MELHOR HOSTEL QUE JÁ FIQUEI NA VIDA, primeiro andar &lt;strong&gt;PUB&lt;/strong&gt;, segundo andar minha &lt;strong&gt;CAMA&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres2_zpsmwuju0yp.jpg&quot; alt=&quot;Foto da mensagem no asfalto de Londres&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aí tudo ficou ao contrário.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres3_zpshkfhz4ao.jpg&quot; alt=&quot;Foto da avó do James Bond&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Conheci a avó do James Bond.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres4_zpspofla47p.jpg&quot; alt=&quot;Foto da entrada do apartamento 221b&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E realizei um sonho de infância.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/bus_zpse62f07ws.jpg&quot; alt=&quot;Foto do ônibus VIP de Londres&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Não fui VIP o suficiente pra entrar nesse ônibus.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres5_zpsvvlael3q.jpg&quot; alt=&quot;Foto da plataforma 9 3/4 em Londres&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quase quebrei a cabeça aqui.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres6_zpsupl0rcbk.jpg&quot; alt=&quot;Selfie com o guarda da rainha&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fiz novas amizades de peso.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres10_zpswbceevb6.jpg&quot; alt=&quot;Foto atravessando a Abbey Road&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Reproduzi um clássico.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres9_zpsq4b8qxdt.jpg&quot; alt=&quot;Foto da sala do Dumbledore&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres8_zpsgjjf5g2z.jpg&quot; alt=&quot;Foto da Pedra Filosofal&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Visitei Hogwarts.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/londres7_zpszcgyacvn.jpg&quot; alt=&quot;Foto da cerveja amanteigada&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E comemorei como se deve.&lt;/p&gt;
+
+&lt;h2 id=&quot;amsterdã&quot;&gt;Amsterdã&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam1_zpsbzh74ysa.jpg&quot; alt=&quot;Foto da praia próxima a Amsterdã&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Peguei um hostel no lugar errado.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam2_zpsnvtuxjhy.jpg&quot; alt=&quot;Foto da rua em Amsterdã&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mas 2 dias depois consertei :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam3_zpsl0q363f1.jpg&quot; alt=&quot;Foto de um coffe shop em Amsterdã&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Visitei as lojas nativas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam4_zpsocur21qp.jpg&quot; alt=&quot;Foto do Red District em Amsterdã&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E sobrevivi pra postar essa foto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam5_zpssvirsfxa.jpg&quot; alt=&quot;Foto minha mexendo cerveja na fábrica da Heineken&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fiz cerveja com as minhas próprias mãos.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam6_zpsgmtarjsf.jpg&quot; alt=&quot;Foto minha no bar de gelo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E quase morri de frio.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/amsterdam7_zps1ibl1f1y.jpg&quot; alt=&quot;Foto minha no letreiro de Amsterdã&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Última parada antes do próximo destino.&lt;/p&gt;
+
+&lt;h2 id=&quot;hamburgo&quot;&gt;Hamburgo&lt;/h2&gt;
+
+&lt;p&gt;Finalmente é chegada a hora de descobrir porque seu amigo trocou a maravilhosa cidade de São José dos Campos, pela terra do hambúrguer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo2_zpsmgzjryur.jpg&quot; alt=&quot;Foto de uma porção de pão com salsicha&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Por essa comida é que não foi.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo3_zpsdij0xjpw.jpg&quot; alt=&quot;Foto do Arthur com uma câmera gigante&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nem por essa câmera de 15 mil euros.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo4_zpstlae2ndb.jpg&quot; alt=&quot;Foto da minha vitória no Mario Kart&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Atravessei o Atlântico pra tirar essa foto.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo5_zpsnvbzbwu8.jpg&quot; alt=&quot;Foto minha com meu primo e o Arthur comendo hambúrguer&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Agora descobri, foi por causa do hambúrguer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo6_zpshmownjnb.jpg&quot; alt=&quot;Foto do porto de Hamburgo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E também por essa vista.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo7_zpsjmcgcbah.jpg&quot; alt=&quot;Foto de cachaça brasileira na Alemanha&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E porque ele tá praticamente em casa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo1_zpsle6pw9bn.jpg&quot; alt=&quot;Foto do lago em Hamburgo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E tem um lago que congela no inverno.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo8_zpsoboux3a2.jpg&quot; alt=&quot;Foto da vista no topo da igreja em Hamburgo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O topo da cidade é sensacional.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo9_zpsltyzxsao.jpg&quot; alt=&quot;Foto do museu em miniatura em Hamburgo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E um país inteiro em miniatura.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/hamburgo10_zpsfpgk65jh.jpg&quot; alt=&quot;Foto de um filme estranho em Hamburgo&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Com um poster um tanto diferente.&lt;/p&gt;
+
+&lt;h2 id=&quot;berlim&quot;&gt;Berlim&lt;/h2&gt;
+
+&lt;p&gt;Guerra.&lt;/p&gt;
+
+&lt;p&gt;Ou só mais um final de semana comum na Alemanha com os brothers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin1_zps6irouylw.jpg&quot; alt=&quot;Foto do semáforo em Berlim&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O semáforo usa chapéu.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin2_zps9mdwjlmd.jpg&quot; alt=&quot;Foto nossa com o pé em cima do muro de Berlim&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Um passo pra História.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin3_zpsgqwmaowd.jpg&quot; alt=&quot;Foto de pedaços do muro de Berlim&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Acreditem ou não, mas um pedaço de muro é mais caro por lá.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin4_zpsnnucv5cq.jpg&quot; alt=&quot;Foto do Arthur bebendo cerveja&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;“Pommes mit mayo bitten”, essas poucas palavra salvaram a minha vida várias vezes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin5_zpsfpthg9sk.jpg&quot; alt=&quot;Foto minha apontando um carro na parede em Berlim&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aí você percebe que o país sabe mesmo fazer carro.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin6_zpshtucftdr.jpg&quot; alt=&quot;Foto do aquário gigante dentro de um hotel em Berlim&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E também tem o maior aquário do mundo. Altas aventuras fingindo ser hóspede do hotel e subindo no elevador sem crachá hahaha&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin7_zpscurf10ev.jpg&quot; alt=&quot;Foto da balada Matrix em Berlim&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A MELHOR BALADA DO MUNDO. 7 ambientes, debaixo do metrô, com o meu filme favorito.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/berlin8_zps2odokfjq.jpg&quot; alt=&quot;Foto minha, do meu primo e do Arthur no muro de Berlim&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Despedida da capital alemã curtindo a sombra do muro.&lt;/p&gt;
+
+&lt;h2 id=&quot;munique&quot;&gt;Munique&lt;/h2&gt;
+
+&lt;p&gt;Pra encerrar a viagem não podia ter nada menos… OKTOBERFEST!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich1_zpsb2pud81w.jpg&quot; alt=&quot;Primeira foto na Oktoberfest em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10 vezes maior que a do Brasil.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich2_zpsg5g8q9qp.jpg&quot; alt=&quot;Foto dentro da cervejaria em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10 vezes mais curtição em cima da mesa.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich3_zpsmrl4qrrc.jpg&quot; alt=&quot;Foto dentro da cervejaria em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10 vezes mais álcool.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich4_zpsjfvepvcd.jpg&quot; alt=&quot;Foto da cervejaria em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;10 vezes mais gente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich5_zpscfoq1dqs.jpg&quot; alt=&quot;Foto da Oktoberfest em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Com esse céu azul.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich6_zpsl9z9for8.jpg&quot; alt=&quot;Foto minha ganhando um beijo de uma alemã&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aproveitei cada momento.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich7_zpsxa85k4mp.jpg&quot; alt=&quot;Foto minha com uma alemã na festa&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Conheci melhor as alemãs.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich8_zps857s1brg.jpg&quot; alt=&quot;Foto minha com o cara do Monopoly&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E o tiozinho do Monopoly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich10_zpsssw3sr3g.jpg&quot; alt=&quot;Foto minha com um cavalo em Munique&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E esse cavalo gigante.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich11_zps6jcunv9b.jpg&quot; alt=&quot;Foto minha levantando uma caneca de cerveja em Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E 3 dessas cervejas gigantes. (também conheci a calçada da Alemanha depois disso)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich12_zps5t6io7wu.jpg&quot; alt=&quot;Foto de um carro muito louco no museu da BMW&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Encerrando no museu da BMW.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/munich13_zpsyg42ffk0.jpg&quot; alt=&quot;Última foto de Munique&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A eurotrip vai chegando ao fim.&lt;/p&gt;
+
+&lt;p&gt;E acabou.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/fim1_zpsndtdtae4.jpg&quot; alt=&quot;Foto das passagens e passaporte&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Com lembranças pra eternidade.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Euro%20INSANE%20Trip%202014%20-%20The%20story%20never%20told/fim2_zpseeh8be1d.jpg&quot; alt=&quot;Foto da minha mochila cheia de pins&quot; width=&quot;540&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">2014 o que?</summary></entry><entry><title type="html">Desafio aceito. Fazendo uma app do Dribbble do zero</title><link href="http://localhost:4000/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/" rel="alternate" type="text/html" title="Desafio aceito. Fazendo uma app do Dribbble do zero" /><published>2015-09-06T00:00:00-03:00</published><updated>2015-09-06T00:00:00-03:00</updated><id>http://localhost:4000/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero</id><content type="html" xml:base="http://localhost:4000/desafio-aceito-fazendo-uma-app-do-dribbble-do-zero/">&lt;p&gt;Eaí galera,&lt;/p&gt;
+
+&lt;p&gt;Há alguns dias atrás, um amigo meu, &lt;a href=&quot;https://github.com/brunogabriel&quot; target=&quot;_blank&quot;&gt;Bruno Gabriel&lt;/a&gt;, me enviou um &lt;a href=&quot;https://bitbucket.org/suporte_concrete/desafio-ios/&quot; target=&quot;_blank&quot;&gt;link&lt;/a&gt; de um recrutamento de uma empresa de tecnologia onde eles pedem aos candidatos para fazerem uma app com a API do Dribbble desenvolvendo algumas features pré-definidas e outras como bonus.&lt;/p&gt;
+
+&lt;p&gt;Eu fiz isso &lt;a href=&quot;https://github.com/thiagoross/SimpleDribbble&quot; target=&quot;_blank&quot;&gt;aqui&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/your-mission_zpskxns2mho.png&quot; alt=&quot;Tom Cruise atendendo o celular&quot; /&gt;
+&lt;em&gt;Sua missão, caso deseje aceitá-la é: fazer uma app do Dribbble com as seguintes funcionalidades.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;seu-aplicativo-deve-conter&quot;&gt;Seu aplicativo deve conter&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Os shots mais populares, apresentando eles como esse mock.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/mock_zpsie1ik4uo.png&quot; alt=&quot;Imagem de exemplo do aplicativo&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arquivo .gitignore&lt;/li&gt;
+  &lt;li&gt;Gerenciador de dependência de projeto. Ex: CocoaPods&lt;/li&gt;
+  &lt;li&gt;Framework para se comunicar com a API. Ex: AFNetworking&lt;/li&gt;
+  &lt;li&gt;Mapeamento JSON -&amp;gt; Objeto. Ex: Mantle&lt;/li&gt;
+  &lt;li&gt;API de lista de shots&lt;/li&gt;
+  &lt;li&gt;Paginação automática (scroll infinito) na lista de shots&lt;/li&gt;
+  &lt;li&gt;Paginação que deve detectar quando chegou na última página e para de pedir mais&lt;/li&gt;
+  &lt;li&gt;Pull to refresh&lt;/li&gt;
+  &lt;li&gt;Mostrar detalhes do shot em uma nova tela quando o shot é selecionado na lista&lt;/li&gt;
+  &lt;li&gt;A tela de detalhes do shot deve conter o nome do autor e a foto e descrição do shot&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bonus&quot;&gt;Bonus&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Testes unitários. Ex: XCTests / Spectra + Expecta&lt;/li&gt;
+  &lt;li&gt;Testes funcionais. Ex: KIF&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Ser uma app universal. Fazer funcionar com iPad&lt;/td&gt;
+          &lt;td&gt;iPhone&lt;/td&gt;
+          &lt;td&gt;Paisagem&lt;/td&gt;
+          &lt;td&gt;Retrato (classes de tamanho)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cache de imagens. Ex: SDWebImage&lt;/li&gt;
+  &lt;li&gt;Compartilhar shots no Facebook e no Twitter&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bom, como eu precisava minhas novas habilidades de iOS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/challenge-accepted_zpsqwnlacvu.jpg&quot; alt=&quot;Meme Challenge Accepted&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Eu não fiz &lt;strong&gt;todas&lt;/strong&gt; a funcionalidades bonus listadas acima, como testes e compartilhar nas redes sociais. MAS, eu fiz um layout bem legal e efeitos pra aprender coisas como views personalizadas, barra de navegação personalizada, botão de voltar personalizado, layout usando diferentes tamanhos de células numa tabela, além de bibliotecas que eu nunca tinha usado antes :)&lt;/p&gt;
+
+&lt;p&gt;Aqui está a tela inicial, do que eu chamei, &lt;strong&gt;Simple Dribbble&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/launch-screen_zpskx1mm4gd.png&quot; alt=&quot;Tela de abertura do aplicativo SimpleDribbble&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A lista de shots ficou assim.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/shots-list_zps3pe3rabs.png&quot; alt=&quot;Tela de inicial do aplicativo SimpleDribbble&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você seleciona um desses shots (e somente dentro do shot, não na célula toda), você tem esse efeito.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/selecting_zpsiycsug49.png&quot; alt=&quot;Exemplo de transição quando o usuário clica no elemento&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando a requisição falha.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/error-message_zpsylifpclp.png&quot; alt=&quot;Mensagem quando ocorre um erro&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você sai do aplicativo antes dele carregar algum shot e o aplicativo volta do background, a lista é automaticamente carregada.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/auto-load_zpsi1xc9oi7.png&quot; alt=&quot;Tela com loading&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando o shot está carregando, tem esse placeholder com um ícone do Dribbble girando pra representar que está carregando a imagem.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/loading-placeholder_zpsbbby7aoj.png&quot; alt=&quot;Exemplo de elemento com placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você já viu todas as páginas e faz um &lt;em&gt;pull to refresh&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/pull-to-request_zpsep94dnws.png&quot; alt=&quot;Tela com Pull to Refresh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/release-to-refresh_zpstqhgajpu.png&quot; alt=&quot;Tela com Pull to Refresh&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/end-push-to-refresh_zpslmgvdgps.png&quot; alt=&quot;Tela quando não há mais atualizações&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando todas as páginas já foram vistas e você tenta carregar mais.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/Dribbble%20Challenge/end-infinity-scroll_zpswdkleaoo.png&quot; alt=&quot;Mensagem quando não há mais shots para carregar&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;E então, a tela de detalhes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/shots-details_zpsuzqh4brt.png&quot; alt=&quot;Tela de detalhes&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nessa última tela você deve ter notado três partes, as quais eu fiz usando um UITableViewController com 3 células. A primeira tem um tamanho fixo contendo a foto e o título do shot, a segunda célula também é fixa e contem a foto do autor e seu nome, e a última é flexível, contem uma web view que carrega a descrição e seu tamanho é adaptável dependendo do conteúdo.&lt;/p&gt;
+
+&lt;p&gt;Esse aplicativo é de longe bem simples, e você pode fazer UM MONTE de coisas legais usando a API do Dribbble, como o aplicativo nesse &lt;a href=&quot;https://www.youtube.com/watch?v=MtcscjMxxq4&quot; target=&quot;_blank&quot;&gt;vídeo&lt;/a&gt;. Mas para fins de aprendizado, é um desafio bem legal.&lt;/p&gt;
+
+&lt;p&gt;Até mais!&lt;/p&gt;</content><author><name></name></author><summary type="html">Eaí galera, Há alguns dias atrás, um amigo meu, Bruno Gabriel, me enviou um link de um recrutamento de uma empresa de tecnologia onde eles pedem aos candidatos para fazerem uma app com a API do Dribbble desenvolvendo algumas features pré-definidas e outras como bonus. Eu fiz isso aqui. Sua missão, caso deseje aceitá-la é: fazer uma app do Dribbble com as seguintes funcionalidades. Seu aplicativo deve conter Os shots mais populares, apresentando eles como esse mock. Arquivo .gitignore Gerenciador de dependência de projeto. Ex: CocoaPods Framework para se comunicar com a API. Ex: AFNetworking Mapeamento JSON -&amp;gt; Objeto. Ex: Mantle API de lista de shots Paginação automática (scroll infinito) na lista de shots Paginação que deve detectar quando chegou na última página e para de pedir mais Pull to refresh Mostrar detalhes do shot em uma nova tela quando o shot é selecionado na lista A tela de detalhes do shot deve conter o nome do autor e a foto e descrição do shot Bonus Testes unitários. Ex: XCTests / Spectra + Expecta Testes funcionais. Ex: KIF Ser uma app universal. Fazer funcionar com iPad iPhone Paisagem Retrato (classes de tamanho) Cache de imagens. Ex: SDWebImage Compartilhar shots no Facebook e no Twitter Bom, como eu precisava minhas novas habilidades de iOS. Eu não fiz todas a funcionalidades bonus listadas acima, como testes e compartilhar nas redes sociais. MAS, eu fiz um layout bem legal e efeitos pra aprender coisas como views personalizadas, barra de navegação personalizada, botão de voltar personalizado, layout usando diferentes tamanhos de células numa tabela, além de bibliotecas que eu nunca tinha usado antes :) Aqui está a tela inicial, do que eu chamei, Simple Dribbble. A lista de shots ficou assim. Quando você seleciona um desses shots (e somente dentro do shot, não na célula toda), você tem esse efeito. Quando a requisição falha. Quando você sai do aplicativo antes dele carregar algum shot e o aplicativo volta do background, a lista é automaticamente carregada. Quando o shot está carregando, tem esse placeholder com um ícone do Dribbble girando pra representar que está carregando a imagem. Quando você já viu todas as páginas e faz um pull to refresh. Quando todas as páginas já foram vistas e você tenta carregar mais. E então, a tela de detalhes. Nessa última tela você deve ter notado três partes, as quais eu fiz usando um UITableViewController com 3 células. A primeira tem um tamanho fixo contendo a foto e o título do shot, a segunda célula também é fixa e contem a foto do autor e seu nome, e a última é flexível, contem uma web view que carrega a descrição e seu tamanho é adaptável dependendo do conteúdo. Esse aplicativo é de longe bem simples, e você pode fazer UM MONTE de coisas legais usando a API do Dribbble, como o aplicativo nesse vídeo. Mas para fins de aprendizado, é um desafio bem legal. Até mais!</summary></entry><entry><title type="html">Conheça a MobDevBr, uma Comunidade Brasileira para Desenvolvedores Mobile</title><link href="http://localhost:4000/conheca-a-mobdevbr-uma-comunidade-brasileira-para-desenvolvedores-mobile/" rel="alternate" type="text/html" title="Conheça a MobDevBr, uma Comunidade Brasileira para Desenvolvedores Mobile" /><published>2015-08-11T00:00:00-03:00</published><updated>2015-08-11T00:00:00-03:00</updated><id>http://localhost:4000/conheca-a-mobdevbr-uma-comunidade-brasileira-para-desenvolvedores-mobile</id><content type="html" xml:base="http://localhost:4000/conheca-a-mobdevbr-uma-comunidade-brasileira-para-desenvolvedores-mobile/">&lt;p&gt;Olá pra todo mundo,&lt;/p&gt;
+
+&lt;p&gt;Eu estou aqui pra orgulhosamente apresentar para vocês a mais nova comunidade para &lt;strong&gt;desenvolvedores mobile brasileiros&lt;/strong&gt;. Conheça a &lt;a href=&quot;http://www.mobdevbr.com/&quot; target=&quot;_blank&quot;&gt;MobDevBr.com&lt;/a&gt; o/&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/big-mobdevbr-logo_zpsf3jnvdqb.png&quot; alt=&quot;Imagem do logotipo da MobDevBr&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Colocando nossas cabeças pra pensar, eu e um amigo tivemos a ideia de criar uma comunidade onde nós poderíamos conhecer cada um dos desenvolvedores mobile do país.&lt;/p&gt;
+
+&lt;p&gt;Pelo menos aqui, no Brasil, o jeito mais comum de encontrar artigos, tutoriais, e coisas boas sobre mobile é procurando… em inglês. Bom, mas aí você fala “Claro, a comunidade toda sabe falar em inglês, lol”. E aí eu te pergunto: “Cara, você… tem… certeza?”&lt;/p&gt;
+
+&lt;p&gt;Eu não teria tanta certeza, aqui no Brasil tem um monte de gente que consegue entender bem coisas escritas em inglês, mas não exatamente entrar em uma discussão sobre determinado assunto em outra língua. Por esse motivo, nós queremos que toda essa galera perdida por aí possa perguntar, responder, e contribuir para a comunidade na sua própria língua: &lt;strong&gt;o português&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Então, se você é um desses programadores mobile brasileiros órfãos por aí, venha e junte-se a nós.&lt;/p&gt;
+
+&lt;p&gt;Estamos esperando você se registrar.&lt;/p&gt;
+
+&lt;p&gt;Até mais.&lt;/p&gt;</content><author><name></name></author><summary type="html">Olá pra todo mundo,</summary></entry><entry><title type="html">Diga olá para o TRCurrencyTextField: Um componente com valor.</title><link href="http://localhost:4000/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/" rel="alternate" type="text/html" title="Diga olá para o TRCurrencyTextField: Um componente com valor." /><published>2015-05-08T00:00:00-03:00</published><updated>2015-05-08T00:00:00-03:00</updated><id>http://localhost:4000/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor</id><content type="html" xml:base="http://localhost:4000/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/">&lt;p&gt;Está vivo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/its_alive_zpsqiuydofr.jpg&quot; alt=&quot;Imagem de um médico maluco gritando Está Vivo!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois de alguns dias codando e testando essa belezinha, eu finalmente posso dizer: valeu a pena. Se você está procurando por um componente como um campo de texto onde você pode apertar um dígito e magicamente formatá-lo para QUALQUER moeda do mundo, você pode deixar cair seu queixo agora. Você-o-encontrou.&lt;/p&gt;
+
+&lt;p&gt;Graças ao &lt;a href=&quot;https://github.com/peterboni/FormattedCurrencyInput&quot; target=&quot;_blank&quot;&gt;Peter Boni&lt;/a&gt;, cujo trabalho me inspirou a fazer isso, eu posso apresentar a vocês, o &lt;strong&gt;TRCurrencyTextField&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;TRCurrencyTextField é um componente de código aberto facilmente encontrado no &lt;a href=&quot;https://github.com/thiagoross/TRCurrencyTextField&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;, e facilmente utilizável com &lt;a href=&quot;https://cocoapods.org/pods/TRCurrencyTextField&quot; target=&quot;_blank&quot;&gt;CocoaPods&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;O que isso faz? Eu posso explicar… ou melhor, eu posso mostrar pra você em 12 passos. Aqui. E agora. Bora começar.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-valor-vazio-formatado-para-zero&quot;&gt;1. Valor vazio formatado para zero&lt;/h2&gt;
+
+&lt;p&gt;Os exemplos aqui estão todos em BRL, ou seja, em reais. Porém, se você segurar as pontas aí por mais uns minutos eu te digo como vamos mudar isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img01_zpsinzq5ss5.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Então, nós começamos aqui, no zero. Como você pode ver, esse é o valor quando não temos nenhum valor. O queee? Exatamente. O componente não deixa você apagar o texto.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rossener, mas eu quero apagar o texto ou meu iPhone vai explodir em mil pedaços.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Espero que você tenha uma vassoura meu amigo.&lt;/p&gt;
+
+&lt;h2 id=&quot;2-dígitos-vêm-da-direita&quot;&gt;2. Dígitos vêm da direita&lt;/h2&gt;
+
+&lt;p&gt;Você aperta a tecla 1 no teclado numérico, o texto muda pra R$ 0,01&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img02_zpsrn6cxq1j.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3-e-continuam-vindo-da-direita&quot;&gt;3. E continuam vindo da direita&lt;/h2&gt;
+
+&lt;p&gt;Então você aperta a tecla 2 no teclado numérico e o texto vira R$ 0,12&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img03_zpsedto9ab7.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;4-você-não-precisa-apertar-a-vírgula&quot;&gt;4. Você não precisa apertar a “vírgula”&lt;/h2&gt;
+
+&lt;p&gt;Você aperta a tecla 3 no teclado numérico e o texto muda pra R$ 1,23&lt;/p&gt;
+
+&lt;p&gt;Em reais, vírgula é o separador de decimal, e nós não precisamos apertar ela. Acredite em mim, ela já aparece lá.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img04_zpsxpr0tzyx.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;5-você-não-precisa-apertar-o-ponto&quot;&gt;5. Você não precisa apertar o “ponto”&lt;/h2&gt;
+
+&lt;p&gt;Como ponto é o separador de grupo em reais, quando você aperta 1-2-3-4-5-6, nós temos R$ 1.234,56&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img05_zps42syiq7u.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;6-deletar-desloca-dígitos&quot;&gt;6. Deletar-desloca-dígitos&lt;/h2&gt;
+
+&lt;p&gt;Você deleta. Essa coisa desloca.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img06_zpsgxq0ldgl.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;7-edite-de-qualquer-lugar&quot;&gt;7. Edite de qualquer lugar&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Rossener, eu não quero reiniciar a minha vida pra corrigir um único erro.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Você tem certeza? Bem, você não precisa.&lt;/p&gt;
+
+&lt;p&gt;Você coloca o cursor depois do 1 e aperta Deletar, nós temos R$ 23,45&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img07_zpss3rlth5k.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;8-cole-de-qualquer-lugar&quot;&gt;8. Cole de qualquer lugar&lt;/h2&gt;
+
+&lt;p&gt;Você é um cara preguiçoso e quer colar um valor da sua app de calculadora? Você pode.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img08_zpsg9ro8kx4.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cole 1000 de qualquer lugar, ele vira R$ 1.000,00&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img09_zps1kdphsqv.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;9-mudea-moeda-mude-o-formato&quot;&gt;9. Mude a moeda. Mude o formato.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Finalmente, não aguento mais ver tudo em reais.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vamos mudar isso.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img10_zpswkfhmoan.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img11_zpsnppxg3sb.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/img12-1_zpsztjq8ujg.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;10-como-também-o-país&quot;&gt;10. Como também, o País&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Eu não conheço o código da minha moeda.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Você deveria. Mas, nós podemos cuidar disso.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img12_zpsd0imf4w2.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img13_zpsggnl1vxb.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img14_zpsqt6xafhj.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;11-como-também-o-locale&quot;&gt;11. Como também, o Locale&lt;/h2&gt;
+
+&lt;p&gt;Algumas vezes você tem um país ou uma moeda que possui mais de um único Locale, e dependendo do Locale, os símbolos são diferentes… bom, problema resolvido.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img15_zpsssnre625.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img16_zpssndryuos.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img17_zpsdn9j2hqm.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img18_zps3xldov0j.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;12-finalmente-o-valor&quot;&gt;12. Finalmente, o Valor&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Rossener, você está mandando muito bem, tá tudo ótimo, esse componente vai salvar minha vida e meu casamento. MAS, e o valor?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Meu caro amigo, eu deixei o melhor para o final. Uma vez que você atribuiu alguma coisa ao componente, você pode fazer qualquer coisa que quiser. É como o milagre dos 5 pães e 2 peixes. Com poucas coisas, você pode conseguir muitas coisas.&lt;/p&gt;
+
+&lt;p&gt;Deixa eu explicar.&lt;/p&gt;
+
+&lt;p&gt;Uma vez que você mudou a moeda para USD, você pode pegar do componente, não um, mas TODOS os países que usam essa moeda, como também pode pegar o texto mostrado pelo componente na tela e aquela coisa que você mais quer: &lt;strong&gt;o valor numérico&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img19_zpspklsiodw.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://i1310.photobucket.com/albums/s647/rossener/TRCurrencyTextField/nova-img20_zpsr3g6hyiy.png&quot; alt=&quot;Imagem de um iPhone exibindo o exemplo&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Além de tudo isso, você pode também, se você quer o &lt;em&gt;espaço em branco&lt;/em&gt; próximo do símbolo da moeda e o &lt;em&gt;número máximo de dígitos&lt;/em&gt; que você quer deixar seu usuário digitar.&lt;/p&gt;
+
+&lt;p&gt;TRCurrencyTextField é um componente aberto. Você pode enviar &lt;em&gt;pull requests&lt;/em&gt; pra ele. Você pode &lt;em&gt;forkar&lt;/em&gt; ele. Você pode amar ele. Vamos fazer ele melhor juntos.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas? Comentários? Hi-fives? Por favor, deixe eles aqui. Estou ansioso pra saber sua opinião.&lt;/p&gt;
+
+&lt;p&gt;PS: Você saber detalhes sobre o uso, instalação e outras coisas no &lt;a href=&quot;https://github.com/thiagoross/TRCurrencyTextField&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Está vivo. Depois de alguns dias codando e testando essa belezinha, eu finalmente posso dizer: valeu a pena. Se você está procurando por um componente como um campo de texto onde você pode apertar um dígito e magicamente formatá-lo para QUALQUER moeda do mundo, você pode deixar cair seu queixo agora. Você-o-encontrou. Graças ao Peter Boni, cujo trabalho me inspirou a fazer isso, eu posso apresentar a vocês, o TRCurrencyTextField. TRCurrencyTextField é um componente de código aberto facilmente encontrado no GitHub, e facilmente utilizável com CocoaPods. O que isso faz? Eu posso explicar… ou melhor, eu posso mostrar pra você em 12 passos. Aqui. E agora. Bora começar. 1. Valor vazio formatado para zero Os exemplos aqui estão todos em BRL, ou seja, em reais. Porém, se você segurar as pontas aí por mais uns minutos eu te digo como vamos mudar isso. Então, nós começamos aqui, no zero. Como você pode ver, esse é o valor quando não temos nenhum valor. O queee? Exatamente. O componente não deixa você apagar o texto. Rossener, mas eu quero apagar o texto ou meu iPhone vai explodir em mil pedaços. Espero que você tenha uma vassoura meu amigo. 2. Dígitos vêm da direita Você aperta a tecla 1 no teclado numérico, o texto muda pra R$ 0,01 3. E continuam vindo da direita Então você aperta a tecla 2 no teclado numérico e o texto vira R$ 0,12 4. Você não precisa apertar a “vírgula” Você aperta a tecla 3 no teclado numérico e o texto muda pra R$ 1,23 Em reais, vírgula é o separador de decimal, e nós não precisamos apertar ela. Acredite em mim, ela já aparece lá. 5. Você não precisa apertar o “ponto” Como ponto é o separador de grupo em reais, quando você aperta 1-2-3-4-5-6, nós temos R$ 1.234,56 6. Deletar-desloca-dígitos Você deleta. Essa coisa desloca. 7. Edite de qualquer lugar “Rossener, eu não quero reiniciar a minha vida pra corrigir um único erro.” Você tem certeza? Bem, você não precisa. Você coloca o cursor depois do 1 e aperta Deletar, nós temos R$ 23,45 8. Cole de qualquer lugar Você é um cara preguiçoso e quer colar um valor da sua app de calculadora? Você pode. Cole 1000 de qualquer lugar, ele vira R$ 1.000,00 9. Mude a moeda. Mude o formato. “Finalmente, não aguento mais ver tudo em reais.” Vamos mudar isso. 10. Como também, o País “Eu não conheço o código da minha moeda.” Você deveria. Mas, nós podemos cuidar disso. 11. Como também, o Locale Algumas vezes você tem um país ou uma moeda que possui mais de um único Locale, e dependendo do Locale, os símbolos são diferentes… bom, problema resolvido. 12. Finalmente, o Valor “Rossener, você está mandando muito bem, tá tudo ótimo, esse componente vai salvar minha vida e meu casamento. MAS, e o valor?” Meu caro amigo, eu deixei o melhor para o final. Uma vez que você atribuiu alguma coisa ao componente, você pode fazer qualquer coisa que quiser. É como o milagre dos 5 pães e 2 peixes. Com poucas coisas, você pode conseguir muitas coisas. Deixa eu explicar. Uma vez que você mudou a moeda para USD, você pode pegar do componente, não um, mas TODOS os países que usam essa moeda, como também pode pegar o texto mostrado pelo componente na tela e aquela coisa que você mais quer: o valor numérico. Além de tudo isso, você pode também, se você quer o espaço em branco próximo do símbolo da moeda e o número máximo de dígitos que você quer deixar seu usuário digitar. TRCurrencyTextField é um componente aberto. Você pode enviar pull requests pra ele. Você pode forkar ele. Você pode amar ele. Vamos fazer ele melhor juntos. Dúvidas? Comentários? Hi-fives? Por favor, deixe eles aqui. Estou ansioso pra saber sua opinião. PS: Você saber detalhes sobre o uso, instalação e outras coisas no GitHub.</summary></entry><entry><title type="html">Seja bem-vindo</title><link href="http://localhost:4000/seja-bem-vindo/" rel="alternate" type="text/html" title="Seja bem-vindo" /><published>2012-10-10T00:00:00-03:00</published><updated>2012-10-10T00:00:00-03:00</updated><id>http://localhost:4000/seja-bem-vindo</id><content type="html" xml:base="http://localhost:4000/seja-bem-vindo/">&lt;p&gt;Eaí?&lt;/p&gt;
+
+&lt;p&gt;Seja bem-vindo. Nesse blog eu quero compartilhar com você parte da minha experiência com programação, a qual eu tenho obtido durante essa longa jornada chamada… &lt;strong&gt;vida&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Muitos dos códigos que eu desenvolvo no meu dia-a-dia, todas as dificuldades e soluções que eu encontro no caminho acabam ficando perdidas nas areias do tempo. Eu venho aqui pra te dizer uma coisa: não-mais.&lt;/p&gt;
+
+&lt;p&gt;A minha ideia é colocar aqui tudo aquilo que eu suei o meu sangue pra pesquisar, pegar e fazer, e de alguma maneira, me deu experiência. Eu quero passar isso pra VOCÊ.&lt;/p&gt;
+
+&lt;p&gt;Espero que você curta o conteúdo.&lt;/p&gt;
+
+&lt;p&gt;— Thiago.&lt;/p&gt;</content><author><name></name></author><summary type="html">Eaí?</summary></entry></feed>
