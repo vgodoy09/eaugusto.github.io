@@ -130,7 +130,7 @@ Vou criar a variável `message` e atribuir o valor **"Hello World!"** para que p
 </html>
 {% endhighlight %}
 
-Finalmente, dizemos ao HTML que queremos exibir o conteúdo de <strong>"message"</strong> na página. Fazemos isso colocando a variável "message" entre duplas chaves <strong>{{}}</strong>, que são os caracteres usados pelo Vue para interpolar um valor dentro do HTML.
+Finalmente, dizemos ao HTML que queremos exibir o conteúdo de **"message"** na página. Fazemos isso colocando a variável "message" entre duplas chaves **\{\{ \}\}**, que são os caracteres usados pelo Vue para interpolar um valor dentro do HTML.
 
 {% highlight html %}
 <!DOCTYPE html>

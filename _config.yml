@@ -16,6 +16,6 @@ disqus_username: rossener
 markdown: kramdown
 permalink: /:title/
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-redirect-from
