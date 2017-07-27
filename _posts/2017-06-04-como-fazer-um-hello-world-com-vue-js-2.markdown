@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Como fazer um Hello World com Vue.js 2
+description: É simples, é rápido, é sensacional.
 redirect_from:
  - /pt/como-fazer-um-hello-world-com-vue-js-2/
  - /en/how-to-do-a-hello-world-with-vue-js-2/

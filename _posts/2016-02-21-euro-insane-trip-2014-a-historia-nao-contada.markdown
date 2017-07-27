@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Euro INSANE Trip 2014: A história não contada'
+description: Foi um mês intenso viajando pela Europa, eu diria que a viagem da minha vida.
 redirect_from:
  - /pt/euro-insane-trip-2014-a-historia-nao-contada/
  - /en/euro-insane-trip-2014-the-story-never-told/

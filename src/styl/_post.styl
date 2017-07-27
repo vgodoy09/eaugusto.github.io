@@ -13,7 +13,7 @@ $padding-title-header
     padding rem(40px) 0
     img
         max-width 100%
-        margin rem(30px) auto
+        margin rem(0px) auto
         display block
     p, h1, h2, h3, h4,ul,ol, .tags, iframe, .button-post
         center(rem(800px))
@@ -25,6 +25,19 @@ $padding-title-header
         letter-spacing 0.01rem
         +above(cut)
             font-size rem(20px)
+    h1.post-title 
+        margin 0 auto rem(10px)
+    p.subtitle
+        color: darken(lightGray,30%)
+        font-size: 20px
+    p.post-info
+        font-size rem(16px)
+        color: darken(lightGray,30%)
+        margin 0 auto
+        span, time
+            vertical-align middle
+        time
+            margin-right rem(30px)
     li 
         padding rem(10px) 0
         ul 
@@ -149,3 +162,10 @@ $padding-title-header
         float right
         +below(cut)
             display none
+            
+.icon-clock, .icon-calendar
+    width rem(15px)
+    height rem(15px)
+    fill darken(lightGray,30%)
+    vertical-align middle
+    margin-right rem(3px)

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Por que o Sketch vale 3 tanques de gasolina?
-comments: true
+description: Uma conta rápida de papel de pão pra mostrar o quanto essa ferramenta ajuda.
 redirect_from:
  - /pt/por-que-o-sketch-vale-3-tanques-de-gasolina/
 ---
