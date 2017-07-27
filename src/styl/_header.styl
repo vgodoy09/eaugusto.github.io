@@ -5,10 +5,11 @@ body
 .bar-header
   background sec
   padding rem(10px) rem(20px)
-  box-shadow 0 -6px 9px #333
   position fixed
   width 100%
   z-index 10
+  +above(cut)
+    padding rem(10px) rem(0px)
   .logo
     margin 0
     line-height rem(35px)
@@ -16,8 +17,10 @@ body
     color main
     text-decoration none
     font-size rem(28px)
-    &:after
-      transition all .4s
-      content '</> TR'
-      +above(cut)
-        content '</> Thiago Rossener'
+  .logo-svg
+    width rem(100px)
+    height rem(35px)
+    vertical-align middle
+    transition all .4s
+    +above(cut)
+      width rem(300px)

@@ -5,7 +5,7 @@ description: Uma conta rápida de papel de pão pra mostrar o quanto essa ferram
 tags:
  - design
  - sketch
-image: '//res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102987/sketch-fuel_eiwjbz.png'
+image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102987/sketch-fuel_eiwjbz.png'
 redirect_from:
  - /pt/por-que-o-sketch-vale-3-tanques-de-gasolina/
 ---
