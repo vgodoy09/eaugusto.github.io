@@ -2,6 +2,7 @@
 layout: post
 title: Minhas primeiras 5 impressões sobre Django
 description: Fiz um curso rápido de Django, e essa é minha opinião.
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501101216/django-1024x576_xi2qq9.jpg'
 tags:
  - django
 redirect_from:

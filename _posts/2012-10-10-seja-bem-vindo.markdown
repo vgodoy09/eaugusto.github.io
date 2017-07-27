@@ -2,6 +2,7 @@
 layout: post
 title: Seja bem-vindo
 description: Criei esse blog para compartilhar.
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501172974/Welcome-PNG-Transparent_pwc7ip.png'
 redirect_from:
  - /pt/seja-bem-vindo/
  - /en/be-welcome/

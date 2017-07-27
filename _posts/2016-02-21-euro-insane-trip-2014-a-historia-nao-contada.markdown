@@ -2,6 +2,7 @@
 layout: post
 title: 'Euro INSANE Trip 2014: A história não contada'
 description: Foi um mês intenso viajando pela Europa, eu diria que a viagem da minha vida.
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501172546/eurotrip_fhviww.jpg'
 tags:
  - viagens
  - vida

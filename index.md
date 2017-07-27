@@ -10,20 +10,25 @@ layout: default
                 <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.main-class }}"><span>{{ post.main-class }}</span></a>
             </span>
             <div class="box-body">
-                <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
-                <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title" itemprop="name">
-                        {{ post.title }}
-                    </h2>
-                </a>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <p class="description">{{ post.introduction }}</p>
-                </a>
-                <div class="tags">
-                    {% for tag in post.tags %}
-                        <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                    {% endfor %}
+                {% if post.image %}
+                    <img src="{{ post.image }}">
+                {% endif %}
+                <div class="box-info">
+                    <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
+                    <time itemprop="datePublished" datetime="{{ post.date }}" class="date">{{ post.date | date_to_string }}</time>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <h2 class="post-title" itemprop="name">
+                            {{ post.title }}
+                        </h2>
+                    </a>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                        <p class="description">{{ post.introduction }}</p>
+                    </a>
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </article>
