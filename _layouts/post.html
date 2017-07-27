@@ -4,14 +4,16 @@
     <body>
         {% include minutes-to-read.html %}
         {% include svg-icons.html %}
-        {% include header-post.html %}
+        {% include header.html %}
         <section class="post">
 
             <article role="article" id="post" class="post-content" itemprop="articleBody">
                 <p itemprop="post-info" class="post-info">
                     {% if page.date %}
                         <svg id="date" class="icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">{{ page.date | date_to_string }}</time>
+                        <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}" class="date">
+                            {% include date.html date=page.date %}
+                        </time>
                     {% endif %}
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>{{ minutesText }}</span>

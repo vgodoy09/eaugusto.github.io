@@ -1,8 +1,11 @@
 ---
 layout: post
 title: 'Diga olá para o TRCurrencyTextField: Um componente com valor.'
-description: Um componente iOS pra te ajudar a criar campos com formatação de moeda.
+description: Um componente iOS para te ajudar a criar campos com formatação de moeda.
 image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,g_north,h_630,w_1200/v1501172791/nova-img01_zpsinzq5ss5_qqbk4u.png'
+main-class: 'mobile'
+twitter_text: 'Um componente para formatar moeda no iOS.'
+introduction: 'Criei esse componente para me ajudar a formatar campos monetários no iOS.'
 tags:
  - componente
  - ios

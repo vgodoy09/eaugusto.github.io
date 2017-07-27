@@ -3,6 +3,9 @@ layout: post
 title: 'Euro INSANE Trip 2014: A história não contada'
 description: Foi um mês intenso viajando pela Europa, eu diria que a viagem da minha vida.
 image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501172546/eurotrip_fhviww.jpg'
+main-class: 'vida'
+twitter_text: 'A viagem da minha vida. Um mochilão de um mês pela Europa.'
+introduction: 'A viagem da minha vida. A história de como foi fazer um mochilão de 1 mês pela Europa.'
 tags:
  - viagens
  - vida

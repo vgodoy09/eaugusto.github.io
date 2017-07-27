@@ -2,6 +2,9 @@
 layout: post
 title: Por que o Sketch vale 3 tanques de gasolina?
 description: Uma conta rápida de papel de pão pra mostrar o quanto essa ferramenta ajuda.
+main-class: 'design'
+twitter_text: 'O Sketch não é barato, mas fazendo as contas, vale a pena comprar.'
+introduction: 'Comparando o preço do Sketch com o preço da gasolina eu procuro mostrar o quanto vale a pena adquirir essa ferramenta.'
 tags:
  - design
  - sketch

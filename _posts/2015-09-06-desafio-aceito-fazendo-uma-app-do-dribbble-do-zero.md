@@ -3,6 +3,9 @@ layout: post
 title: Desafio aceito. Fazendo uma app do Dribbble do zero
 description: Um amigo me enviou esse desafio, eu aceitei.
 image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501172613/your-mission_zpskxns2mho_rgl7ca.png'
+main-class: 'mobile'
+twitter_text: 'Um amigo me convidou para este desafio, eu aceitei.'
+introduction: 'Um amigo me convidou para este desafio, eu aceitei.'
 tags:
  - app
  - mobile

@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Conheça a MobDevBr, uma Comunidade Brasileira para Desenvolvedores Mobile
-description: Criamos essa comunidade para unir os desenvolvedor mobile.
+description: Criamos essa comunidade para unir os desenvolvedores mobile.
 image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_pad,h_630,w_1200/v1501172684/big-mobdevbr-logo_zpsf3jnvdqb_adzj9j.png'
+main-class: 'mobile'
+twitter_text: 'Uma comunidade para unir desenvolvedores mobile.'
+introduction: 'Criamos essa comunidade para unir os desenvolvedores mobile.'
 tags:
  - comunidade
  - mobile

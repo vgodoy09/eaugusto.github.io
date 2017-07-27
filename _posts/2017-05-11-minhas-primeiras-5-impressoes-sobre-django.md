@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Minhas primeiras 5 impressões sobre Django
-description: Fiz um curso rápido de Django, e essa é minha opinião.
+description: Fiz um curso de Django, e essa é minha opinião.
 image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501101216/django-1024x576_xi2qq9.jpg'
+main-class: 'django'
+twitter_text: 'Fiz um curso de Django, e essa é minha opinião.'
+introduction: 'Fiz um curso de Django, e aqui eu conto o que achei desse framework Python.'
 tags:
  - django
 redirect_from:
