@@ -539,3 +539,30 @@ tbody tr:nth-child(odd) th {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+.author {
+  background: #F2F2F2;
+  display: table;
+  width: 100%;
+  padding: rem(40px) 0;
+  margin: rem(40px) 0; }
+  .author + above {
+    padding: rem(50px) 0; }
+  .author .details {
+    margin: auto;
+    max-width: rem(800px);
+    padding: 0 rem(20px); }
+  .author img {
+    border-radius: 50%;
+    display: block;
+    margin: auto; }
+    .author img + above {
+      float: left;
+      margin-right: 3.125rem; }
+  .author .name {
+    margin: 0; }
+    .author .name a {
+      text-decoration: none;
+      color: black;
+      font-size: rem(30px); }
+      .author .name a:hover {
+        color: #005F97; }

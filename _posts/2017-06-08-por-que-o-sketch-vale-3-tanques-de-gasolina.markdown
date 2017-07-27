@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Por que o Sketch vale 3 tanques de gasolina?
+comments: true
 redirect_from:
  - /pt/por-que-o-sketch-vale-3-tanques-de-gasolina/
 ---
