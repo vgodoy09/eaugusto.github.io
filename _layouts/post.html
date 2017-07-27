@@ -1,17 +1,19 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
+    {% include head.html %}
+    <body>
+        {% include svg-icons.html %}
+        {% include header-post.html %}
+        <section class="post">
 
-{% include minutes-to-read.html %}
+            <article role="article" id="post" class="post-content" itemprop="articleBody">
+                {{ content }}
+            </article>
 
-<article class="content post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-date">
-    <time>{{ page.date | date_to_string }}</time>
-    <span class="reading-time"> - {{ minutesText }}</span>
-  </div>
-
-  {{ content }}
-</artcle>
-
-{% include comments.html %}
+            {% include share.html %}
+            {% include author.html %}
+            {% include comments.html %}
+            {% include footer.html %}
+        </section>
+    </body>
+</html>
