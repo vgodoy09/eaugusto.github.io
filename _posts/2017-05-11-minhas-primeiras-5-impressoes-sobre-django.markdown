@@ -2,6 +2,8 @@
 layout: post
 title: Minhas primeiras 5 impressões sobre Django
 description: Fiz um curso rápido de Django, e essa é minha opinião.
+tags:
+ - django
 redirect_from:
  - /pt/minhas-primeiras-5-impressoes-sobre-django/
 ---

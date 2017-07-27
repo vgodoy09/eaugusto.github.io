@@ -2,6 +2,10 @@
 layout: post
 title: 'Diga olá para o TRCurrencyTextField: Um componente com valor.'
 description: Um componente iOS pra te ajudar a criar campos com formatação de moeda.
+tags:
+ - componente
+ - ios
+ - cocoapods
 redirect_from:
  - /pt/diga-ola-para-o-trcurrencytextfield-um-componente-com-valor/
  - /en/trcurrencytextfield-a-component-with-value/
