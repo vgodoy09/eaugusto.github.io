@@ -2,7 +2,7 @@
 layout: post
 title: 'Diga olá para o TRCurrencyTextField: Um componente com valor.'
 description: Um componente iOS pra te ajudar a criar campos com formatação de moeda.
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,g_north,h_630,w_1200/v1501172791/nova-img01_zpsinzq5ss5_qqbk4u.png'
+image: '//res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,g_north,h_630,w_1200/v1501172791/nova-img01_zpsinzq5ss5_qqbk4u.png'
 tags:
  - componente
  - ios
@@ -13,7 +13,7 @@ redirect_from:
 ---
 Está vivo.
 
-![Imagem de um médico maluco gritando Está Vivo!](http://i1310.photobucket.com/albums/s647/rossener/its_alive_zpsqiuydofr.jpg)
+![Imagem de um médico maluco gritando Está Vivo!](//i1310.photobucket.com/albums/s647/rossener/its_alive_zpsqiuydofr.jpg)
 
 Depois de alguns dias codando e testando essa belezinha, eu finalmente posso dizer: valeu a pena. Se você está procurando por um componente como um campo de texto onde você pode apertar um dígito e magicamente formatá-lo para QUALQUER moeda do mundo, você pode deixar cair seu queixo agora. Você-o-encontrou.
 

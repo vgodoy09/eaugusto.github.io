@@ -3,7 +3,7 @@ layout: post
 title: A Resistência em você está te impedindo de ser Incrível (e como lutar contra
   isso)
 description: Lutar pelo que se deseja não é fácil, mas o primeiro passo é saber como fazer isso.
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102402/resistencia-1024x771_kulclt.jpg'
+image: '//res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102402/resistencia-1024x771_kulclt.jpg'
 tags:
  - desenvolvimento pessoal
  - vida
