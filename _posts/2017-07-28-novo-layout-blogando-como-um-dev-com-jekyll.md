@@ -54,7 +54,7 @@ Ele não usa banco de dados, quer um acesso mais rápido que um acesso estático
 
 Convenhamos que mexer no template do Wordpress nao é trivial, você vai pegar um
 template pronto, sair procurando e alterando o css ou se estiver com pressa vai
-sair colocando `!import` e sobrescrevendo tudo o que é estilo do tema.
+sair colocando `!important` e sobrescrevendo tudo o que é estilo do tema.
 
 #### O Github Pages tem suporte pra ele
 
