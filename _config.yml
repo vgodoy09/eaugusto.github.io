@@ -8,9 +8,13 @@ google_analytics: "UA-99616615-1"
 
 # User Settings
 username: Thiago Rossener
-user_description: Desenvolvedor full-stack, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
-twitter_username: thiagorossener
+user_description: Desenvolvedor full stack, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
 github_username: thiagorossener
+facebook_username: thiagorossener
+twitter_username: thiagorossener
+instagram_username: thiagorossener
+linkedin_username: thiagorossener
+medium_username: thiagorossener
 disqus_username: rossener
 
 # Build settings
