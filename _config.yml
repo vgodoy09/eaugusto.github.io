@@ -4,6 +4,7 @@ email: thiago@rossener.com
 description: Um blog sobre desenvolvimento web e melhoramento pessoal.
 baseurl: ""
 url: "https://www.rossener.com"
+google_analytics: "UA-99616615-1"
 
 # User Settings
 username: Thiago Rossener
