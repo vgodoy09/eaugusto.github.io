@@ -1,5 +1,5 @@
 # Site Settings
-title: Thiago Rossener | Desenvolvedor Web
+title: Thiago Rossener | Desenvolvedor Full Stack
 email: thiago@rossener.com
 description: Um blog sobre desenvolvimento web e melhoramento pessoal.
 baseurl: ""
@@ -7,7 +7,7 @@ url: "https://www.rossener.com"
 
 # User Settings
 username: Thiago Rossener
-user_description: Desenvolvedor web, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
+user_description: Desenvolvedor full-stack, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
 twitter_username: thiagorossener
 github_username: thiagorossener
 disqus_username: rossener
@@ -19,3 +19,19 @@ permalink: /:title/
 # Plugins
 plugins:
   - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags/
+  - title: Sobre mim
+    url: /sobre-mim/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Redirecionando...</title>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Redirect -->
+      <meta http-equiv="refresh" content="0; url={{ page.redirect.to }}">
+      <link rel="canonical" href="{{ page.redirect.to }}">
+
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon" />
+
+      <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+      <style type="text/css" media="screen">
+        .container {
+          margin: 0px auto;
+          max-width: 600px;
+          text-align: center;
+          padding-top: 100px;
+        }
+      </style>
+    </head>
+    <body>
+        {% include svg-icons.html %}
+        {% include header.html %}
+            <div class="container">
+              <p><strong>Redirecionando...</strong></p>
+            </div>
+        {% include footer.html %}
+        <script type="text/javascript">window.location="{{ page.redirect.to }}";</script>
+    </body>
+</html>
