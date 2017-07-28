@@ -25,6 +25,8 @@ gems:
 links:
   - title: Home
     url: /
+  - title: Portfólio
+    url: /portfolio/
   - title: Tags
     url: /tags/
   - title: Sobre mim

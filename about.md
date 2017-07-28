@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Sobre Mim
+description: Desenvolvedor full stack, apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.
 permalink: /sobre-mim/
 redirect_from:
  - /about/
