@@ -3,10 +3,10 @@ layout: page
 title: Sobre Mim
 permalink: /sobre-mim/
 redirect_from:
- - /about/
- - /sobre/
- - /pt/autor/
- - /en/author/
+ - /about/index.html
+ - /sobre/index.html
+ - /pt/autor/index.html
+ - /en/author/index.html
 ---
 
 <img itemprop="image" class="img-rounded" src="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_200/v1501180993/perfil-blog_vtt5a8.jpg" alt="Thiago Rossener">
