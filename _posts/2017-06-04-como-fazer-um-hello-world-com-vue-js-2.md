@@ -41,7 +41,7 @@ Agora que você já sabe o que é o Vue.js, vou direto pra prática, como fazer
 
 Primeiro, vamos criar um arquivo HTML qualquer, vou chamá-lo de **hello-world-vue.html**
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,11 +52,11 @@ Primeiro, vamos criar um arquivo HTML qualquer, vou chamá-lo de **hello-world-v
 
 </body>
 </html>
-{% endhighlight %}
+```
 
 Aí importamos o Vue.js na nossa página, para podermos utilizá-lo.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -68,11 +68,11 @@ Aí importamos o Vue.js na nossa página, para podermos utilizá-lo.
 
 </body>
 </html>
-{% endhighlight %}
+```
 
 Então inserimos uma `<div>`, que será onde a nossa aplicação Vue será montada. Ou seja, o pedaço do HTML que queremos que o Vue.js observe e utilize para renderizar nossos elementos.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -84,7 +84,7 @@ Então inserimos uma `<div>`, que será onde a nossa aplicação Vue será monta
     <div id="app"></div>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Agora já podemos começar a escrever o código com o Vue. A primeira coisa a fazer é instanciar uma nova aplicação Vue, dizendo para qual elemento do nosso HTML queremos que ele olhe.
 
@@ -92,7 +92,7 @@ Fazemos isso usando `new Vue()`, passando como parâmetro a chave `el` com o val
 
 > **Nota:** colocamos o script **após** o elemento que será utilizado para renderização para que se torne conhecido pelo Vue quando este usar o seletor. Se colocássemos o script no cabeçalho da página, o elemento #app não seria reconhecido.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -109,7 +109,7 @@ Fazemos isso usando `new Vue()`, passando como parâmetro a chave `el` com o val
     </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Vamos fazer a nossa página exibir a mensagem que desejamos. Para isso, colocaremos nossa mensagem no campo `data` da aplicação Vue.
 
@@ -117,7 +117,7 @@ O campo `data` recebe um objeto javascript com os dados que serão manipulados n
 
 Vou criar a variável `message` e atribuir o valor **"Hello World!"** para que possamos exibir essa mensagem no HTML posteriormente.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -137,11 +137,11 @@ Vou criar a variável `message` e atribuir o valor **"Hello World!"** para que p
     </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Finalmente, dizemos ao HTML que queremos exibir o conteúdo de **"message"** na página. Fazemos isso colocando a variável "message" entre duplas chaves **\{\{ \}\}**, que são os caracteres usados pelo Vue para interpolar um valor dentro do HTML.
 
-{% highlight html %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,7 +161,7 @@ Finalmente, dizemos ao HTML que queremos exibir o conteúdo de **"message"** na 
     </script>
 </body>
 </html>
-{% endhighlight %}
+```
 
 Salva, abre a página, e pronto!
 

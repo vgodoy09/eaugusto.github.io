@@ -44,11 +44,11 @@ Eu fiz isso <a href="https://github.com/thiagoross/SimpleDribbble" target="_blan
 
 ### Bonus
 
- - Testes unitários. Ex: XCTests / Spectra + Expecta
- - Testes funcionais. Ex: KIF
- - Ser uma app universal. Fazer funcionar com iPad | iPhone | Paisagem | Retrato (classes de tamanho)
- - Cache de imagens. Ex: SDWebImage
- - Compartilhar shots no Facebook e no Twitter
+- Testes unitários. Ex: XCTests / Spectra + Expecta
+- Testes funcionais. Ex: KIF
+- Ser uma app universal. Fazer funcionar com iPad \| iPhone \| Paisagem \| Retrato (classes de tamanho)
+- Cache de imagens. Ex: SDWebImage
+- Compartilhar shots no Facebook e no Twitter
 
 Bom, como eu precisava minhas novas habilidades de iOS.
 

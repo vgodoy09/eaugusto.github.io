@@ -19,6 +19,7 @@ disqus_username: rossener
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
 permalink: /:title/
 
 # Plugins

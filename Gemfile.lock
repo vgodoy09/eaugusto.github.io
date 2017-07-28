@@ -49,6 +49,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-redirect-from
+  rouge
 
 BUNDLED WITH
    1.15.3

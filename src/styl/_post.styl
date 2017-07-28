@@ -15,6 +15,11 @@ $padding-title-header
         max-width 100%
         margin rem(0px) auto
         display block
+        padding 10px 0
+    img + em
+        display block
+        color darken(lightGray,30%)
+        text-align center
     p, h1, h2, h3, h4,ul,ol, .tags, iframe, .button-post
         center(rem(800px))
         padding 0 rem(20px)
@@ -45,8 +50,11 @@ $padding-title-header
     p,li
         color texts
         code
-            color main
+            color #bf616a
             word-wrap break-word
+            background lightGray
+            padding rem(3px) rem(5px)
+            border-radius 3px
     a
         color main
         border-bottom 2px dashed main
