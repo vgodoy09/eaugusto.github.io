@@ -24,11 +24,11 @@ redirect_from:
       <fieldset>
         <input type="hidden" name="utf8" value="✓">
 
-        <input type="text" id="name" name="Nome" placeholder="Seu nome">
+        <input type="text" id="name" name="nome" placeholder="Seu nome">
 
-        <input type="email" id="email-address" name="E-mail" placeholder="Seu e-mail">
+        <input type="email" id="email-address" name="email" placeholder="Seu e-mail">
 
-        <textarea id="message" name="Mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem"></textarea>
+        <textarea id="message" name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem"></textarea>
 
         <button type="submit">Enviar</button>
       </fieldset>
