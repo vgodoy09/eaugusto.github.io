@@ -23,7 +23,7 @@ Wordpress**.
 Curioso, não?
 
 Fiquei mais curioso ainda quando vi que ao postar algum exemplo de código, o
-estilo da sintaxe ficava bem limpo a agradável, coisa que não havia ficado
+estilo da sintaxe ficava bem limpo e agradável, coisa que não havia ficado
 satisfeito com nenhum plugin do Wordpress.
 
 Um comentário aqui, outro comentário ali, e aí eu descobri. Os blogs que eu
@@ -64,7 +64,7 @@ página no ar gratuitamente usando o Github Pages sugiro [esse artigo](https://w
 Eu gosto de controle, gosto de saber exatamente o que eu estou fazendo, e 
 gosto de alterar e deixar as coisas do meu jeito, e o **Jekyll** é perfeito pra isso.
 
-Ah, já ia esquecendo. E ele é [open source](https://github.com/jekyll/jekyll)!
+Ah, já ia esquecendo... e ele é [open source](https://github.com/jekyll/jekyll)!
 
 Esse tema aqui peguei do [Willian Justen](https://github.com/willianjusten/cards-jekyll-template) e modifiquei um pouco pra deixar com a minha cara. Valeu *Will*!
 
