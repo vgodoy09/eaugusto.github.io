@@ -59,3 +59,12 @@ a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?vie
   <li><a href="http://www.sheeper.com/">Sheeper</a></li>
   <li><a href="http://www.colinadapaz.com.br/">Colina da Paz</a></li>
 </ul>
+
+## Redes Sociais
+
+- [Github](https://github.com/{{ site.github_username }})
+- [Facebook](https://www.facebook.com/{{ site.facebook_username }})
+- [Twitter](https://twitter.com/{{ site.twitter_username }})
+- [Medium](https://medium.com/@{{ site.medium_username }})
+- [Instagram](https://www.instagram.com/{{ site.instagram_username }})
+- [LinkedIn](https://www.linkedin.com/in/{{ site.linkedin_username }})
