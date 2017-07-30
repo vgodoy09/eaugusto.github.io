@@ -11,6 +11,7 @@
     box-sizing border-box
     outline none
     display block
+    color #333333
     width 100%
     padding 7px
     border none
@@ -18,8 +19,15 @@
     margin-bottom 10px
     font-size: rem(16px)
     height rem(45px)
+    &.has-error
+      border-color #f04242
   textarea
     height rem(200px)
+  span
+    display block
+    font-size rem(14px)
+    color #f04242
+    padding-bottom rem(10px)
   button[type="submit"]
     display block
     padding 19px 39px 18px 39px
@@ -36,3 +44,5 @@
     outline none
     &:hover
       background #109177
+  [v-cloak]
+      display none
