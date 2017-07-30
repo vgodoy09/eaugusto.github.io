@@ -84,10 +84,7 @@ Alguns links úteis se você ficou interessado:
 
 ### Migração
 
-Para migrar seus posts do Wordpess para o Jekyll tem [um jeito explicado no site
-oficial](http://import.jekyllrb.com/docs/wordpress/), porém não funcionou comigo,
-sugiro usarem [esse script que encontrei](https://gist.github.com/evanwalsh/6131008)
-para fazerem a migração, foi mais útil.
+Para migrar seus posts do Wordpess para o Jekyll fiz [esse tutorial](https://www.rossener.com/como-migrar-seus-posts-do-wordpress-para-o-jekyll/) explicando de um jeito simples como fazer isso com um script.
 
 ### Templates
 
