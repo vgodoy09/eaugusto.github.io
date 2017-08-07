@@ -1,48 +1,51 @@
 .contact-form
-  padding rem(10px)
-  fieldset
-    border none
-  label
-    display block
-    margin-bottom rem(8px)
-    font-size rem(18px)
-    color #333
-  input[type="text"], input[type="email"], textarea
-    box-sizing border-box
-    outline none
-    display block
-    color #333333
-    width 100%
-    padding 7px
-    border none
-    border-bottom 1px solid #ddd
-    margin-bottom 10px
-    font-size: rem(16px)
-    height rem(45px)
-    &.has-error
-      border-color #f04242
-  textarea
-    height rem(200px)
-  span
-    display block
-    font-size rem(14px)
-    color #f04242
-    padding-bottom rem(10px)
-  button[type="submit"]
-    display block
-    padding 19px 39px 18px 39px
-    color #ffffff
-    background #1abc9c
-    font-size rem(18px)
-    width 100%
-    border 1px solid #16a085
-    border-width 1px 1px 3px
-    margin-top rem(50px)
-    margin-bottom rem(10px)
-    cursor pointer
-    transition all .3s
-    outline none
-    &:hover
-      background #109177
-  [v-cloak]
-      display none
+    mainFont()
+    padding rem(10px)
+    fieldset
+        border none
+        font-weight normal
+    label
+        display block
+        margin-bottom rem(8px)
+        font-size rem(18px)
+        color #333
+    input[type="text"], input[type="email"], textarea
+        box-sizing border-box
+        outline none
+        display block
+        color #333333
+        width 100%
+        padding 7px
+        border none
+        border-bottom 1px solid #ddd
+        margin-bottom 10px
+        font-family inherit
+        font-size: rem(18px)
+        height rem(45px)
+        &.has-error
+            border-color #f04242
+    textarea
+        height rem(200px)
+    span
+        display block
+        font-size rem(14px)
+        color #f04242
+        padding-bottom rem(10px)
+    button[type="submit"]
+        display block
+        padding 19px 39px 18px 39px
+        color #ffffff
+        background #1abc9c
+        font-size rem(18px)
+        width 100%
+        border 1px solid #16a085
+        border-width 1px 1px 3px
+        margin-top rem(50px)
+        margin-bottom rem(10px)
+        cursor pointer
+        transition all .3s
+        outline none
+        &:hover
+            background #109177
+    [v-cloak]
+        display none

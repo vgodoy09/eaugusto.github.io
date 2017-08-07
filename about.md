@@ -30,7 +30,7 @@ E nos últimos 2 anos me dediquei integralmente a minha startup, a [Sheeper](htt
 onde liderei o desenvolvimento de um aplicativo para Android e iOS nativos e uma plataforma web.
 
 Atualmente estou buscando trabalhar como freelancer para projetos internacionais usando
-a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?viewMode=1).
+a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?viewMode=1) com Python e Django.
 
 ## Habilidades
 
