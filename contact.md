@@ -26,17 +26,17 @@ redirect_from:
         <input type="hidden" name="_next" value="https://www.rossener.com/contato/mensagem-enviada/" />
         <input type="hidden" name="_language" value="pt" />
 
-        <input type="text" id="name" name="nome" placeholder="Seu nome" v-validate="'required'"
+        <input type="text" name="nome" placeholder="Seu nome" v-validate="'required'"
                :class="{ 'has-error': errors.has('nome') }">
-        <span v-if="errors.has('nome')" v-cloak>${ errors.first('nome') }</span>
+        <span v-if="errors.has('nome')">${ errors.first('nome') }</span>
 
         <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
                :class="{ 'has-error': errors.has('email') }">
-        <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
+        <span v-if="errors.has('email')">${ errors.first('email') }</span>
 
-        <textarea id="message" name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
+        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
                   :class="{ 'has-error': errors.has('mensagem') }"></textarea>
-        <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
+        <span v-if="errors.has('mensagem')">${ errors.first('mensagem') }</span>
 
         <button type="submit">Enviar</button>
       </fieldset>
@@ -69,7 +69,7 @@ function adjust_textarea(h) {
 Vue.use(VeeValidate);
 
 const dictionary = {
-  en: {
+  pt: {
     custom: {
       nome: {
         required: 'Por favor, insira seu nome'
@@ -86,6 +86,7 @@ const dictionary = {
 };
 
 VeeValidate.Validator.updateDictionary(dictionary);
+VeeValidate.Validator.setLocale('pt');
 
 new Vue({
   el: '#form',
