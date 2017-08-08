@@ -20,9 +20,11 @@ redirect_from:
   <h2>Fale Comigo</h2>
 
   <div id="form" class="contact-form">
-    <form accept-charset="UTF-8" method="POST" action="https://formkeep.com/f/b403fc31ae82" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
+    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/thiago.rossener@gmail.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
-        <input type="hidden" name="utf8" value="✓">
+        <input type="hidden" name="_subject" value="Novo contato!" />
+        <input type="hidden" name="_next" value="https://www.rossener.com/contato/mensagem-enviada/" />
+        <input type="hidden" name="_language" value="pt" />
 
         <input type="text" id="name" name="nome" placeholder="Seu nome" v-validate="'required'"
                :class="{ 'has-error': errors.has('nome') }">
@@ -61,7 +63,7 @@ function adjust_textarea(h) {
 }
 </script>
 
-<script src="https://unpkg.com/vue"></script>
+<script src="https://unpkg.com/vue@2.4.2"></script>
 <script src="https://unpkg.com/vee-validate@2.0.0-rc.8"></script>
 <script type="text/javascript">
 Vue.use(VeeValidate);
