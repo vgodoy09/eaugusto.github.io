@@ -7,7 +7,7 @@ main-class: 'tutorial'
 twitter_text: 'Aprenda rapidamente a fazer um Hello World usando Vue.js'
 introduction: 'Um simples tutorial para ensinar o básico desse framework Javascript incrível.'
 tags:
- - vue.js
+ - vuejs
  - javascript
  - tutorial
 redirect_from:

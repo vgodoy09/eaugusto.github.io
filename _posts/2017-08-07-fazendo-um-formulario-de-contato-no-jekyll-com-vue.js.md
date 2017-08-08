@@ -6,7 +6,7 @@ image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_800/v15022089
 description: Um formulário de contato para o Jekyll usando o Formspree e fazendo a validação com Vue.js
 main-class: 'tutorial'
 tags:
-- vue.js
+- vuejs
 - jekyll
 - blog
 twitter_text: Um formulário de contato para o Jekyll fazendo a validação com Vue.js
