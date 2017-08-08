@@ -6,7 +6,7 @@ image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_800/v15022089
 description: Um formulário de contato para o Jekyll usando o Formspree e fazendo a validação com Vue.js
 main-class: 'tutorial'
 tags:
-- vuejs
+- vue.js
 - jekyll
 - blog
 - contato
@@ -378,7 +378,7 @@ Espero que tenha gostado :)
 
 ## Antes de ir embora
 
-Tive uma ideia de começar a colocar algumas mensagens de reflexão no final dos posts
+Tive uma ideia de começar a colocar mensagens de reflexão no final dos posts
 como incentivo para procurarmos evoluir e sermos não só desenvolvedores melhores,
 mas pessoas melhores.
 
