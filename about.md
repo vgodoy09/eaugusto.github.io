@@ -17,7 +17,7 @@ redirect_from:
 Sou apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.
 Acredito que tudo é possível com dedicação e resiliência.
 
-Hoje me considero um desenvolvedor full-stack, o que siginifica que consigo trabalhar bem
+Hoje me considero um desenvolvedor full-stack, o que significa que consigo trabalhar bem
 com o back-end, tanto quanto com o front-end.
 
 Já trabalhei sendo o único desenvolvedor de uma startup, a [Delta Life](http://www.deltalife.com.br/),
@@ -30,13 +30,11 @@ E nos últimos 2 anos me dediquei integralmente a minha startup, a [Sheeper](htt
 onde liderei o desenvolvimento de um aplicativo para Android e iOS nativos e uma plataforma web.
 
 Atualmente estou buscando trabalhar como freelancer para projetos internacionais usando
-a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?viewMode=1) com Python e Django.
+a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?viewMode=1).
 
 ## Habilidades
 
 <ul class="skill-list">
-  <li>Python</li>
-  <li>Python Frameworks (Django)</li>
   <li>HTML</li>
   <li>Design Responsivo (Mobile First)</li>
   <li>CSS (Stylus, Sass)</li>
@@ -46,6 +44,8 @@ a plataforma [Upwork](https://www.upwork.com/freelancers/~013ee7d0843e070699?vie
   <li>VueJS - AngularJS</li>
   <li>Grunt - Yeoman</li>
   <li>Git</li>
+  <li>Python</li>
+  <li>Python Frameworks (Django)</li>
   <li>iOS (Swift e Objective-C)</li>
   <li>MySQL - PostgreSQL - Firebase</li>
   <li>Scrum e Kanban</li>
