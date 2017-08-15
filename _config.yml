@@ -8,7 +8,7 @@ google_analytics: "UA-99616615-1"
 
 # User Settings
 username: Thiago Rossener
-user_description: Desenvolvedor full stack, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
+user_description: Desenvolvedor front-end, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
 github_username: thiagorossener
 facebook_username: thiagorossener
 twitter_username: thiagorossener
@@ -25,6 +25,7 @@ permalink: /:title/
 # Plugins
 gems:
   - jekyll-redirect-from
+  - jemoji
 
 # Links to include in menu navigation
 # For external links add external: true
