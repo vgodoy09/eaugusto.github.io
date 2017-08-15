@@ -26,7 +26,7 @@ Como você pode ver, não é trivial. Nunca tinha feito um componente com tantas
 características singulares como esse, mas como eu não sou de abandonar um bom
 desafio, lá fui eu.
 
-<center><iframe class="giphy-embed" src="https://giphy.com/embed/1YnVDruYQEgWQ" width="480" height="354" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
+<center><iframe class="giphy-embed" src="https://giphy.com/embed/1YnVDruYQEgWQ" width="600" height="442" frameborder="0" allowfullscreen="allowfullscreen"></iframe></center>
 
 Primeira questão: por onde começar?
 
@@ -36,7 +36,8 @@ E a voz da diversão sem limites disse "comece pelo mais legal".
 
 E aí, na minha audácia e espírito de rebeldia falei "e se eu fizesse os dois?" 😎
 
-<center><iframe src="https://giphy.com/embed/Py4loHkx4eo1O" width="480" height="240" frameBorder="0" allowFullScreen></iframe></center>
+<center><iframe src="https://giphy.com/embed/Py4loHkx4eo1O" width="800" height="400" frameBorder="0" allowFullScreen></iframe></center>
+
 ~~Ok, talvez eu não tenha falado isso em voz alta.~~
 
 Então escolhi a aba em formato de seta.
@@ -77,7 +78,7 @@ A diferença é clara, o filtro *drop-shadow* é capaz de perceber o formato da 
 que está sendo renderizada para aplicar a sombra, e isso também é válido se ao invés
 de uma imagem com fundo transparente, tivermos um SVG.
 
-<p data-height="363" data-theme-id="dark" data-slug-hash="prdvjo" data-default-tab="result" data-user="thiagorossener" data-embed-version="2" data-pen-title="box-shadow vs filter: drop-shadow" class="codepen">See the Pen <a href="https://codepen.io/thiagorossener/pen/prdvjo/">box-shadow vs filter: drop-shadow</a> by Thiago Rossener (<a href="https://codepen.io/thiagorossener">@thiagorossener</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="320" data-theme-id="dark" data-slug-hash="prdvjo" data-default-tab="result" data-user="thiagorossener" data-embed-version="2" data-pen-title="box-shadow vs filter: drop-shadow" class="codepen">See the Pen <a href="https://codepen.io/thiagorossener/pen/prdvjo/">box-shadow vs filter: drop-shadow</a> by Thiago Rossener (<a href="https://codepen.io/thiagorossener">@thiagorossener</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 ## Vantagens e desvantagens
