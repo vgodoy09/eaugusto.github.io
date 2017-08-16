@@ -10,7 +10,7 @@ redirect_from:
  - /en/author/
 ---
 
-<img itemprop="image" class="img-rounded" src="https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_200/v1501180993/perfil-blog_vtt5a8.jpg" alt="Thiago Rossener">
+<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_200/v1502909579/IMG_1290_cavqej.jpg" alt="Thiago Rossener">
 
 ## Sobre Mim
 
