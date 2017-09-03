@@ -1,27 +1,33 @@
 html,
 body
   height 100%
-
+    
 .bar-header
-  background sec
+  background-color #141414
   padding rem(10px) rem(20px)
   box-shadow 0 -6px 9px #333
   position fixed
   width 100%
   z-index 10
   +above(cut)
-    padding rem(10px) rem(0px)
+    padding rem(15px) rem(0px)
   .logo
     margin 0
-    line-height rem(35px)
+    height rem(30px)
+    line-height rem(30px)
   .logo a
     color main
     text-decoration none
     font-size rem(28px)
   .logo-svg
+    fill #fff
     width rem(100px)
-    height rem(35px)
-    vertical-align middle
+    height rem(30px)
     transition all .4s
     +above(cut)
-      width rem(300px)
+      width rem(255px)
+
+body.main-page
+  background-color #141414
+  .bar-header
+    background-color rgba(0,0,0,.7)

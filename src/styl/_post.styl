@@ -32,12 +32,13 @@ $padding-title-header
         line-height 2
         letter-spacing 0.01rem
         +above(cut)
-            font-size rem(20px)
+            font-size rem(21px)
+            letter-spacing 0.05rem
     h1.post-title 
         margin 0 auto rem(10px)
     p.subtitle
         color: darken(lightGray,30%)
-        font-size: 20px
+        font-size: rem(22px)
     p.post-info
         font-size rem(16px)
         color: darken(lightGray,30%)
@@ -59,23 +60,12 @@ $padding-title-header
             padding rem(3px) rem(5px)
             border-radius 3px
     a
-        color main
-        border-bottom 2px dashed main
+        color #0000ee
         mainFont(300)
         text-decoration none
         transition all .3s
         &:hover
-            background main
-            color #fff
-    .externalLink:after
-        display inline-block
-        content ''
-        color main
-        background-image url('../img/external.svg')
-        background-size 100%
-        margin-left rem(5px)
-        width rem(18px)
-        height rem(18px)
+            color #41baf7
     iframe
         margin-top rem(30px)
         width 100%
@@ -86,20 +76,20 @@ $padding-title-header
         mainFont(800)
         @extend $padding-title-header
     h1
-        font-size rem(30px)
+        font-size rem(32px)
         line-height 1.4
         +above(cut)
-            font-size rem(45px)
+            font-size rem(47px)
     h2
-        font-size rem(22px)
+        font-size rem(24px)
         line-height 1.4
         +above(cut)
-            font-size rem(35px)
+            font-size rem(37px)
     h3
-        font-size rem(18px)
+        font-size rem(20px)
         line-height 1.4
         +above(cut)
-            font-size rem(25px)
+            font-size rem(27px)
     ul,ol
         padding-left rem(40px)
     ul.post-list
@@ -119,7 +109,7 @@ $padding-title-header
             color rgba(0,0,0,0.6)
             margin 0
             +below(cut)
-                font-size rem(18px)
+                font-size rem(20px)
                 line-height 1.5
                 padding 0
     hr
@@ -145,12 +135,12 @@ $padding-title-header
 
 .tag-title
     mainFont(300)
-    font-size rem(36px)
+    font-size rem(38px)
     margin-top rem(60px)
     center(rem(800px))
     @extend $padding-title-header
     +below(cut)
-        font-size rem(28px)
+        font-size rem(30px)
         margin-top rem(20px)
         padding 0 rem(20px)
 
