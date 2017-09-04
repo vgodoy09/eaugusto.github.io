@@ -13,10 +13,14 @@ layout: main
             </span>
             <div class="box-body">
                 {% if post.image %}
-                    {% include new-post-tag.html date=post.date %}
-                    <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
-                        <img src="{{ post.image }}">
-                    </a>
+                    <div class="cover">
+                        {% include new-post-tag.html date=post.date %}
+                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                            <!-- <img src="assets/img/placeholder.png" class="preloader" onload="teste(this, '{{ post.image }}')"> -->
+                            <img src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
+                            <!-- <img src="assets/img/placeholder.png" class="preloader"> -->
+                        </a>
+                    </div>
                 {% endif %}
                 <div class="box-info">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">
