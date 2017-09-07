@@ -2,7 +2,7 @@
 layout: post
 title: "Como quase cai num golpe no Facebook e como desviar deles"
 date: 2017-08-19 12:26:40
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_315,w_600/v1503153729/golpe_ghb84o.jpg'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_399,w_760/v1503153729/golpe_ghb84o.jpg'
 description: Um guia para escapar de gente esperta tentando roubar seu dinheiro.
 main-class: 'vida'
 tags:
@@ -11,8 +11,6 @@ tags:
 twitter_text: Um guia para escapar de gente esperta tentando roubar seu dinheiro.
 introduction: Navegando na minha timeline fui atraído por um anúncio que quase me levou R$ 188,00. Aqui eu conto como descobri o esquema.
 ---
-
-![Onze Homens e um Segredo](http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_420,w_800/v1503153729/golpe_ghb84o.jpg)
 
 Hoje quase perdi **R$ 188,00** olhando a minha timeline no Facebook.
 

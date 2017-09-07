@@ -2,7 +2,7 @@
 layout: post
 title: "box-shadow ou filter: drop-shadow?"
 date: 2017-08-14 22:55:45
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_600/v1502757949/o-sombra_xyw4wq.jpg'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1502757949/o-sombra_xyw4wq.jpg'
 description: Duas escolhas, um único efeito. Saiba quando usar o estilo certo na hora certa.
 main-class: 'css'
 tags:
@@ -11,8 +11,6 @@ tags:
 twitter_text: Duas escolhas, um único efeito. Saiba quando usar o estilo certo na hora certa.
 introduction: Descubra em que casos é melhor escolher um estilo ou o outro para fazer um efeito de sombra.
 ---
-
-![O Sombra](http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_800/v1502757949/o-sombra_xyw4wq.jpg)
 
 Ta aí uma dúvida legal de responder.
 

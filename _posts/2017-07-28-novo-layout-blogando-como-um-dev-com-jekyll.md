@@ -2,7 +2,7 @@
 layout: post
 title: "Novo layout! Blogando como um Dev com Jekyll"
 date: 2017-07-28 18:03:21
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501268554/sunrise_ttb9nk.jpg'
+image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_399,w_760/v1501268554/sunrise_ttb9nk.jpg'
 description: Migrei meu blog do Wordpress para o Jekyll e não me arrependo.
 main-class: 'blog'
 tags:
@@ -11,8 +11,6 @@ tags:
 twitter_text: Migrei meu blog do Wordpress para o Jekyll e não me arrependo.
 introduction: O blog está de cara nova, e nesse artigo eu apresento o Jekyll, uma ferramenta incrível para blogs sobre desenvolvimento.
 ---
-
-![Imagem do nascer do sol](http://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501268554/sunrise_ttb9nk.jpg)
 
 Recentemente estive observando vários desenvolvedores criando seus blogs, 
 postando artigos e divulgando nas redes.

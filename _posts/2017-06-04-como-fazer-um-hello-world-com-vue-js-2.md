@@ -2,7 +2,7 @@
 layout: post
 title: Como fazer um Hello World com Vue.js 2
 description: É simples, é rápido, é sensacional.
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,w_1200/v1501102373/hello-world-vue_vdnxnm.png'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/v1504810464/hello-world-vue_ibatoy.jpg'
 main-class: 'tutorial'
 twitter_text: 'Aprenda rapidamente a fazer um Hello World usando Vue.js'
 introduction: 'Um simples tutorial para ensinar o básico desse framework Javascript incrível.'
@@ -14,8 +14,6 @@ redirect_from:
  - /pt/como-fazer-um-hello-world-com-vue-js-2/
  - /en/how-to-do-a-hello-world-with-vue-js-2/
 ---
-
-![Hello World com Vue.js](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102373/hello-world-vue_vdnxnm.png)
 
 Esse mês venho fazendo um curso de <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js 2</a> pelo Udemy e me apaixonando cada vez mais por esse framework que reúne o melhor do Angular 1 e do React.
 
