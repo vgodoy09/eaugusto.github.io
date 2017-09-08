@@ -1,17 +1,15 @@
 (function( $, window, undefined ) {
   // Menu
-  $("a#slide").click(function(){
-    $("#sidebar,a#slide,#fade").addClass("slide");
-    $("#open").hide();
-    $("#search").hide();
-    $("#close").show();
+  $("#menu").click(function() {
+    $("body").addClass("push-menu-to-right");
+    $("#sidebar").addClass("open");
+    $(".overlay").addClass("show");
   });
 
-  $("#fade").click(function(){
-    $("#sidebar,a#slide,#fade").removeClass("slide");
-    $("#open").show();
-    $("#search").show();
-    $("#close").hide();
+  $("#mask").click(function() {
+    $("body").removeClass("push-menu-to-right");
+    $("#sidebar").removeClass("open");
+    $(".overlay").removeClass("show");
   });
 
   // Search
@@ -44,12 +42,13 @@
           close_search();
       }
   });
+  
   if (document.getElementsByClassName('home').length >=1 ) {
       new AnimOnScroll( document.getElementById( 'grid' ), {
         minDuration : 0.4,
         maxDuration : 0.7,
         viewportFactor : 0.2
-      } );
+      });
   }
 
   smoothScroll.init({
