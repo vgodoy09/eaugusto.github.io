@@ -2,7 +2,9 @@ main
     mainFont(400)
     -webkit-font-smoothing antialiased
     -moz-osx-font-smoothing grayscale
-    padding-top rem(100px)
+    padding-top rem(80px)
+    +above(cut)
+        padding-top rem(100px)
 
 .row
     center(100%)
@@ -21,12 +23,14 @@ main
 
 .box-item
     flex 1 0 300px
-    margin 0 rem(15px) rem(30px)
+    margin 0 0 rem(30px)
     display inline-block
     min-height rem(285px)
     transition all .3s
     position relative
     z-index 1
+    +above(cut)
+        margin 0 rem(15px) rem(30px)
     &:hover
         z-index 2
         transform scale(1.1)

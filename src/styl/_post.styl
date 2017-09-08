@@ -1,7 +1,9 @@
 .post
     position relative
-    top rem(50px)
+    top rem(30px)
     background #fff
+    +above(cut)
+        top rem(50px)
 
 .post-content
     padding rem(40px) 0
@@ -14,7 +16,9 @@
             display inline
             padding 0px
         &.post-cover
-            margin-bottom rem(30px)
+            margin-bottom rem(10px)
+            +above(cut)
+                margin-bottom rem(30px)
     img + em
         display block
         color darken(lightGray,30%)
@@ -24,26 +28,31 @@
         center(rem(800px))
         mainFont(400)
         font-size rem(18px)
-        line-height rem(40px)
+        line-height rem(35px)
         padding 0 rem(20px)
         margin 0 auto rem(29px)
         letter-spacing 0.05rem
         +above(cut)
             font-size rem(20px)
+            line-height rem(40px)
     h1.post-title 
         margin 0 auto rem(10px)
     p.subtitle
         color: darken(lightGray,30%)
         font-size: rem(18px)
         margin 0 auto rem(10px)
+        line-height rem(30px)
         +above(cut)
-            font-size: rem(22px)
+            font-size rem(20px)
+            line-height rem(40px)
     p.post-info
         mainFont(300)
-        font-size rem(16px)
+        font-size rem(14px)
         letter-spacing 0
         color: darken(lightGray,30%)
         margin 0 auto
+        +above(cut)
+            font-size rem(16px)
         span, time
             vertical-align middle
         time
