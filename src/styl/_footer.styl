@@ -10,9 +10,11 @@ footer
     border-top 1px solid darken(accentDark, 10%)
     background primaryLight
     padding rem(20px) rem(25px)
-    margin-top rem(100px)
+    margin-top rem(50px)
     margin-bottom rem(40px)
     mainFont(300)
+    +above(cut)
+        margin-top rem(100px)
     p
         text-decoration none
         color accentLight
@@ -24,7 +26,9 @@ footer
         size(28,28)
         display inline-block
         vertical-align middle
-        margin-right rem(20px)
+        margin-right rem(10px)
+        +above(cut)
+            margin-right rem(20px)
         &.love
             size(20,20)
             fill themeColor
