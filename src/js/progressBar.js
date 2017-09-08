@@ -2,13 +2,12 @@
     'use strict';
 
     var post = document.querySelector('.post-content');
+    var progressBar = document.querySelector('.progress-bar');
 
-    if (post) {
+    if (post && progressBar) {
         var lastScrollTop = 0;
         var maxScrollTop = post.scrollHeight;
-
-        var header = document.querySelector('.bar-header');
-        var progressBar = document.querySelector('.progress-bar');
+        
         var completed = progressBar.querySelector('.completed');
         var remaining = progressBar.querySelector('.remaining');
         var timeCompleted = progressBar.querySelector('.time-completed');
@@ -17,16 +16,12 @@
         document.addEventListener('scroll', function() {
             var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-            // Hide/Show elements
             if (scrollTop > lastScrollTop) {
-                header.style.top = '-100%';
                 progressBar.style.bottom = '0%';
             } else {
-                header.style.top = '0%';
                 progressBar.style.bottom = '-100%';
             }
 
-            // Progress
             if (scrollTop <= maxScrollTop) {
                 var percentage = scrollTop/maxScrollTop;
 
