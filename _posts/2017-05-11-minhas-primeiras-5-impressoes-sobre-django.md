@@ -2,7 +2,7 @@
 layout: post
 title: Minhas primeiras 5 impressões sobre Django
 description: Fiz um curso de Django, e essa é minha opinião.
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501101216/django-1024x576_xi2qq9.jpg'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/v1504809708/django_g7djdj.jpg'
 main-class: 'django'
 twitter_text: 'Fiz um curso de Django, e essa é minha opinião.'
 introduction: 'Fiz um curso de Django, e aqui eu conto o que achei desse framework Python.'
@@ -16,7 +16,7 @@ Fala galera!
 
 Tem um tempo que não escrevo aqui. Estou nesse momento passando por um período de transição na minha carreira, onde basicamente eu apostei 2 anos e muito $$$ na minha startup e bem... não deu certo. :(
 
-<img src="http://www.rossener.com/wp-content/uploads/2017/05/you-failed.jpg" alt="Foto do Leo me dando os parabéns" width="540" />
+<img src="http://res.cloudinary.com/dm7h7e8xj/image/upload/v1504809082/you-failed_y2qkgy.jpg" alt="Foto do Leo me dando os parabéns" width="540" />
 *Valeu Leo 👍*
 
 A vida segue, e oportunidade é o que não falta por aí. No meio desse período nebuloso e "sem rumo" decidi parar pra pensar um pouco na vida e na minha carreira, agora que a minha aposta de 5 anos fez como o Matthew McConaughey em *Interstellar*, e foi pro espaço.

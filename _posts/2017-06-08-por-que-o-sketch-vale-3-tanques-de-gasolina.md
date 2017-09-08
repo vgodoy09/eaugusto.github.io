@@ -8,12 +8,10 @@ introduction: 'Comparando o preço do Sketch com o preço da gasolina eu procuro
 tags:
  - design
  - sketch
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102987/sketch-fuel_eiwjbz.png'
+image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_399,w_760/v1501102987/sketch-fuel_eiwjbz.png'
 redirect_from:
  - /pt/por-que-o-sketch-vale-3-tanques-de-gasolina/
 ---
-
-![Imagem do Sketch com galões de combustível](//res.cloudinary.com/dm7h7e8xj/image/upload/v1501102987/sketch-fuel_eiwjbz.png)
 
 Há 1 mês atrás comecei a desenvolver o novo site da imobiliária <a href="http://aloisioimoveis.com.br/" target="_blank">Aloísio Imóveis</a> (ainda não está no ar).
 

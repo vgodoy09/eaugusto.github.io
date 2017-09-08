@@ -3,7 +3,7 @@ layout: post
 title: A Resistência em você está te impedindo de ser Incrível (e como lutar contra
   isso)
 description: Lutar pelo que se deseja não é fácil, mas o primeiro passo é saber como fazer isso.
-image: 'https://res.cloudinary.com/dm7h7e8xj/image/upload/c_fill,h_630,w_1200/v1501102402/resistencia-1024x771_kulclt.jpg'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1504809537/o-procurado_kuadwq.jpg'
 main-class: 'vida'
 twitter_text: 'Mudar o mindset é extramemente necessário para vencer.'
 introduction: 'Lutar pelo que se deseja não é fácil, mas o primeiro passo é saber como fazer isso.'
@@ -17,8 +17,6 @@ redirect_from:
 Essa semana li um artigo sensacional sobre mudança de *mindset*, e decidi compartilhar com vocês.
 
 Tudo o que está escrito abaixo foi livremente traduzido por mim do <a href="https://medium.com/personal-growth/your-resistance-brain-stops-you-from-being-awesome-and-how-to-fight-back-3a5ec87b9a5d" target="_blank" rel="noopener noreferrer">texto de Thomas Oppong</a> no **Medium**. Aproveitem! ;)
-
-![Foto de uma menina olhando para o nada](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1501102402/resistencia-1024x771_kulclt.jpg)
 
 Muitas pessoas tem duas vidas. A vida que elas vivem e a outra vida que elas desejam viver. Entre essas duas existe a Resistência.
 

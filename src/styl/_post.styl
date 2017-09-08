@@ -1,14 +1,8 @@
-$padding-title-header
-    &:before
-        display block
-        content " "
-        margin-top -60px
-        height 75px
-        visibility hidden
 .post
     position relative
     top rem(50px)
     background #fff
+
 .post-content
     padding rem(40px) 0
     img
@@ -19,27 +13,35 @@ $padding-title-header
         &.emoji
             display inline
             padding 0px
+        &.post-cover
+            margin-bottom rem(30px)
     img + em
         display block
         color darken(lightGray,30%)
         text-align center
-    p, h1, h2, h3, h4,ul,ol, .tags, iframe, .button-post
-        center(rem(800px))
-        padding 0 rem(20px)
-        margin 0 auto rem(30px)
         mainFont(300)
+    p, h1, h2, h3, h4,ul,ol, iframe
+        center(rem(800px))
+        mainFont(400)
         font-size rem(18px)
-        line-height 2
-        letter-spacing 0.01rem
+        line-height rem(40px)
+        padding 0 rem(20px)
+        margin 0 auto rem(29px)
+        letter-spacing 0.05rem
         +above(cut)
             font-size rem(20px)
     h1.post-title 
         margin 0 auto rem(10px)
     p.subtitle
         color: darken(lightGray,30%)
-        font-size: 20px
+        font-size: rem(18px)
+        margin 0 auto rem(10px)
+        +above(cut)
+            font-size: rem(22px)
     p.post-info
+        mainFont(300)
         font-size rem(16px)
+        letter-spacing 0
         color: darken(lightGray,30%)
         margin 0 auto
         span, time
@@ -50,7 +52,7 @@ $padding-title-header
         padding rem(10px) 0
         ul 
         margin-bottom 0
-    p,li
+    p, li
         color texts
         code
             color #bf616a
@@ -58,49 +60,31 @@ $padding-title-header
             background lightGray
             padding rem(3px) rem(5px)
             border-radius 3px
+            font-size rem(18px)
     a
-        color main
-        border-bottom 2px dashed main
-        mainFont(300)
+        color #0000ee
         text-decoration none
-        transition all .3s
-        &:hover
-            background main
-            color #fff
-    .externalLink:after
-        display inline-block
-        content ''
-        color main
-        background-image url('../img/external.svg')
-        background-size 100%
-        margin-left rem(5px)
-        width rem(18px)
-        height rem(18px)
     iframe
         margin-top rem(30px)
         width 100%
-    #twitter-widget-0, 
-    .instagram-media
-      margin auto !important
-    h1,h2,h3,h4,h5
-        mainFont(800)
-        @extend $padding-title-header
+    h1, h2, h3, h4, h5
+        mainFont(700)
     h1
-        font-size rem(30px)
+        font-size rem(32px)
         line-height 1.4
         +above(cut)
-            font-size rem(45px)
+            font-size rem(47px)
     h2
-        font-size rem(22px)
+        font-size rem(24px)
         line-height 1.4
         +above(cut)
-            font-size rem(35px)
+            font-size rem(37px)
     h3
-        font-size rem(18px)
+        font-size rem(20px)
         line-height 1.4
         +above(cut)
-            font-size rem(25px)
-    ul,ol
+            font-size rem(27px)
+    ul, ol
         padding-left rem(40px)
     ul.post-list
         padding 0
@@ -119,7 +103,7 @@ $padding-title-header
             color rgba(0,0,0,0.6)
             margin 0
             +below(cut)
-                font-size rem(18px)
+                font-size rem(20px)
                 line-height 1.5
                 padding 0
     hr
@@ -143,40 +127,102 @@ $padding-title-header
         padding-right rem(25px)
         line-height rem(24px)
 
-.tag-title
-    mainFont(300)
-    font-size rem(36px)
-    margin-top rem(60px)
-    center(rem(800px))
-    @extend $padding-title-header
-    +below(cut)
-        font-size rem(28px)
-        margin-top rem(20px)
-        padding 0 rem(20px)
+/* Progress bar */
 
-.post-list
-    list-style none
-    margin rem(25px) auto
-    +below(cut)
-        padding 0 rem(20px)
-    a
+.progress-bar
+    position fixed
+    left 0
+    right 0
+    bottom -100%
+    display block
+    width 100%
+    background-color #fff
+    padding rem(10px)
+    transition bottom .5s
+    border-top 1px solid #f2f2f2
+    .bar
         display block
-        border-bottom 1px solid darken(lightGray,10%)
-        padding rem(10px) 0
-        text-decoration none
-        transition all .5s
-        &:hover
-            color darken(main, 50%)
-            border-bottom 1px solid darken(main, 50%)
-            background #fff
-    .entry-date
+        width 100%
+        height rem(18px)
+        padding rem(5px) rem(50px)
+    .completed
+        float left
+        display block
+        height 8px
+        background-color themeColor
+    .remaining
+        float left
+        display block
+        height rem(8px)
+        background-color #ccc
+    .time-completed, .time-remaining
+        color texts
+    .time-completed
+        float left
+    .time-remaining
         float right
-        +below(cut)
-            display none
-            
+
 .icon-clock, .icon-calendar
     width rem(15px)
     height rem(15px)
     fill darken(lightGray,30%)
     vertical-align middle
     margin-right rem(3px)
+
+/* Tags */
+
+.post-content
+    .tags
+        center(rem(800px))
+        mainFont(400)
+        font-size rem(18px)
+        margin 0 auto rem(29px)
+        margin-top rem(30px)
+        letter-spacing 0.01rem
+        line-height rem(40px)
+        +above(cut)
+            font-size rem(20px)
+            letter-spacing 0.05rem
+        a
+            font-size rem(14px)
+            color primaryDark
+            display inline-block
+            border 1px solid primaryDark
+            border-radius rem(20px)
+            padding 0 rem(10px)
+            margin-right rem(2px)
+            margin-bottom rem(8px)
+            text-decoration none
+            transition all .3s
+            &:hover
+                color accentDark
+                border 1px solid primaryDark
+                background-color primaryDark
+    .tag-title
+        mainFont(300)
+        font-size rem(38px)
+        margin-top rem(60px)
+        center(rem(800px))
+        +below(cut)
+            font-size rem(30px)
+            margin-top rem(20px)
+            padding 0 rem(20px)
+    .post-list
+        list-style none
+        margin rem(25px) auto
+        +below(cut)
+            padding 0 rem(20px)
+        a
+            display block
+            border-bottom 1px solid darken(lightGray,10%)
+            padding rem(10px) 0
+            text-decoration none
+            transition all .5s
+            font-size rem(18px)
+            &:hover
+                // color darken(main, 50%)
+                border-bottom 1px solid themeColor
+        .entry-date
+            float right
+            +below(cut)
+                display none

@@ -1,5 +1,31 @@
 <footer>
-    <p>Tema feito com <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> e <span class="love">❤</span> originalmente por <a href="http://willianjusten.com.br">Willian Justen</a></p>
+    <p>
+      <a itemprop="github" href="https://github.com/{{ site.github_username }}" title="Github">
+        <svg><use xlink:href="#icon-github"></use></svg>
+      </a>
+      <a itemprop="facebook" href="https://www.facebook.com/{{ site.facebook_username }}" title="Facebook">
+        <svg><use xlink:href="#icon-facebook"></use></svg>
+      </a>
+      <a itemprop="twitter" href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+        <svg><use xlink:href="#icon-twitter"></use></svg>
+      </a>
+      <a itemprop="medium" href="https://medium.com/@{{ site.medium_username }}" title="Twitter">
+        <svg><use xlink:href="#icon-medium"></use></svg>
+      </a>
+      <a itemprop="instagram" href="https://www.instagram.com/{{ site.instagram_username }}" title="Instagram">
+        <svg><use xlink:href="#icon-instagram"></use></svg>
+      </a>
+      <a itemprop="linkedin" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">
+        <svg><use xlink:href="#icon-linkedin"></use></svg>
+      </a>
+    </p>
+    <ul>
+        {% for link in site.links %}
+          <li><a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+        <li><a class="feed" href="{{ site.url }}{{site.baseurl}}/feed.xml" title="Atom/RSS feed">Feed</a></li>
+    </ul>
+    <p>Tema <span>Jekflix</span> feito com <svg class="love"><use xlink:href="#icon-heart"></use></svg></p>
 </footer>
 <script src="{{ "/assets/js/main.js" | prepend: site.baseurl }}"></script>
 {% include stats.html %}

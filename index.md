@@ -1,17 +1,26 @@
 ---
-layout: default
+layout: main
 ---
 
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div id="grid" class="row flex-grid">
     {% for post in site.posts %}
         <article class="box-item post-{{post.main-class}}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-            <span class="ribbon">
-                <a href="{{ site.url }}{{ site.baseurl }}/category/{{ post.main-class }}"><span>{{ post.main-class }}</span></a>
+            <span class="category">
+                <a href="{{ site.url }}{{ site.baseurl }}/categoria/{{ post.main-class }}">
+                    <span>{{ post.main-class }}</span>
+                </a>
             </span>
             <div class="box-body">
                 {% if post.image %}
-                    <img src="{{ post.image }}">
+                    <div class="cover">
+                        {% include new-post-tag.html date=post.date %}
+                        <a href="{{ post.url | prepend: site.baseurl }}" {%if isnewpost %}class="new-post"{% endif %}>
+                            <!-- <img src="assets/img/placeholder.png" class="preloader" onload="teste(this, '{{ post.image }}')"> -->
+                            <img src="assets/img/placeholder.png" data-url="{{ post.image }}" class="preload">
+                            <!-- <img src="assets/img/placeholder.png" class="preloader"> -->
+                        </a>
+                    </div>
                 {% endif %}
                 <div class="box-info">
                     <meta itemprop="datePublished" content="{{ post.date | date_to_xmlschema }}">

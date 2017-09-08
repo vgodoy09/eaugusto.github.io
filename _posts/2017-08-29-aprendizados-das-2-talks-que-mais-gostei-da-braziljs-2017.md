@@ -2,7 +2,7 @@
 layout: post
 title: "Aprendizados das 2 talks que mais gostei da BrazilJS 2017"
 date: 2017-08-29 10:49:35
-image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_600/v1504023028/braziljs-2017_mazdtw.jpg'
+image: 'http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_760/v1504023028/braziljs-2017_mazdtw.jpg'
 description: Um resumo das palestras que mais me ensinaram nesse evento incrível.
 main-class: 'webdev'
 tags:
@@ -12,8 +12,6 @@ tags:
 twitter_text: Um resumo das palestras que mais me ensinaram nesse evento incrível.
 introduction: Foi uma experiência sensacional participar desse evento! Nesse artigo eu compartilho um pouco do que levei comigo.
 ---
-
-![BrazilJS 2017](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1504023028/braziljs-2017_mazdtw.jpg)
 
 Até recentemente estava buscando um posicionamento na minha carreira. Depois de
 fechar a Sheeper, precisava me encaixar novamente no mercado e não estava, aliás,
