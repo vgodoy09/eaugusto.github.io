@@ -14,14 +14,16 @@
             text-align center
     svg
         size(25,25)
-        margin-right rem(15px)
+        margin-right rem(10px)
     a
         fill darken(lightGray, 30%)
         text-decoration none
         border none
+        transition all .3s
         &:hover
-            fill black
+            fill themeColor
     img
+        width rem(180px)
         border-radius 50%
         display block
         margin auto
@@ -30,12 +32,11 @@
             margin-right 3.125rem
     .def
         color gray
-        font-size 1.125rem
+        font-size rem(18px)
         mainFont(300)
         margin rem(10px)
         +above(cut)
             margin 0
-            padding-top rem(25px)
     .name
         margin 0
         a
@@ -51,9 +52,6 @@
         mainFont(300)
         margin rem(10px)
         font-size rem(16px)
+        line-height rem(25px)
         +above(cut)
-            font-size rem(20px)
-    .email,
-    .github
-        text-decoration none
-        color main
+            font-size rem(18px)
