@@ -30,10 +30,10 @@
         display block
         padding 19px 39px 18px 39px
         color #ffffff
-        background #1abc9c
+        background themeColor
         font-size rem(18px)
         width 100%
-        border 1px solid #16a085
+        border 1px solid darken(themeColor, 30%)
         border-width 1px 1px 3px
         margin-top rem(50px)
         margin-bottom rem(10px)
@@ -41,4 +41,6 @@
         transition all .3s
         outline none
         &:hover
-            background #109177
+            background darken(themeColor, 20%)
+    [v-cloak]
+        display none
