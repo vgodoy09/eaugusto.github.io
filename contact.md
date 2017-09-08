@@ -43,17 +43,6 @@ redirect_from:
     </form>
   </div>
 
-  <h2>Redes Sociais</h2>
-
-  <ul>
-    <li><a href="https://github.com/{{ site.github_username }}" alt="Github">Github</a></li>
-    <li><a href="https://www.facebook.com/{{ site.facebook_username }}" alt="Facebook">Facebook</a></li>
-    <li><a href="https://twitter.com/{{ site.twitter_username }}" alt="Twitter">Twitter</a></li>
-    <li><a href="https://medium.com/@{{ site.medium_username }}" alt="Medium">Medium</a></li>
-    <li><a href="https://www.instagram.com/{{ site.instagram_username }}" alt="Instagram">Instagram</a></li>
-    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" alt="LinkedIn">LinkedIn</a></li>
-  </ul>
-
 </div>
 
 <script type="text/javascript">
