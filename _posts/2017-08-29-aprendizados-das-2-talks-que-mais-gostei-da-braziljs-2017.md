@@ -55,8 +55,8 @@ conhecimento merecia ser compartilhado, por isso estou aqui.
 Esse post vai ser um pouco longo, mas vou tentar resumir as duas palestras que mais
 gostei na **BrazilJS Conf 2017**.
 
-Sem dúvida não é uma tarefa fácil, mas escolher apenas 2 não siginifica que
-as outas não foram excelentes. Só significa que no momento que estou vivendo, essas
+Sem dúvida não é uma tarefa fácil, mas escolher apenas 2 não significa que
+as outras não foram excelentes. Só significa que no momento que estou vivendo, essas
 que escolhi foram as que mais me impactaram e me agregaram como desenvolvedor e
 pessoa.
 
