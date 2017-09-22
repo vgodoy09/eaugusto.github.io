@@ -66,8 +66,8 @@ a alguns episódios de Vikings tive uma ideia mais interessante e criei uma barr
 
 ![Imagem da barra de progresso](http://res.cloudinary.com/dm7h7e8xj/image/upload/v1505357769/jekflix-progress-bar_he7gqf.jpg)
 
-Assim como em um filme ou episódio na plataforma de streaming, a ideia é que você
-tenha uma noção de quanto tempo falta pra acabar a leitura e quanto tempo você já gastou lendo.
+Assim como em um filme ou episódio na plataforma de streaming, a ideia é que o usuário
+tenha uma noção de quanto tempo falta pra acabar a leitura e quanto tempo ele já gastou lendo.
 
 Não é a barra mais precisa do mundo, mesmo porque ela não considera as imagens na
 postagem, mas somente o tamanho final da tela, porém, dá uma boa noção e acho que isso
