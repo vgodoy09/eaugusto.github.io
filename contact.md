@@ -20,7 +20,7 @@ redirect_from:
   <h2>Fale Comigo</h2>
 
   <div id="form" class="contact-form">
-    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/thiago.rossener@gmail.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
+    <form accept-charset="UTF-8" method="POST" action="https://formspree.io/eaugusto@outlook.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="Novo contato!" />
         <input type="hidden" name="_next" value="https://www.rossener.com/contato/mensagem-enviada/" />
