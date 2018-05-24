@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /contato/mensagem-enviada/
+permalink: /contato/sent-message/
 ---
 
 <style type="text/css" media="screen">
@@ -13,7 +13,7 @@ permalink: /contato/mensagem-enviada/
 </style>
 
 <div class="container">
-  <img src="/assets/img/message.gif" width="540" alt="Mensagem enviada!">
-  <p><strong>Mensagem enviada!</strong></p>
-  <p>Obrigado por entrar em contato. Responderei assim que for possível.</p>
+  <img src="/assets/img/message.gif" width="540" alt="Sent message!">
+  <p><strong>Sent message!</strong></p>
+  <p>Thanks for getting in touch! I'm going to answer you as soon as possible.</p>
 </div>
