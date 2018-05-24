@@ -26,15 +26,15 @@ redirect_from:
         <input type="hidden" name="_next" value="http://eaugusto.com/contato/sent-message/" />
         <input type="hidden" name="_language" value="pt" />
 
-        <input type="text" name="nome" placeholder="Seu nome" v-validate="'required'"
+        <input type="text" name="nome" placeholder="Your name here" v-validate="'required'"
                :class="{ 'has-error': errors.has('nome') }">
         <span v-if="errors.has('nome')" v-cloak>${ errors.first('nome') }</span>
 
-        <input type="text" name="email" placeholder="Seu e-mail" v-validate="'required|email'"
+        <input type="text" name="email" placeholder="Your e-mail here" v-validate="'required|email'"
                :class="{ 'has-error': errors.has('email') }">
         <span v-if="errors.has('email')" v-cloak>${ errors.first('email') }</span>
 
-        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Sua mensagem" v-validate="'required'"
+        <textarea name="mensagem" onkeyup="adjust_textarea(this)" placeholder="Your message here" v-validate="'required'"
                   :class="{ 'has-error': errors.has('mensagem') }"></textarea>
         <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
 
