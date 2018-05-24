@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contato
-description: Vamos conversar.
+description: Let's Talk
 permalink: /contato/
 redirect_from:
  - /pt/contato/
@@ -17,12 +17,12 @@ redirect_from:
 
 <div class="container">
 
-  <h2>Fale Comigo</h2>
+  <h2>Talk to me</h2>
 
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/eaugusto@outlook.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
-        <input type="hidden" name="_subject" value="Novo contato!" />
+        <input type="hidden" name="_subject" value="New contact!" />
         <input type="hidden" name="_next" value="http://eaugusto.com/contato/sent-message/" />
         <input type="hidden" name="_language" value="pt" />
 
@@ -38,7 +38,7 @@ redirect_from:
                   :class="{ 'has-error': errors.has('mensagem') }"></textarea>
         <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
 
-        <button type="submit">Enviar</button>
+        <button type="submit">Send</button>
       </fieldset>
     </form>
   </div>
@@ -61,14 +61,14 @@ const dictionary = {
   pt: {
     custom: {
       nome: {
-        required: 'Por favor, insira seu nome'
+        required: 'Please, your name here'
       },
       email: {
-        required: 'Por favor, insira seu e-mail',
-        email: 'O e-mail deve ser válido'
+        required: 'Por favor, your e-mail here',
+        email: 'Inform a valid e-mail'
       },
       mensagem: {
-        required: 'Por favor, insira sua mensagem'
+        required: 'Please, write the message here'
       }
     }
   }
