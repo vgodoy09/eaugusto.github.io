@@ -1,21 +1,21 @@
 # Site Settings
-title: Thiago Rossener | Desenvolvedor Front-End
-email: thiago@rossener.com
-description: Um blog sobre desenvolvimento web e melhoramento pessoal.
+title: Eduardo Augusto | Back-End Developer
+email: eaugusto@outlook.com
+description: Come with me in a fantastic travel to discover what really is The Epic Software Engineer!
 baseurl: ""
-url: "https://www.rossener.com"
-google_analytics: "UA-99616615-1"
+url: "http://eaugusto.com"
+google_analytics: "UA-119586029-1"
 
 # User Settings
-username: Thiago Rossener
-user_description: Desenvolvedor front-end, apaixonado por desafios, tecnologia, pessoas & melhoramento pessoal.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
-disqus_username: rossener
+username: Eduardo Augusto
+user_description: Java Developer passionated for Excelence and Sharing!
+github_username: eaugusto
+facebook_username: eaugustosilva
+twitter_username: mreaugusto
+instagram_username: 
+linkedin_username: mreaugusto
+medium_username: mreaugusto
+disqus_username: mreaugusto
 
 # Build settings
 markdown: kramdown
@@ -32,11 +32,11 @@ gems:
 links:
   - title: Home
     url: /
-  - title: Portfólio
+  - title: Portfolio
     url: /portfolio/
-  - title: Sobre mim
+  - title: About me
     url: /sobre-mim/
-  - title: Contato
+  - title: Contact
     url: /contato/
 
 # Exclude my node related stuff
