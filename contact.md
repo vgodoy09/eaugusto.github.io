@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Contato
+title: Contact
 description: Let's Talk
-permalink: /contato/
+permalink: /contact/
 redirect_from:
- - /pt/contato/
+ - /pt/contact/
  - /en/contact/
 ---
 
