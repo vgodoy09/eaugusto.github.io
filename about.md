@@ -2,7 +2,7 @@
 layout: page
 title: Sobre Mim
 description: Desenvolvedor full stack, apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.
-permalink: /sobre-mim/
+permalink: /about-me/
 redirect_from:
  - /about/
  - /sobre/
@@ -10,7 +10,7 @@ redirect_from:
  - /en/author/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_200/v1502909579/IMG_1290_cavqej.jpg" alt="Thiago Rossener">
+<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/mreaugusto/image/upload/v1527154393/me.jpg" alt="Eduardo Augusto">
 
 ## Sobre Mim
 
