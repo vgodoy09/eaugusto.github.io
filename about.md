@@ -10,7 +10,7 @@ redirect_from:
  - /en/author/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/mreaugusto/image/upload/v1527154393/me.jpg" alt="Eduardo Augusto">
+<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/mreaugusto/image/upload/c_scale,w_215/v1527154393/me.jpg" alt="Eduardo Augusto">
 
 ## Sobre Mim
 
