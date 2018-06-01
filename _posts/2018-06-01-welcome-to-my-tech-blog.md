@@ -21,7 +21,6 @@ I think that we're more connected than never and the internet has unlocked a hug
 _We can learn by interacting with each other._
 
 I believe that we'll end up better off sharing experiences.
-
 Let's start to walk this road together!
 
 Thanks,
