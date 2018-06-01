@@ -18,7 +18,7 @@ It has been a while since I've been anxious to share some experiences with you s
 I think that we're more connected than never and the internet has unlocked a huge potential.
 
 ## Crowd-learning!
-__We can learn by interacting with each other.__
+_We can learn by interacting with each other._
 
 I believe that we'll end up better off sharing experiences.
 
