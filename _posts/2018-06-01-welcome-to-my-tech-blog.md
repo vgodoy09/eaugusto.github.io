@@ -11,19 +11,6 @@ tags: ['welcome']
 redirect_from:
 ---
 
----
-layout: post
-title: 'Welcome to my Tech Blog!
-description: I'm gonna write here posts to share some of my experience with you!
-image: 'https://res.cloudinary.com/mreaugusto/image/upload/v1527820884/its-a-brand-new-start.jpg'
-main-class: 'blog'
-twitter_text: 'Welcome to my Tech Blog'
-introduction: 'Let's have a tech conversation'
-category: ['blog']
-tags: ['welcome']
-redirect_from:
----
-
 Hey! What's up?
 
 Welcome to my tech blog!
