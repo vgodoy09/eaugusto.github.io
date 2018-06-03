@@ -4,7 +4,7 @@ title: 'Welcome to my Tech Blog!'
 description: "I'm gonna write here posts to share some of my experience with you!"
 image: 'https://res.cloudinary.com/mreaugusto/image/upload/v1527820884/its-a-brand-new-start.jpg'
 main-class: 'blog'
-twitter_text: 'Welcome to my Tech Blog'
+twitter_text: 'Welcome to my Tech Blog!'
 introduction: "Let's have a close Tech conversation"
 category: ['blog']
 tags: ['welcome']
@@ -24,4 +24,5 @@ I believe that we'll end up better off sharing experiences.
 Let's start to walk this road together!
 
 Thanks,
+
 Eduardo Augusto Benigno da Silva
