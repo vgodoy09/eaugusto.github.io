@@ -3,6 +3,7 @@ layout: post
 title: 'Welcome to my Tech Blog!'
 description: "I'm gonna write here posts to share some of my experience with you!"
 image: 'https://res.cloudinary.com/mreaugusto/image/upload/v1527820884/its-a-brand-new-start.jpg'
+date: 2018-06-01
 main-class: 'blog'
 twitter_text: 'Welcome to my Tech Blog!'
 introduction: "Let's have a close Tech conversation"
