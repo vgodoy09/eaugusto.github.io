@@ -1,20 +1,20 @@
 ---
 layout: post
 title: 'Java Top-level Access Control'
-description: "A Concise Guide about Java Top-level Access Control"
+description: "A consice guide to mastering Java top-level access control"
 image: 'http://res.cloudinary.com/mreaugusto/image/upload/v1528070388/access-control.jpg'
 date: 2018-06-03 21:18:00
 main-class: 'blog'
-twitter_text: 'A Concise Guide to Java Top-level Access Control'
-introduction: "Master Java top-level access control with this concise guide"
+twitter_text: 'A consice guide to mastering Java top-level access control'
+introduction: "A consice guide to mastering Java top-level access control"
 category: ['java', 'access control', 'top-level']
 tags: ['java', 'access control', 'top-level']
 reviser: []
 ---
 
-Hi lads and lasses, how are you doing?
+Welcome.
 
-Today my post is about Java access control an important aspect of Object Oriented Design. If you want to go in-depth into class design and best practices encapsulation is the building block. So let's start it.
+Today's post is about Java access control an important aspect of Object Oriented Design. If you want to go in-depth into class design and best practices encapsulation is the building block. So let's start it.
 
 ### Top-level
 When we speak of access control in Java all you have to understand is that it all depends on:

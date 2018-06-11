@@ -1,17 +1,15 @@
 ---
 layout: post
-title: 'Welcome to my Tech Blog!'
-description: "I'm gonna write here posts to share some of my experience with you!"
+title: 'Welcome to my tech blog!'
+description: "An informal weekly conversation about tech"
 image: 'https://res.cloudinary.com/mreaugusto/image/upload/v1527820884/its-a-brand-new-start.jpg'
 date: 2018-06-01
 main-class: 'blog'
-twitter_text: 'Welcome to my Tech Blog!'
-introduction: "Let's have a close Tech conversation"
+twitter_text: 'An informal weekly conversation about tech'
+introduction: "An informal weekly conversation about tech"
 category: ['blog']
 tags: ['welcome']
 ---
-
-Hey! What's up?
 
 Welcome to my tech blog!
 
