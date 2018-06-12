@@ -18,23 +18,25 @@ Today's post is about Java access control an important aspect of Object Oriented
 
 ### Top-level
 When we speak of access control in Java all you have to understand is that it all depends on:
+
 - Where the entity's definition is and
 - Which access modifier it was used.
 
-
 ### Definition
+
 ```txt
 Top-level: Class or interface that is not nested in other class or interface.
 ```
 
 Follow below a table with the rules before I explain.
 
-| Access Control	| Modifier 	| Accessible
+| Access Control | Modifier | Accessible
 |---
-| Public            | public 	| Everywhere
-| Package-private   | 			| Within the same package
+| Public            | public | Everywhere
+| Package-private   || Within the same package
 
 If you want to access a class/interface, you can do it:
+
 - **With public modifier:** From any package.
 - **Without modifier (Package-private):** Just from within the same package.
 
@@ -65,9 +67,9 @@ public class Server {
 }
 
 ```
-Did you see that? 
-The **Client** can import and use the **Server** even though they're in different packages because **Server** is defined as _public_. The opposite is not true. **Server** couldn't reach the **Client** because **Client** has no modifier (implies _Private-package_ modifier) and they're in different packages. If **Client** would be in the same package as **Server** is could be possible.
 
+Did you see that?
+The **Client** can import and use the **Server** even though they're in different packages because **Server** is defined as _public_. The opposite is not true. **Server** couldn't reach the **Client** because **Client** has no modifier (implies _Private-package_ modifier) and they're in different packages. If **Client** would be in the same package as **Server** is could be possible.
 
 Thanks,
 
