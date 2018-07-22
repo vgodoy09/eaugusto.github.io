@@ -14,7 +14,7 @@ reviser: []
 
 Welcome.
 
-Today's post is about Java access control an important aspect of Object Oriented Design. If you want to go in-depth into class design and best practices encapsulation is the building block. So let's start it.
+Today's post is about Java access control, an important aspect of Object Oriented Design. If you want to go in-depth into class design and best practices, encapsulation is the building block. So let's get started.
 
 ### Top-level
 When we speak of access control in Java all you have to understand is that it all depends on:
@@ -69,7 +69,7 @@ public class Server {
 ```
 
 Did you see that?
-The **Client** can import and use the **Server** even though they're in different packages because **Server** is defined as _public_. The opposite is not true. **Server** couldn't reach the **Client** because **Client** has no modifier (implies _Private-package_ modifier) and they're in different packages. If **Client** would be in the same package as **Server** is could be possible.
+The **Client** can import and use the **Server** even though they're in different packages because the **Server** is defined as _public_. The opposite is not true. The **Server** couldn't reach the **Client** because the **Client** has no modifier (implies _Private-package_ modifier) and they're in different packages. If the **Client** would be in the same package as the **Server** is could be possible.
 
 Thanks,
 

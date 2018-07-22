@@ -13,8 +13,8 @@ tags: ['welcome']
 
 Welcome to my tech blog!
 
-It has been a while since I've been anxious to share some experiences with you so here I am!
-I think that we're more connected than never and the internet has unlocked a huge potential.
+It has been a while since I've been anxious to share some experiences with you, so here I am!
+I think that we're more connected than ever and the internet has unlocked a huge potential.
 
 ## Crowd-learning!
 _We can learn by interacting with each other._
