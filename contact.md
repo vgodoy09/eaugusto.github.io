@@ -23,7 +23,7 @@ redirect_from:
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/victorpradodegodoy09@gmail.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
       <fieldset>
         <input type="hidden" name="_subject" value="New contact!" />
-        <input type="hidden" name="_next" value="http://vgodoy09.github.io/contato/sent-message/" />
+        <input type="hidden" name="_next" value="https://vgodoy09.github.io/contato/sent-message/" />
         <input type="hidden" name="_language" value="pt" />
 
         <input type="text" name="nome" placeholder="Your name here" v-validate="'required'"
