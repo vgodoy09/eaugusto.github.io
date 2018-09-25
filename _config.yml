@@ -1,21 +1,21 @@
 # Site Settings
-title: Eduardo Augusto Benigno da Silva | Back-End Developer
-email: eaugusto@outlook.com
+title: Victor Prado de Godoy | Back-End Developer
+email: victorpradodegodoy09@gmail.com
 description: Come with me in a fantastic travel to Technology World!
 baseurl: ""
-url: "http://eaugusto.com"
+url: "http://vgodoy.com"
 google_analytics: "UA-119586029-1"
 
 # User Settings
-username: Eduardo Augusto Benigno da Silva
+username: Victor Prado de godoy
 user_description: Java Developer with passion for excellence and sharing!
-github_username: eaugusto
-facebook_username: eaugustosilva
-twitter_username: mreaugusto
+github_username: vgodoy09
+facebook_username: victor.pradodegodoy
+twitter_username: vpg_godoy
 instagram_username: 
-linkedin_username: mreaugusto
-medium_username: mreaugusto
-disqus_username: eaugusto
+linkedin_username: victor-godoy
+medium_username: 
+disqus_username: 
 
 # Build settings
 markdown: kramdown
