@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-description: Desenvolvedor full stack, apaixonado por desafios, tecnologia, pessoas e melhoramento pessoal.
+description: Desenvolvedor full stack, que sempre procura crescimento pessoal, ajudar pessoas compartilhar conhecimentos e aprender também é claro.
 permalink: /about-me/
 redirect_from:
  - /about/
