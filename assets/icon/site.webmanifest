@@ -1,6 +1,6 @@
 {
-    "name": "EAugusto",
-    "short_name": "EAugusto",
+    "name": "VGodoy",
+    "short_name": "VGodoy",
     "icons": [
         {
             "src": "/assets/icon/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#333333",
     "background_color": "#333333",
-    "start_url": "http://eaugusto.com",
+    "start_url": "http://vgodoy.gq",
     "display": "standalone"
 }
