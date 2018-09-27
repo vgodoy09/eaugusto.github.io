@@ -10,6 +10,6 @@ redirect_from:
  - /en/author/
 ---
 
-<img itemprop="image" class="img-rounded" src="http://res.cloudinary.com/mreaugusto/image/upload/c_scale,w_215/v1527154393/me.jpg" alt="{{ site.username }}">
+<img itemprop="image" class="img-rounded" src="https://res.cloudinary.com/dxyyhadjr/image/upload/c_scale,w_215/v1537911246/my/me.png" alt="{{ site.username }}">
 
 ## About me
