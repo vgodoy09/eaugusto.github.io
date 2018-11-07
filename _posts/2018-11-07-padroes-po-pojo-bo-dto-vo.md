@@ -166,15 +166,11 @@ A ideia é encapsular toda logica de negócio para um objeto e existem três con
 O VO que a igualdade não é baseada na identidade ele simplesmente é um objeto que representa uma entidade simples é um pouco confuso compreender isto dois objetos de valor que representa uma igualdade não sendo o mesmo objeto sim é um pouco confuso.
 Você pode me perguntar qual é a diferença então entre o DTO e o VO pois eles são a mesma coisa, pois bem, suas maiores diferenças são conceitual o DTO ele é utilizado para transferência de dados como o nome diz e o VO é utilizado para ser visualizado pelo usuário vamos dizer assim em uma tela que seu sistema. Então se eu usar meu objeto para transferir dados ele é um DTO se eu utilizar ele para ser visualizado em uma tela do sistema ele é um VO.
 
-<h3>
+
 ### Biografia
-</h3>
+
 - https://dzone.com/articles/value-objects 
-
 - https://en.wikipedia.org/wiki/Value_object 
-
 - https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162 
-
 - https://cdn-images-1.medium.com/max/2000/1*DZMwHPWC023oYqwDHrMnqQ.jpeg 
-
 - https://medium.com/@ezequiasrocha/67-porqu%C3%AA-aplicar-padr%C3%B5es-de-projeto-sistemas-gis-%C3%A9-vital-c4132581930
