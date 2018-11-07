@@ -1,12 +1,12 @@
 ---
 layout: post
 title: 'Compreendendo um pouco dos padrões PO, POJO, BO, DTO e o VO'
-description: "Compreendendo um pouco dos padrões PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object)."
+description: "PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object)."
 image: 'https://res.cloudinary.com/dxyyhadjr/image/upload/v1528070388/my/images_blog/padroes.jpg'
 date: 2018-11-07 19:00:00
 main-class: 'blog'
-twitter_text: 'Compreendendo um pouco dos padrões PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object).'
-introduction: "Compreendendo um pouco dos padrões PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object)."
+twitter_text: 'PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object).'
+introduction: "PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object)."
 category: ['java', 'PO', 'POJO', 'BO', 'DTO', 'VO']
 tags: ['java', 'PO', 'POJO', 'BO', 'DTO', 'VO']
 reviser: []
@@ -164,4 +164,5 @@ A ideia é encapsular toda logica de negócio para um objeto e existem três con
 ### Value Object – VO
 
 O VO que a igualdade não é baseada na identidade ele simplesmente é um objeto que representa uma entidade simples é um pouco confuso compreender isto dois objetos de valor que representa uma igualdade não sendo o mesmo objeto sim é um pouco confuso.
+Você pode me perguntar qual é a diferença então entre o DTO e o VO pois eles são a mesma coisa, pois bem, suas maiores diferenças são conceitual o DTO ele é utilizado para transferência de dados como o nome diz e o VO é utilizado para ser visualizado pelo usuário vamos dizer assim em uma tela que seu sistema. Então se eu usar meu objeto para transferir dados ele é um DTO se eu utilizar ele para ser visualizado em uma tela do sistema ele é um VO.
 
