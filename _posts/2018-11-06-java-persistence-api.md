@@ -2,7 +2,7 @@
 layout: post
 title: 'JPA (Java Persistence API)'
 description: "Conceito do JPA (Java Persistence API)"
-image: 'http://res.cloudinary.com/mreaugusto/image/upload/v1528070388/access-control.jpg'
+image: 'https://res.cloudinary.com/dxyyhadjr/image/upload/v1528070388/my/images_blog/jpa.jpg'
 date: 2018-11-06 19:00:00
 main-class: 'blog'
 twitter_text: 'Conceito do JPA (Java Persistence API)'
@@ -160,11 +160,11 @@ Um objeto com algumas pré anotações como as de persistência do JPA é consid
 O BO como o nome já diz um objeto de negócio que é utilizada na camada de negócio de uma arquitetura orientada a objeto. 
 A ideia é encapsular toda logica de negócio para um objeto e existem três conceitos principais para que um objeto seja considerado um BO: 
 
-    - Contém apenas as propriedades do objeto de negócio. 
+- Contém apenas as propriedades do objeto de negócio. 
 
-    - Contém apenas os métodos de negócio. 
+- Contém apenas os métodos de negócio. 
 
-    - Ambos.  
+- Ambos.  
 
 ### Value Object – VO
 
