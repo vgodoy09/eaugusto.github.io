@@ -41,5 +41,19 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 |---
 | @Entity  | Class       | -         | Identifica a classe como Entidade JPA. 
 | @Id      | Propriedade | -         | Identifica a propriedade como chave primaria. 
+| @GeneratedValue | Propriedade | strategy = <domínio> generator = <nome_sequencia> | Geração de valores pelo Banco de Dados. 
+| @SequenceGenerator | Propriedade | name = <nome_dado> sequenceName = <nome_sequencia_banco> | Identifica a sequência utilizada na geração de valores do campo. 
+| @Enumerated | Propriedade | value = <dominio> | Identifica a propriedade como Enum a ser guardado no banco. 
+| @Temporal | Propriedade | value = <dominio> | Identifica a propriedade como tipo DATA, porém com a nova API de Data que saiu a partir do Java 8 não é necessário utiliza-la.  
+| @ManyToOne | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY. 
+| @ManyToMany | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
+| @OneToOne | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
+| @OneToMany | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
+| @JoinColumn | Propriedade | unique = <boolean> | Restrição de valor único com @OneToOne. 
+| @Column | Propriedade | name = <nome_dado> columnDefinition = <string> unique = <boolean> insertable = <boolean> length = <int> nullable = <boolean> precission = <int> scale = <int> table = <string> updatable = <boolean> | Restrição de valor único com @OneToOne. 
 
 
+| Access Control | Modifier | Accessible
+|---
+| Public            | public | Everywhere
+| Package-private   || Within the same package
