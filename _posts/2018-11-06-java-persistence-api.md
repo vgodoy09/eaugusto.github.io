@@ -18,7 +18,7 @@ reviser: []
 JPA é uma <a href="#"> **framework** </a> fundamentado em POJOs (Plan Old Java Objects), e o que seria esse tal POJOs, para compreender isto devemos ter em mente que ao redor do mundo existem diversos desenvolvedores de <a href="#"> **software** </a> que estão a resolver problemas através de uma linguagem de programação e a cada dia que passa essas necessidade tem sido exigida com mais velocidade em um curto prazo. 
 Portanto, quando foi compreendido que essas necessidades de resolver os mesmos problemas eram recorrentes em todo o mundo, profissionais que utilizam linguagem que possui o conceito de <a href="#"> **orientação** </a> a objetos criaram os padrões de projeto e hoje são empregados em sistemas e exigidos por diversas empresas do ramo de TI (Tecnologia da Informação), pois já foram exaustivamente testados e aprovados. 
 O conceito ficou tão consolidado que acabou sendo utilizado para solucionar problemas que não provinham do ramo de TI. 
-Devido a existência de muitos padrões de projetos por muitas vezes fica a dúvida de qual usar, quando usar e qual a real diferença entre alguns deles. Por esse motivo necessitamos de compreender a diferença entre os padrões PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object) para poder entender a base que está fundamentada o JPA. 
+Devido a existência de muitos padrões de projetos por muitas vezes fica a dúvida de qual usar, quando usar e qual a real diferença entre alguns deles. Por esse motivo necessitamos de compreender a diferença entre os padrões <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **PO (Persistent Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **POJO (Plain Old Java Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **BO (Business Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **DTO (Data Transfer Object)** </a> e o <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **VO (Value Object)** </a> para poder entender a base que está fundamentada o JPA. 
 
 Compreendendo os Padrões citados acima conseguimos entender a base do JPA podemos observar que não é um framework somente para Mapeamento Objeto-Realcional(ORM-Object-Relational Mapping) ele proporciona muitas outras funcionalidades e facilidades por isso podemos observar que quase todas as aplicações de grande porte utilizam o JPA para fazer a persistência de dados. 
 
@@ -41,14 +41,5 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 |---
 | @Entity  | Class       | -         | Identifica a classe como Entidade JPA. 
 | @Id      | Propriedade | -         | Identifica a propriedade como chave primaria. 
-| @GeneratedValue | Propriedade | strategy = <domínio> generator = <nome_sequencia> | Geração de valores pelo Banco de Dados. 
-| @SequenceGenerator | Propriedade | name = <nome_dado> sequenceName = <nome_sequencia_banco> | Identifica a sequência utilizada na geração de valores do campo. 
-| @Enumerated | Propriedade | value = <dominio> | Identifica a propriedade como Enum a ser guardado no banco. 
-| @Temporal | Propriedade | value = <dominio> | Identifica a propriedade como tipo DATA, porém com a nova API de Data que saiu a partir do Java 8 não é necessário utiliza-la.  
-| @ManyToOne | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY. 
-| @ManyToMany | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
-| @OneToOne | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
-| @OneToMany | Propriedade | mappedBy=<atributo> fetch = <dominio> | Tipo de relacionamento entre objetos. _MappedBy_ sinaliza relacionamento bidirecional. fetch=FetchType.EAGER FetchType.LAZY.
-| @JoinColumn | Propriedade | unique = <boolean> | Restrição de valor único com @OneToOne. 
-| @Column | Propriedade | name = <nome_dado> columnDefinition = <string> unique = <boolean> insertable = <boolean> length = <int> nullable = <boolean> precission = <int> scale = <int> table = <string> updatable = <boolean> | Restrição de valor único com @OneToOne. 
+
 
