@@ -33,7 +33,7 @@ Para enviar valores a tela é necessário converter os dados que vem do banco de
 
 O que seria isto?! Por exemplo a lista de produtos possui uma ordem de serviço e esta ligação esta como lazy, ao selecionar um produto a ordem de serviço ainda não foi retornado do banco de dados, só irá retornar quando utilizarmos o get’s da ordem de serviço, porem se a conexão for perdida, pode ocorrer ai uma perca dos dados e a ordem de serviço não seja retornado, por isso, o uso do DTO’s, porque assim será retornado somente os dados necessário para a listagem na tela, este é um bom exemplo para se ganhar performance. 
 
-Como assim ganhar performance?! Ao fazer uso de um DTO o bando de dados será acessado uma única vez, desta forma não haverá necessidade de ir várias vezes, assim não irá cair no problema de performance de n + 1, que aconteceria ao buscar uma ordem de serviço no banco de dados, e ela possuir três produtos atrelados a ela, referente ao banco de dados ira ter quatro acessos, um da ordem de serviço e três de produtos, já com o lazy isso não ocorre, pois ele só busca quando for requisitado, porem pode existir a perda de dados, já o DTO’s é uma boa pratica para solucionar esses problemas. 
+Como assim ganhar performance?! Ao fazer uso de um DTO o banco de dados será acessado uma única vez, desta forma não haverá necessidade de ir várias vezes, assim não irá cair no problema de performance de n + 1, que aconteceria ao buscar uma ordem de serviço no banco de dados, e ela possuir três produtos atrelados a ela, referente ao banco de dados ira ter quatro acessos, um da ordem de serviço e três de produtos, já com o lazy isso não ocorre, pois ele só busca quando for requisitado, porem pode existir a perda de dados, já o DTO’s é uma boa pratica para solucionar esses problemas. 
 
 Exemplo da problemática descrita acima.
 
@@ -152,7 +152,7 @@ A classe acima é um DTO ele é uma classe simples que só possui get's and set'
 
 ### Plain Old Java Object – POJO 
 
-O POJO traz a ideia de falar o bom e velho e simples objeto <a href="#"> **Java** </a>, ou seja, quanto mais simples melhor. 
+O POJO traz a ideia de falar do bom e velho e simples objeto <a href="#"> **Java** </a>, ou seja, quanto mais simples melhor. 
 O termo foi inventado em Setembro de 2000 por Martin Fowler, Rebecca Parsons e Josh MacKenzie. 
 Este padrão POJO’s podem ser convertidos em outros padrões tais como PO, DTO, VO. 
 Um objeto com algumas pré anotações como as de persistência do JPA é considerado um POJO também. 
@@ -160,19 +160,18 @@ Um objeto com algumas pré anotações como as de persistência do JPA é consid
 ### Business Object – BO
 
 O BO é um objeto de negócio, que é utilizada na camada de negócio de uma arquitetura orientada a objeto. 
-A ideia é encapsular toda logica de negócio para um objeto e existem três conceitos principais para que um objeto seja considerado um BO: 
+A ideia é <a href="#"> **encapsular** </a> toda logica de negócio para um objeto.
+Existem três conceitos principais para que um objeto seja considerado um BO: 
 
 - Contém apenas as propriedades do objeto de negócio. 
-
 - Contém apenas os métodos de negócio. 
-
 - Ambos.  
 
 ### Value Object – VO
 
 O VO traz a ideia de ser simplesmente um objeto que representa uma entidade simples, é confuso compreender que dois objetos de valor, representa uma igualdade não sendo o mesmo objeto.
 
-Você pode me perguntar qual é a diferença então entre o DTO e o VO, porque eles são a mesma coisa, pois bem, suas maiores diferenças são conceituais, o DTO é utilizado para transferência de dados e o VO é utilizado para ser visualizado pelo usuário, vamos dizer assim, ou seja, em uma tela do sistema. 
+Você pode me perguntar qual é a diferença então entre o DTO e o VO, porque eles são a mesma coisa, pois bem, suas maiores diferenças são conceituais, o DTO é utilizado para transferência de dados e o VO é utilizado para ser visualizado pelo usuário em uma tela do sistema. 
 
 Então se eu usar meu objeto para transferir dados ele é um DTO se eu utilizar ele para ser visualizado em uma tela do sistema ele é um VO.
 
