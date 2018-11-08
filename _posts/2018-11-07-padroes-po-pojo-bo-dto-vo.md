@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Compreendendo um pouco dos padrões PO, POJO, BO, DTO e o VO'
+title: 'Compreendendo padrões PO, POJO, BO, DTO e o VO'
 description: "PO (Persistent Object), POJO (Plain Old Java Object), BO (Business Object), DTO (Data Transfer Object) e o VO (Value Object)."
 image: 'https://res.cloudinary.com/dxyyhadjr/image/upload/v1528070388/my/images_blog/padroes.jpg'
 date: 2018-11-07 19:00:00
@@ -13,7 +13,7 @@ reviser: []
 ---
 
 
-Bom neste artigo iremos compreender um pouco sobre os padrões PO, POJO, BO, DTO e VO, vamos ver suas diferenças e alguns exemplos e ao compreendermos esses conceitos saberemos o melhor lugar e momento para empregar esses padrões em nossas aplicações. 
+Neste artigo iremos compreender a respeito dos padrões PO, POJO, BO, DTO e VO, vamos ver suas diferenças e alguns exemplos e compreendendo esses conceitos saberemos o melhor lugar e momento para empregar esses padrões no desenvolvimento de aplicações. 
 
 ### Persistent Object - PO
 
@@ -21,12 +21,19 @@ O PO trabalha em conjunto o framework de persistência <a href="#"> **ORM Hibern
 
 ### Data Tranfer Object – DTO 
 
-O DTO é um objeto que é utilizado para transferir dados de um local para outro em uma aplicação como o nome já diz Data Transfer Object, ele não possui nenhuma regra de negócios e está associada a transferência de dados entre uma camada de visão e outra de persistência de dados. 
+O DTO é um objeto que é utilizado para transferir dados de um local para outro em uma aplicação, ele não possui <a href="#"> **regras de negócios** </a> e está associada a transferência de dados entre a camada de visão e outra de persistência de dados. 
 
 Este padrão de projeto é utilizado também quando não a necessidade de persistir algum dado, ou seja, somente exibir esses dados na camada de apresentação. 
-Um exemplo disto seria assumir que uma determinada aplicação traz a exibição de uma tela uma lista de dados de 5 produtos que estão armazenados em um <a href="#"> **banco de dados** </a>. 
+
+Um exemplo disso seria assumir que uma determinada aplicação traz a exibição de uma tela, uma lista de dados de 5 produtos que estão armazenados em um <a href="#"> **banco de dados** </a>. 
+
 Portanto para a camada de persistência acessar esses dados ele traz uma listagem de PO’s. 
-Para enviar estes valores a tela ainda é necessário converter para uma lista de DTO’s, isso é preciso ser feito pois a aplicação utiliza o JPA, um exemplo clássico o framework Hibernate que não permite os dados que estão como <a href="#"> **lazy(preguiçoso)** </a> permanecerem até a conexão ser fechada e o que seria isto, exemplo nossa lista de produtos possui uma ordem de serviço e esta ligação esta como lazy ao selecionar um produto a ordem de serviço ainda não foi retornado do banco de dados somente quando utilizarmos o get’s da ordem de serviço, porem se a conexão foi perdida pode ocorrer ai uma perca dos dados e a ordem de serviço não seja retornado por isso o uso do DTO’s, pois será retornado somente os dados necessário para a listagem na tela este é um bom exemplo para se ganhar performance também, pois você irá fazer um acesso somente ao banco não a necessidade de ir várias vezes ao banco e não irá cair no problema de performance de n + 1 que seria ao buscar uma ordem de serviço no banco de dados e ela possuir três produtos ira ter quatro acessos ao banco pois irá trazer os três produtos também, com o lazy isso não ocorre pois ele só busca quando for requisitado porem pode existir a perda de dados, já o DTO’ é uma boa pratica para solucionar esses problemas. 
+
+Para enviar valores a tela é necessário converter os dados que vem do banco de dados para uma lista de DTO’s, isso é preciso ser feito, pois a aplicação utiliza o JPA, um exemplo clássico é o framework Hibernate, não permitindo os dados que estão como <a href="#"> **lazy(preguiçoso)** </a> permanecerem até a conexão ser fechada.
+
+O que seria isto?! Por exemplo a lista de produtos possui uma ordem de serviço e esta ligação esta como lazy, ao selecionar um produto a ordem de serviço ainda não foi retornado do banco de dados, só irá retornar quando utilizarmos o get’s da ordem de serviço, porem se a conexão for perdida, pode ocorrer ai uma perca dos dados e a ordem de serviço não seja retornado, por isso, o uso do DTO’s, porque assim será retornado somente os dados necessário para a listagem na tela, este é um bom exemplo para se ganhar performance. 
+
+Como assim ganhar performance?! Ao fazer uso de um DTO o bando de dados será acessado uma única vez, desta forma não haverá necessidade de ir várias vezes, assim não irá cair no problema de performance de n + 1, que aconteceria ao buscar uma ordem de serviço no banco de dados, e ela possuir três produtos atrelados a ela, referente ao banco de dados ira ter quatro acessos, um da ordem de serviço e três de produtos, já com o lazy isso não ocorre, pois ele só busca quando for requisitado, porem pode existir a perda de dados, já o DTO’s é uma boa pratica para solucionar esses problemas. 
 
 Exemplo da problemática descrita acima.
 
@@ -152,7 +159,7 @@ Um objeto com algumas pré anotações como as de persistência do JPA é consid
 
 ### Business Object – BO
 
-O BO como o nome já diz um objeto de negócio que é utilizada na camada de negócio de uma arquitetura orientada a objeto. 
+O BO é um objeto de negócio, que é utilizada na camada de negócio de uma arquitetura orientada a objeto. 
 A ideia é encapsular toda logica de negócio para um objeto e existem três conceitos principais para que um objeto seja considerado um BO: 
 
 - Contém apenas as propriedades do objeto de negócio. 
@@ -163,14 +170,17 @@ A ideia é encapsular toda logica de negócio para um objeto e existem três con
 
 ### Value Object – VO
 
-O VO que a igualdade não é baseada na identidade ele simplesmente é um objeto que representa uma entidade simples é um pouco confuso compreender isto dois objetos de valor que representa uma igualdade não sendo o mesmo objeto sim é um pouco confuso.
-Você pode me perguntar qual é a diferença então entre o DTO e o VO pois eles são a mesma coisa, pois bem, suas maiores diferenças são conceitual o DTO ele é utilizado para transferência de dados como o nome diz e o VO é utilizado para ser visualizado pelo usuário vamos dizer assim em uma tela que seu sistema. Então se eu usar meu objeto para transferir dados ele é um DTO se eu utilizar ele para ser visualizado em uma tela do sistema ele é um VO.
+O VO traz a ideia de ser simplesmente um objeto que representa uma entidade simples, é confuso compreender que dois objetos de valor, representa uma igualdade não sendo o mesmo objeto.
+
+Você pode me perguntar qual é a diferença então entre o DTO e o VO, porque eles são a mesma coisa, pois bem, suas maiores diferenças são conceituais, o DTO é utilizado para transferência de dados e o VO é utilizado para ser visualizado pelo usuário, vamos dizer assim, ou seja, em uma tela do sistema. 
+
+Então se eu usar meu objeto para transferir dados ele é um DTO se eu utilizar ele para ser visualizado em uma tela do sistema ele é um VO.
 
 
 ### Biografia
 
-- https://dzone.com/articles/value-objects 
-- https://en.wikipedia.org/wiki/Value_object 
-- https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162 
-- https://cdn-images-1.medium.com/max/2000/1*DZMwHPWC023oYqwDHrMnqQ.jpeg 
-- https://medium.com/@ezequiasrocha/67-porqu%C3%AA-aplicar-padr%C3%B5es-de-projeto-sistemas-gis-%C3%A9-vital-c4132581930
+- ZIEMOŃSKI, Grzegorz. **Value Objects**. 2017, DZone Java Zone. Disponível em: <https://dzone.com/articles/value-objects>. Acesso em 07 de nov. de 2018. 
+- CONTEÚDO aberto. **Value Objects**. 2018, Wikipedia. Disponível em: <https://en.wikipedia.org/wiki/Value_object>. Acesso em 07 de nov. de 2018. 
+- SOUZA, Diogo. **Diferença entre os patterns PO, POJO, BO, DTO e VO**. 2013, DevMedia. Disponível em: <https://www.devmedia.com.br/diferenca-entre-os-patterns-po-pojo-bo-dto-e-vo/28162>. Acesso em 07 de nov. de 2018.  
+- ROCHA, Ezequias. **Figura Padrões**. 2017, Medium. Disponível em: <https://cdn-images-1.medium.com/max/2000/1*DZMwHPWC023oYqwDHrMnqQ.jpeg>. Acesso em 07 de nov. de 2018.
+- ROCHA, Ezequias. **67 — Vamos Falar de Padrões de Projeto em Sistemas GIS. É vital!**. 2017, Medium. Disponível em: <https://medium.com/@ezequiasrocha/67-porqu%C3%AA-aplicar-padr%C3%B5es-de-projeto-sistemas-gis-%C3%A9-vital-c4132581930>. Acesso em 07 de nov. de 2018.
