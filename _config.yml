@@ -8,7 +8,7 @@ google_analytics: "UA-119586029-1"
 
 # User Settings
 username: Victor Prado de godoy
-user_description: Java Developer with passion for excellence and sharing!
+user_description: Desenvolvedor Java!
 github_username: vgodoy09
 facebook_username: victor.pradodegodoy
 twitter_username: vpg_godoy
@@ -30,13 +30,13 @@ plugins:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: Incio
     url: /
   - title: Portfolio
     url: /portfolio/
-  - title: About me
+  - title: Sobre min
     url: /about-me/
-  - title: Contact
+  - title: Contato
     url: /contact/
 
 # Exclude my node related stuff
