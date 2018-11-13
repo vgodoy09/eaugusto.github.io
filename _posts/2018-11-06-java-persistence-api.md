@@ -60,3 +60,42 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 | GeneationType.IDENTITY  | Informamos ao provedor de persistência que os valores a serem atribuídos ao identificador único serão gerados pela coluna de auto Incremento do banco de dados podem não suportar essa opção.
 | GeneationType.SEQUENCE  | Informamos ao provedor de persistência que os valores serão gerados a partir de uma sequence. Caso não seja especificado um nome para a sequence, será utilizada uma sequence padrão, a qual será global, para todas as entidades. Caso uma sequence seja especificada, o provedor passará a adotar essa sequence para criação das chaves primárias. Alguns bancos de dados podem não suportar essa opção. 
 | GeneationType.TABLE  | Com a opção TABLE é necessário criar uma tabela para gerenciar as chaves primárias. Por causa da sobrecarga de consultas necessárias para manter a tabela atualizada, essa opção é pouco recomendada. 
+
+
+| Enumerated - enumerações
+|---
+| @Enumerated(EnumType.STRING)  | Armazenará o valor com String.
+| @Enumerated(EnumType.ORDINAL)  | Armazenará com número, posição no Enum.
+
+
+| Temporal – campo tipo Data
+|---
+| TemporalType DATE | Java.sql.Date
+| TemporalType TIME  | java.sql.Time
+| TemporalType TIMESTAMP  | java.sql.Timestamp
+
+
+| persistence.xml
+|---
+| Persistence-unit name =”nome” | Raiz, identificar o nome.
+| < provider>org.hibernate.jpa.HibernatePersistenceProvider< /provider>  | Implementação do JPA.
+| < class>br.com.exemplo.Produto< /class>  | Entidades da aplicação. Informar para cada entidade.
+| properties  | Identificação das propriedades.
+| < property name=”javax.persistence.jdbc.driver” value=”com.mysql.jdbc.Driver” />  | Driver de banco utilizado. Neste exemplo está sendo utilizado o banco de dados MySQL poderia ser o PostgreSQL por exemplo ou um outro de sua preferência porem o drive muda de um para o outro.
+| < property name=”javax.persistence.url” value =”jdbc:mysql://localhosts/nome_do_banco” />  | URL do banco.
+| < property name =”javax.persistence.user” value =”root” />  | Login.
+| < property name =”javax.persistence.password” value =”admin” />  | Senha.
+| < property name=”hibernate.dialect” value=”org.hibernate.dialect.MySQL5InnoDBDialect” />  | Dialeto utilizado. 
+OBS: propriedade do Hibernate.
+| < property name="hibernate.show_sql" value="true" />  | Log do SQL 
+OBS: propriedade do Hibernate.
+| < property name="hibernate.format_sql" value="true" />  | Formatação do SQL gerado pelo Log do SQL.
+OBS: propriedade do Hibernate.
+| < property name="hibernate.hbm2ddl.auto" value="update" />  | Sincronização do modelo com o banco de dados, podendo atualiza o banco, gera as tabelas se for preciso. 
+São as opções disponíveis: 
+validate: valida o schema, não faz mudanças no banco de dados. 
+update: faz updade o schema. 
+create: cria o schema, destruindo dados anteriores. 
+create-drop: drop o schema quando ao terminar a sessão. 
+none: desabilita. 
+OBS: propriedade do Hibernate.
