@@ -85,17 +85,7 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 | < property name=”javax.persistence.url” value =”jdbc:mysql://localhosts/nome_do_banco” />  | URL do banco.
 | < property name =”javax.persistence.user” value =”root” />  | Login.
 | < property name =”javax.persistence.password” value =”admin” />  | Senha.
-| < property name=”hibernate.dialect” value=”org.hibernate.dialect.MySQL5InnoDBDialect” />  | Dialeto utilizado. 
-OBS: propriedade do Hibernate.
-| < property name="hibernate.show_sql" value="true" />  | Log do SQL 
-OBS: propriedade do Hibernate.
-| < property name="hibernate.format_sql" value="true" />  | Formatação do SQL gerado pelo Log do SQL.
-OBS: propriedade do Hibernate.
-| < property name="hibernate.hbm2ddl.auto" value="update" />  | Sincronização do modelo com o banco de dados, podendo atualiza o banco, gera as tabelas se for preciso. 
-São as opções disponíveis: 
-validate: valida o schema, não faz mudanças no banco de dados. 
-update: faz updade o schema. 
-create: cria o schema, destruindo dados anteriores. 
-create-drop: drop o schema quando ao terminar a sessão. 
-none: desabilita. 
-OBS: propriedade do Hibernate.
+| < property name=”hibernate.dialect” value=”org.hibernate.dialect.MySQL5InnoDBDialect” />  | Dialeto utilizado. OBS: propriedade do Hibernate.
+| < property name="hibernate.show_sql" value="true" />  | Log do SQL. OBS: propriedade do Hibernate.
+| < property name="hibernate.format_sql" value="true" />  | Formatação do SQL gerado pelo Log do SQL. OBS: propriedade do Hibernate.
+| < property name="hibernate.hbm2ddl.auto" value="update" />  | Sincronização do modelo com o banco de dados, podendo atualiza o banco, gera as tabelas se for preciso. São as opções disponíveis: validate: valida o schema, não faz mudanças no banco de dados. update: faz updade o schema. create: cria o schema, destruindo dados anteriores. create-drop: drop o schema quando ao terminar a sessão. none: desabilita. OBS: propriedade do Hibernate.
