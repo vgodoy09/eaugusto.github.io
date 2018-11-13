@@ -16,7 +16,7 @@ reviser: []
 ### Introdução à JPA (Java Persistence API) 
 
 JPA é uma <a href="#"> **framework** </a> fundamentado em POJOs (Plan Old Java Objects), e o que seria esse tal POJOs, para compreender isto devemos ter em mente que ao redor do mundo existem diversos desenvolvedores de <a href="#"> **software** </a> que estão a resolver problemas através de uma linguagem de programação e a cada dia que passa essas necessidade tem sido exigida com mais velocidade em um curto prazo. 
-Portanto, quando foi compreendido que essas necessidades de resolver os mesmos problemas eram recorrentes em todo o mundo, profissionais que utilizam linguagem que possui o conceito de <a href="#"> **orientação** </a> a objetos criaram os padrões de projeto e hoje são empregados em sistemas e exigidos por diversas empresas do ramo de TI (Tecnologia da Informação), pois já foram exaustivamente testados e aprovados. 
+Portanto, quando foi compreendido que essas necessidades de resolver os mesmos problemas eram recorrentes em todo o mundo, profissionais que utilizam linguagem que possui o conceito de <a href="#"> **orientação a objetos** </a> criaram os padrões de projeto e hoje são empregados em sistemas e exigidos por diversas empresas do ramo de TI (Tecnologia da Informação), pois já foram exaustivamente testados e aprovados. 
 O conceito ficou tão consolidado que acabou sendo utilizado para solucionar problemas que não provinham do ramo de TI. 
 Devido a existência de muitos padrões de projetos por muitas vezes fica a dúvida de qual usar, quando usar e qual a real diferença entre alguns deles. Por esse motivo necessitamos de compreender a diferença entre os padrões <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **PO (Persistent Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **POJO (Plain Old Java Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **BO (Business Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **DTO (Data Transfer Object)** </a> e o <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **VO (Value Object)** </a> para poder entender a base que está fundamentada o JPA. 
 
@@ -54,3 +54,9 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 | @Column | Propriedade | name = < nome_dado> columnDefinition = < string> unique = < boolean> insertable = < boolean> length = < int> nullable = < boolean> precission = < int> scale = < int> table = < string> updatable = < boolean> | Restrição de valor único com @OneToOne. 
 
 
+| Strategy - estratégia de geração de ID
+|---
+| GeneationType.AUTO  | Valor padrão, deixa cm o provedor de persistência a escolha da estratégia mais adequada de acordo com o bando de dados. 
+| GeneationType.IDENTITY  | Informamos ao provedor de persistência que os valores a serem atribuídos ao identificador único serão gerados pela coluna de auto Incremento do banco de dados podem não suportar essa opção.
+| GeneationType.SEQUENCE  | Informamos ao provedor de persistência que os valores serão gerados a partir de uma sequence. Caso não seja especificado um nome para a sequence, será utilizada uma sequence padrão, a qual será global, para todas as entidades. Caso uma sequence seja especificada, o provedor passará a adotar essa sequence para criação das chaves primárias. Alguns bancos de dados podem não suportar essa opção. 
+| GeneationType.TABLE  | Com a opção TABLE é necessário criar uma tabela para gerenciar as chaves primárias. Por causa da sobrecarga de consultas necessárias para manter a tabela atualizada, essa opção é pouco recomendada. 
