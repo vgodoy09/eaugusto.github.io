@@ -18,7 +18,7 @@ reviser: []
 JPA é uma <a href="#"> **framework** </a> fundamentado em POJOs (Plan Old Java Objects), e o que seria esse tal POJOs, para compreender isto devemos ter em mente que ao redor do mundo existem diversos desenvolvedores de <a href="#"> **software** </a> que estão a resolver problemas através de uma linguagem de programação e a cada dia que passa essas necessidade tem sido exigida com mais velocidade em um curto prazo. 
 Portanto, quando foi compreendido que essas necessidades de resolver os mesmos problemas eram recorrentes em todo o mundo, profissionais que utilizam linguagem que possui o conceito de <a href="#"> **orientação a objetos** </a> criaram os padrões de projeto e hoje são empregados em sistemas e exigidos por diversas empresas do ramo de TI (Tecnologia da Informação), pois já foram exaustivamente testados e aprovados. 
 O conceito ficou tão consolidado que acabou sendo utilizado para solucionar problemas que não provinham do ramo de TI. 
-Devido a existência de muitos padrões de projetos por muitas vezes fica a dúvida de qual usar, quando usar e qual a real diferença entre alguns deles. Por esse motivo necessitamos de compreender a diferença entre os padrões <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **PO (Persistent Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **POJO (Plain Old Java Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **BO (Business Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **DTO (Data Transfer Object)** </a> e o <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/"> **VO (Value Object)** </a> para poder entender a base que está fundamentada o JPA. 
+Devido a existência de muitos padrões de projetos por muitas vezes fica a dúvida de qual usar, quando usar e qual a real diferença entre alguns deles. Por esse motivo necessitamos de compreender a diferença entre os padrões <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/" title="Compreendendo padrões PO, POJO, BO, DTO e o VO"> **PO (Persistent Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/" title="Compreendendo padrões PO, POJO, BO, DTO e o VO"> **POJO (Plain Old Java Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/" title="Compreendendo padrões PO, POJO, BO, DTO e o VO"> **BO (Business Object)** </a>, <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/" title="Compreendendo padrões PO, POJO, BO, DTO e o VO"> **DTO (Data Transfer Object)** </a> e o <a href="https://vgodoy09.github.io/padroes-po-pojo-bo-dto-vo/" title="Compreendendo padrões PO, POJO, BO, DTO e o VO"> **VO (Value Object)** </a> para poder entender a base que está fundamentada o JPA. 
 
 Compreendendo os Padrões citados acima conseguimos entender a base do JPA podemos observar que não é um framework somente para Mapeamento Objeto-Realcional(ORM-Object-Relational Mapping) ele proporciona muitas outras funcionalidades e facilidades por isso podemos observar que quase todas as aplicações de grande porte utilizam o JPA para fazer a persistência de dados. 
 
@@ -89,3 +89,29 @@ Principais Anotações e Elementos do presistence.xml referente ao JPA.
 | < property name="hibernate.show_sql" value="true" />  | Log do SQL. OBS: propriedade do Hibernate.
 | < property name="hibernate.format_sql" value="true" />  | Formatação do SQL gerado pelo Log do SQL. OBS: propriedade do Hibernate.
 | < property name="hibernate.hbm2ddl.auto" value="update" />  | Sincronização do modelo com o banco de dados, podendo atualiza o banco, gera as tabelas se for preciso. São as opções disponíveis: validate: valida o schema, não faz mudanças no banco de dados. update: faz updade o schema. create: cria o schema, destruindo dados anteriores. create-drop: drop o schema quando ao terminar a sessão. none: desabilita. OBS: propriedade do Hibernate.
+
+
+### Biografia
+
+- MICROSYSTEMS, Sun. **Entity**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/Entity.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **Id**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/Id.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **GeneratedValue**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/GeneratedValue.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **SequenceGenerator**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/SequenceGenerator.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **Enumerated**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/Enumerated.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **Temporal**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/Temporal.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **ManyToOne**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/ManyToOne.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **ManyToMany**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/ManyToMany.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **OneToOne**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/OneToOne.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **OneToMany**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/OneToMany.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **JoinColumn**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/6/api/javax/persistence/JoinColumn.html>. Acesso em 06 de nov. de 2018. 
+- MICROSYSTEMS, Sun. **Column**. 2007, Oracle. Disponível em: <https://docs.oracle.com/javaee/5/api/javax/persistence/Column.html>. Acesso em 06 de nov. de 2018. 
+- CARLOS, Joao. **Principais Anotações - JPA**. 2018, Linkedin. Disponível em: <https://www.linkedin.com/pulse/principais-anota%C3%A7%C3%B5es-jpa-joao-carlos>. Acesso em 06 de nov. de 2018. 
+- MEDEIROS, Higor. **Introdução à JPA - Java Persistence API**. 2013, DevMedia. Disponível em: <https://www.devmedia.com.br/introducao-a-jpa-java-persistence-api/28173>. Acesso em 07 de nov. de 2018. 
+- DAS, Aditi. **Understanding JPA, Part 1: The object-oriented paradigm of data persistence**. 2017, JavaWorld. Disponível em: <https://www.javaworld.com/article/2077817/java-se/understanding-jpa-part-1-the-object-oriented-paradigm-of-data-persistence.html>. Acesso em 07 de nov. de 2018. 
+- MIHÁLYI, Ondro. **Figura JPA**. 2016, .Lost in Coding. Disponível em: <https://i2.wp.com/ondro.inginea.eu/wp-content/uploads/2016/02/java-persistence-api-jpa-step-by-step-4-728.jpg?w=596&ssl=1>. Acesso em 07 de nov. de 2018.
+- MIHÁLYI, Ondro. **JPQL Enhancements in JPA 2.1 and JAVA EE7 - join on**. 2016, .Lost in Coding. Disponível em: <https://ondro.inginea.eu/index.php/jpql-enhancements-in-jpa-2-1-and-java-ee-7-part-1/>. Acesso em 07 de nov. de 2018.
+- ORT; BISWAS, Ed; Rahul. **The Java Persistence API - A Simpler Programming Model for Entity Persistence**. 2006, Oracle. Disponível em: <https://www.oracle.com/technetwork/articles/javaee/jpa-137156.html>. Acesso em 07 de nov. de 2018.
+- CONTEÚDO Oracle. **GlassFish Server Application Development Guide**. ORACLE. Disponível em: <https://docs.oracle.com/cd/E26576_01/doc.312/e24930/jpa.htm#GSDVG00138>. Acesso em 07 de nov. de 2018.
+ 
+
+ 
