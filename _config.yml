@@ -1,5 +1,5 @@
 # Site Settings
-title: Victor Prado de Godoy | Back-End Developer
+title: Victor Godoy | Full Stack Developer
 email: victorpradodegodoy09@gmail.com
 description: Come with me in a fantastic travel to Technology World!
 baseurl: ""
@@ -7,15 +7,15 @@ url: "https://vgodoy09.github.io"
 google_analytics: "UA-119586029-1"
 
 # User Settings
-username: Victor Prado de godoy
+username: Victor Godoy
 user_description: Desenvolvedor Java!
 github_username: vgodoy09
 facebook_username: victor.pradodegodoy
 twitter_username: vpg_godoy
 instagram_username: victao_godoy/?hl=pt-br
 linkedin_username: victor-godoy-java-developer
-medium_username: 
-disqus_username: 
+medium_username:
+disqus_username:
 
 # Build settings
 markdown: kramdown
@@ -34,10 +34,10 @@ links:
     url: /
   - title: Portfolio
     url: /portfolio/
-  - title: Sobre min
+  - title: Sobre
     url: /about-me/
   - title: Contato
     url: /contact/
 
 # Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ["package.json", "src", "node_modules"]
