@@ -4,8 +4,8 @@ title: Contact
 description: Let's Talk
 permalink: /contact/
 redirect_from:
- - /pt/contact/
- - /en/contact/
+  - /pt/contact/
+  - /en/contact/
 ---
 
 <style type="text/css" media="screen">
@@ -17,7 +17,7 @@ redirect_from:
 
 <div class="container">
 
-  <h2>Talk to me</h2>
+  <h2>Fale comigo</h2>
 
   <div id="form" class="contact-form">
     <form accept-charset="UTF-8" method="POST" action="https://formspree.io/victorpradodegodoy09@gmail.com" v-on:submit.prevent="validateBeforeSubmit" ref="contact">
@@ -38,9 +38,10 @@ redirect_from:
                   :class="{ 'has-error': errors.has('mensagem') }"></textarea>
         <span v-if="errors.has('mensagem')" v-cloak>${ errors.first('mensagem') }</span>
 
-        <button type="submit">Send</button>
+        <button type="submit">Enviar</button>
       </fieldset>
     </form>
+
   </div>
 
 </div>
