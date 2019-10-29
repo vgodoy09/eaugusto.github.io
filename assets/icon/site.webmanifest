@@ -1,20 +1,20 @@
 {
-    "name": "VGodoy",
-    "short_name": "VGodoy",
-    "icons": [
-        {
-            "src": "/assets/icon/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/assets/icon/android-chrome-256x256.png",
-            "sizes": "256x256",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#333333",
-    "background_color": "#333333",
-    "start_url": "https://vgodoy09.github.io",
-    "display": "standalone"
+  "name": "VGodoy",
+  "short_name": "VGodoy",
+  "icons": [
+    {
+      "src": "/assets/icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icon/android-chrome-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#333333",
+  "background_color": "#333333",
+  "start_url": "http://vgodoy.com.br",
+  "display": "standalone"
 }
