@@ -2,7 +2,7 @@
 layout: post
 title: "Aprendendo a configurar a memoria da JVM"
 description: "JVM (Java Virtual Machine)"
-image: "https://res.cloudinary.com/dxyyhadjr/image/upload/v1555037364/my/images_blog/maxresdefault.jpg"
+image: "https://res.cloudinary.com/dxyyhadjr/image/upload/v1528070388/my/images_blog/maxresdefault.jpg"
 date: 2019-11-08 10:03:00
 main-class: "blog"
 twitter_text: "Aprendendo a configurar a memoria da JVM"
